@@ -133,6 +133,9 @@ public class DiarcExpSimple {
 		final File predOntology = new File(resourceDir, "diarc.preds.ont");
 		final File simpleOntology = new File(resourceDir, "diarc.consts.ont");
 
+		//Does it make sense to have closed ontology for predicates? I would assume so.
+		//What if we want to learn new meaningless predicates just for the purpose of the
+		//The learning process
 		try {
 			// Init the logical expression type system
 			LogicLanguageServices.setInstance(new LogicLanguageServices.Builder(
@@ -140,7 +143,7 @@ public class DiarcExpSimple {
 							.addConstantsToOntology(simpleOntology)
 							.addConstantsToOntology(predOntology)
 							.setUseOntology(true).setNumeralTypeName("i")
-							.closeOntology(true).build());
+							.closeOntology(false).build());
 		} catch (final IOException e) {
 			throw new RuntimeException(e);
 		}
@@ -189,7 +192,7 @@ public class DiarcExpSimple {
 		final ILexicon<LogicalExpression> npLexicon = new FactoredLexicon();
 		npLexicon.addEntriesFromFile(npLexiconFile, categoryServices,
 				Origin.FIXED_DOMAIN);
-/*
+
 		// //////////////////////////////////////////////////
 		// CKY parser
 		// //////////////////////////////////////////////////
@@ -293,9 +296,10 @@ public class DiarcExpSimple {
 		// Load training and testing data
 		// //////////////////////////////////////////////////
 
+		//TODO fold1 and 2 is training data, and fold0 is testing data
 		final List<IDataCollection<? extends SingleSentence>> folds = new ArrayList<IDataCollection<? extends SingleSentence>>(
 				10);
-		for (int i = 0; i < 10; ++i) {
+		for (int i = 0; i < 3; ++i) {
 			folds.add(SingleSentenceCollection
 					.read(new File(dataDir, String.format("fold%d.ccg", i))));
 		}
@@ -438,7 +442,6 @@ public class DiarcExpSimple {
 		tester.test(model, stats);
 		LOG.info(stats.toString());
 
-	*/
 	}
 
 }

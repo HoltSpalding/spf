@@ -2,6 +2,7 @@
 
 (i e)	// integer / number...
 (n e)		//name
+(obj e)    //objects are entities
 (lo e)		// location
 (s lo) 		// state
 (c lo)		// city
@@ -11,5 +12,4 @@
 (co lo)		// country 
 (p lo)		// place
 (to lo)		// town
-
 )

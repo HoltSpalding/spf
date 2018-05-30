@@ -1,3 +1,15 @@
+//determiners
+is :- N/N : (lambda $0:<e,t> $0)
+a :- N/N : (lambda $0:<e,t> $0)
+of :- N/N : (lambda $0:<e,t> $0)
+is :- NP/NP : (lambda $0:e $0)
+of :- NP/NP : (lambda $0:e $0)
+the :- N/N : (lambda $0:<e,t> $0)
+the :- NP/NP : (lambda $0:e $0)
+the :- NP/N : (lambda $0:<e,t> (the:<<e,t>,e> $0))
+
+
+
 //Testing: plural
 //states :- NP/PP : (lambda $0:<e,t> (a:<<e,t>,e> (lambda $1:e (and:<t*,t> (state:<s,t> $1) ($0 $1)))))
 //states :- NP : (a:<<e,t>,e> (lambda $0:e (state:<s,t> $0)))
@@ -56,15 +68,6 @@ number :- S/N : (lambda $0:<e,t> (count:<<e,t>,i> $0))
 // for "sentences" such as "population of seattle"
 population :- S/NP : (lambda $0:e (population:<lo,i> $0))
 
-//determiners
-the :- N/N : (lambda $0:<e,t> $0)
-is :- N/N : (lambda $0:<e,t> $0)
-a :- N/N : (lambda $0:<e,t> $0)
-of :- N/N : (lambda $0:<e,t> $0)
-the :- NP/NP : (lambda $0:e $0)
-is :- NP/NP : (lambda $0:e $0)
-of :- NP/NP : (lambda $0:e $0)
-the :- NP/N : (lambda $0:<e,t> (the:<<e,t>,e> $0))
 
 that :- PP/(S\NP) : (lambda $0:<e,t> $0)
 that :- PP/(S/NP) : (lambda $0:<e,t> $0)

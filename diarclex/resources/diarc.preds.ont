@@ -1,5 +1,6 @@
 (
 
+pass:<e,t>
 capital:<c,t>
 high_point:<e,<e,t>>
 argmax:<<e,t>,<<e,i>,e>>
