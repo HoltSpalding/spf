@@ -8,6 +8,7 @@
 	<property name="resources" location="resources" />
 	<property name="build.src" location="build.src" />
 	<property name="dist" location="dist" />
+	<property name="diarc" location="diarc" />
 	<property name="lib" location="lib" />
 
 	<path id="classpath">
@@ -100,6 +101,27 @@
 		<delete file="MANIFEST.MF" />
 	</target>
 
+
+	<target name="diarc" depends="compile" description="generate the distribution">
+		<!-- Create the distribution directory -->
+		<mkdir dir="${diarc}" />
+		<delete file="MANIFEST.MF" />
+		<manifest file="MANIFEST.MF">
+			<attribute name="Main-Class" value="${diarcmain}" />
+		</manifest>
+
+		<jar jarfile="${diarc}/${ant.project.name}-${version}.jar" manifest="MANIFEST.MF">
+			<fileset dir="${build}" />
+			<fileset dir="${build.src}" />
+			<fileset dir="${diarclex}" includes="experiments/*" />
+			<fileset dir="${diarclex}" includes="resources/*" />
+			<fileset dir="${spfbase}" includes="resources/*" />
+			<zipgroupfileset dir="${lib}" includes="*.jar" />
+		</jar>
+
+		<delete file="MANIFEST.MF" />
+	</target>
+
 	<target name="lib" depends="compile" description="generate the distribution">
 		<!-- Create the distribution directory -->
 		<mkdir dir="${dist}" />
@@ -118,8 +140,10 @@
 
 	<target name="clean" description="clean up">
 		<!-- Delete the ${build} and ${dist} directory trees -->
-		<delete dir="${build}" />
-		<delete dir="${build.src}" />
-		<delete dir="${dist}" />
+		<delete dir="${diarc}" />
+	</target>
+	<target name="run-diarc" description="run diarc">
+		<java jar="${diarc}/${ant.project.name}-${version}.jar" fork="true">
+		</java>
 	</target>
 </project>

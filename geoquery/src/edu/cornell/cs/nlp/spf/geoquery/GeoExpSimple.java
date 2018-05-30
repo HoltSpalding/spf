@@ -104,7 +104,7 @@ public class GeoExpSimple {
 	}
 
 	public static void main(String[] args) {
-
+		System.out.println("We're finally testing simple!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
 		// //////////////////////////////////////////
 		// Init logging
 		// //////////////////////////////////////////
