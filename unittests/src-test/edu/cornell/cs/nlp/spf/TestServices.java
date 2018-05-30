@@ -42,8 +42,8 @@ public class TestServices {
 	static {
 		DEFAULT_TYPES_FILE = new File("resources-test/geo.types");
 		DEFAULT_ONTOLOGY_FILES = new LinkedList<File>();
-		DEFAULT_ONTOLOGY_FILES.add(new File("resources-test/geo.consts.ont"));
-		DEFAULT_ONTOLOGY_FILES.add(new File("resources-test/geo.preds.ont"));
+		DEFAULT_ONTOLOGY_FILES.add(new File("resources-test/diarc.consts.ont"));
+		DEFAULT_ONTOLOGY_FILES.add(new File("resources-test/diarc.preds.ont"));
 
 		// //////////////////////////////////////////
 		// Init typing system.

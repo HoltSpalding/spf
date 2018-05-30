@@ -14,7 +14,7 @@
  * this program; if not, write to the Free Software Foundation, Inc., 51
  * Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  *******************************************************************************/
-package edu.cornell.cs.nlp.spf.geoquery;
+package edu.cornell.cs.nlp.spf.diarclex;
 
 import java.io.File;
 import java.io.IOException;
@@ -96,10 +96,10 @@ import edu.cornell.cs.nlp.utils.log.LoggerFactory;
  *
  * @author Yoav Artzi
  */
-public class GeoExpSimple {
-	public static final ILogger LOG = LoggerFactory.create(GeoExpSimple.class);
+public class DiarcExpSimple {
+	public static final ILogger LOG = LoggerFactory.create(DiarcExpSimple.class);
 
-	private GeoExpSimple() {
+	private DiarcExpSimple() {
 		// Private ctor. Service class.
 	}
 
@@ -116,8 +116,8 @@ public class GeoExpSimple {
 		// Set some locations to use later
 		// //////////////////////////////////////////
 
-		final File resourceDir = new File("geoquery/resources/");
-		final File dataDir = new File("geoquery/experiments/data");
+		final File resourceDir = new File("diarclex/resources/");
+		final File dataDir = new File("diarclex/experiments/data");
 
 		// //////////////////////////////////////////
 		// Use tree hash vector
@@ -129,9 +129,9 @@ public class GeoExpSimple {
 		// Init lambda calculus system.
 		// //////////////////////////////////////////
 
-		final File typesFile = new File(resourceDir, "geo.types");
-		final File predOntology = new File(resourceDir, "geo.preds.ont");
-		final File simpleOntology = new File(resourceDir, "geo.consts.ont");
+		final File typesFile = new File(resourceDir, "diarc.types");
+		final File predOntology = new File(resourceDir, "diarc.preds.ont");
+		final File simpleOntology = new File(resourceDir, "diarc.consts.ont");
 
 		try {
 			// Init the logical expression type system
@@ -189,7 +189,7 @@ public class GeoExpSimple {
 		final ILexicon<LogicalExpression> npLexicon = new FactoredLexicon();
 		npLexicon.addEntriesFromFile(npLexiconFile, categoryServices,
 				Origin.FIXED_DOMAIN);
-
+/*
 		// //////////////////////////////////////////////////
 		// CKY parser
 		// //////////////////////////////////////////////////
@@ -354,7 +354,7 @@ public class GeoExpSimple {
 		// exists. If the directory is missing, it will LOG an error message and
 		// won't log the chart. Naturally, this logging slows the system.
 		builder.setParserOutputLogger(new ChartLogger<>(new File("/tmp/charts"),
-				"geoexpsimple", false));
+				"diarcexpsimple", false));
 
 		// Not that we set all the learning parameters, we call build() to
 		// create the learner.
@@ -375,7 +375,7 @@ public class GeoExpSimple {
 		// exists. If the directory is missing, it will LOG an error message and
 		// won't log the chart. Naturally, this logging slows the system.
 		testBuilder.setOutputLogger(new ChartLogger<>(new File("/tmp/charts"),
-				"geoexpsimple", false));
+				"diarcexpsimple", false));
 
 		final Tester<Sentence, LogicalExpression, SingleSentence> tester = testBuilder
 				.build();
@@ -438,5 +438,7 @@ public class GeoExpSimple {
 		tester.test(model, stats);
 		LOG.info(stats.toString());
 
+	*/
 	}
+
 }

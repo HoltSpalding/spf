@@ -27,6 +27,7 @@
 			<fileset dir="${src.spfbase}" includes="**/*.java" />
 			<fileset dir="${src.utils}" includes="**/*.java" />
 			<fileset dir="${src.geoquery}" includes="**/*.java" />
+			<fileset dir="${src.diarclex}" includes="**/*.java" />
 			<fileset dir="${src.ccg}" includes="**/*.java" />
 			<fileset dir="${src.ccg.lexicon}" includes="**/*.java" />
 			<fileset dir="${src.ccg.lexicon.factored.lambda}" includes="**/*.java" />
