@@ -88,6 +88,7 @@ public class Tester<SAMPLE extends IDataItem<?>, MR, DI extends ILabeledDataItem
 		for (final IWeightedParseStep<MR> step : derivation.getMaxSteps()) {
 			LOG.info("\t%s",
 					step.toString(false, false, dataItemModel.getTheta()));
+			LOG.info("In spf/test/src/..../Tester.java");
 		}
 	}
 
@@ -126,6 +127,7 @@ public class Tester<SAMPLE extends IDataItem<?>, MR, DI extends ILabeledDataItem
 			// A correct parse
 			LOG.info("CORRECT");
 			logDerivation(parse, dataItemModel);
+
 		} else {
 			// One parse, but a wrong one
 			LOG.info("WRONG", label);

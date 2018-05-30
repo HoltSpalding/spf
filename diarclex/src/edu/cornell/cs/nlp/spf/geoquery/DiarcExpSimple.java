@@ -440,7 +440,8 @@ public class DiarcExpSimple {
 
 		final ExactMatchTestingStatistics<Sentence, LogicalExpression, SingleSentence> stats = new ExactMatchTestingStatistics<Sentence, LogicalExpression, SingleSentence>();
 		tester.test(model, stats);
-		LOG.info(stats.toString());
+		//LOG.info(stats.toString());
+		//LOG.info(model.lexicon[0].);
 
 	}
 
