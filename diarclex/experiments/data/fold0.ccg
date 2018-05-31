@@ -1,5 +1,2 @@
-name a river in texas
-(lambda $0:e (and:<t*,t> (river:<r,t> $0) (loc:<lo,<lo,t>> $0 texas:s)))
-
-flurb california
-(flurb:<s,c> california:s)
+pickup the box
+(pickup:<e,t> box:obj)

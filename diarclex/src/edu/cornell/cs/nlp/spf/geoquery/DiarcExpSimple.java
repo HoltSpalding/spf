@@ -16,12 +16,13 @@
  *******************************************************************************/
 package edu.cornell.cs.nlp.spf.diarclex;
 
+import java.io.PrintStream;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-
+import java.io.*;
 import edu.cornell.cs.nlp.spf.base.hashvector.HashVectorFactory;
 import edu.cornell.cs.nlp.spf.base.hashvector.HashVectorFactory.Type;
 import edu.cornell.cs.nlp.spf.base.hashvector.KeyArgs;
@@ -104,7 +105,6 @@ public class DiarcExpSimple {
 	}
 
 	public static void main(String[] args) {
-		System.out.println("We're finally testing simple!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
 		// //////////////////////////////////////////
 		// Init logging
 		// //////////////////////////////////////////
@@ -299,7 +299,7 @@ public class DiarcExpSimple {
 		//TODO fold1 and 2 is training data, and fold0 is testing data
 		final List<IDataCollection<? extends SingleSentence>> folds = new ArrayList<IDataCollection<? extends SingleSentence>>(
 				10);
-		for (int i = 0; i < 3; ++i) {
+		for (int i = 0; i < 2; ++i) {
 			folds.add(SingleSentenceCollection
 					.read(new File(dataDir, String.format("fold%d.ccg", i))));
 		}
@@ -432,7 +432,7 @@ public class DiarcExpSimple {
 		// //////////////////////////////////////////////////
 
 		LOG.info("Final model:");
-		modelLogger.log(model, System.err);
+		//modelLogger.log(model, System.err);
 
 		// //////////////////////////////////////////////////
 		// Testing.
@@ -440,6 +440,19 @@ public class DiarcExpSimple {
 
 		final ExactMatchTestingStatistics<Sentence, LogicalExpression, SingleSentence> stats = new ExactMatchTestingStatistics<Sentence, LogicalExpression, SingleSentence>();
 		tester.test(model, stats);
+		//final File lexlog = new File("diarclex/resources/leglog.ccg");
+		 try
+        {
+       	    final PrintStream ps = new PrintStream(new File("diarclex/resources/leglog.ccg"));
+       	    modelLogger.log(model, ps);
+        }
+        catch (FileNotFoundException ex)
+        {
+            System.out.println("ahhhh");
+        }
+
+
+
 		//LOG.info(stats.toString());
 		//LOG.info(model.lexicon[0].);
 
