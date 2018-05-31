@@ -1,7 +1,8 @@
 (
 
 0:i
+self:?Actor
 knife:obj
 box:obj
-
+block:obj
 )

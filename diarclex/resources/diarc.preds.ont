@@ -1,6 +1,7 @@
 (
 
-pass:<e,t>
+pickup:<?Actor,<obj,t>>
+pickup:<obj,t>
 the:<<e,t>,e>
 
 )

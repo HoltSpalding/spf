@@ -1,2 +1,2 @@
 pickup the knife
-(pickup:<e,t> knife:obj)
+(pickup:<obj,t> knife:obj)

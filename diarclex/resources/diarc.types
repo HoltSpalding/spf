@@ -2,6 +2,8 @@
 
 (i e)	// integer / number...
 (n e)		//name
-(obj e)    //objects are entities
+(obj e)         //(substantive nouns)objects are entities
+(?Actor e)      //actors are entities
+(?Interactor e) //interactors are entities
 
 )
