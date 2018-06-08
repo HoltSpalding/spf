@@ -172,3 +172,4 @@ higher than :- PP/NP : (lambda $0:e (lambda $1:e (>:<i,<i,t>> (elevation:<lo,i> 
 //lower than :- PP\N/NP : (lambda $0:e (lambda $1:e (>:<i,<i,t>> (elevation:<lo,i> $1) (elevation:<lo,i> $0))))
 at least one :- (S\NP)\(S\NP/NP)/N : (lambda $0:<e,t> (lambda $1:<e,<e,t>> (lambda $2:e (>:<i,<i,t>> (count:<<e,t>,i> (lambda $3:e (and:<t*,t> ($0 $3) ($1 $3 $2)))) 0:i))))
 
+quickly :- ADV : quickly:e

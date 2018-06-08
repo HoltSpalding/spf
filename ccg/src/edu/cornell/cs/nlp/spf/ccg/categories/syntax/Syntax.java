@@ -38,6 +38,8 @@ import jregex.Pattern;
 public abstract class Syntax implements Serializable {
 	public static final SimpleSyntax				ADJ					= new SimpleSyntax(
 																				"ADJ");
+	public static final SimpleSyntax				ADV					= new SimpleSyntax(
+			"ADV");
 	public static final SimpleSyntax				AP					= new SimpleSyntax(
 																				"AP");
 	public static final SimpleSyntax				C					= new SimpleSyntax(
@@ -73,6 +75,7 @@ public abstract class Syntax implements Serializable {
 	static {
 		register(AP);
 		register(NP);
+		register(ADV);
 		register(EMPTY);
 		register(PP);
 		register(S);

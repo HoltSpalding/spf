@@ -1,8 +1,9 @@
 (
 
 0:i
-self:?Actor
-knife:obj
-box:obj
-block:obj
+conj:c
+disj:c
+knife:<e,t>
+blue :- ADJ : blue:<e,t>
+blue :- N : blue:<e,t>
 )

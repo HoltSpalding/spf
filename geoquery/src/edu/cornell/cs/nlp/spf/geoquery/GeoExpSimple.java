@@ -129,9 +129,9 @@ public class GeoExpSimple {
 		// Init lambda calculus system.
 		// //////////////////////////////////////////
 
-		final File typesFile = new File(resourceDir, "diarc.types");
-		final File predOntology = new File(resourceDir, "diarc.preds.ont");
-		final File simpleOntology = new File(resourceDir, "diarc.consts.ont");
+		final File typesFile = new File(resourceDir, "geo.types");
+		final File predOntology = new File(resourceDir, "geo.preds.ont");
+		final File simpleOntology = new File(resourceDir, "geo.consts.ont");
 
 		try {
 			// Init the logical expression type system
@@ -140,7 +140,7 @@ public class GeoExpSimple {
 							.addConstantsToOntology(simpleOntology)
 							.addConstantsToOntology(predOntology)
 							.setUseOntology(true).setNumeralTypeName("i")
-							.closeOntology(true).build());
+							.closeOntology(false).build());
 		} catch (final IOException e) {
 			throw new RuntimeException(e);
 		}

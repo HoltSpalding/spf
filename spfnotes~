@@ -1,0 +1,12 @@
+Files to edit when we edit parser/learner
+
+//Add syntactic categories (ie. ADV) with register function
+Package: edu.cornell.cs.nlp.spf.ccg.categories.syntax
+
+//Run by default when running "ant dist"
+Package: edu.cornell.cs.nlp.spf.utils.main
+
+//Read, write, save model 
+Package: edu.cornell.cs.nlp.spf.parser.ccg.model
+
+

@@ -309,6 +309,7 @@ public class GeoExp extends DistributedExperiment {
 
 	@SuppressWarnings("unchecked")
 	private Job createTrainJob(Parameters params) throws FileNotFoundException {
+		System.out.println("we're training");
 		// The model to use
 		final Model<Sentence, LogicalExpression> model = (Model<Sentence, LogicalExpression>) get(params
 				.get("model"));

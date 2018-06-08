@@ -1,9 +1,10 @@
 (
 
-(i e)	// integer / number...
-(n e)		//name
-(obj e)         //(substantive nouns)objects are entities
-(?Actor e)      //actors are entities
-(?Interactor e) //interactors are entities
-
+c				// Special type for coordinators
+m				// Meta entity
+a				// action (davidsonian event)
+s               //stative verb predicates? or do we just want no free vars for facts
+(ps e)			// a set of positions
+(n m)			// number
+(dir m)             // direction
 )

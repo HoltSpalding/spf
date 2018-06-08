@@ -1,5 +1,10 @@
-the :- N/N : (lambda $0:<e,t> $0)
-the :- NP/NP : (lambda $0:e $0)
-the :- NP/N : (lambda $0:<e,t> (the:<<e,t>,e> $0))
-//pickup :- S/NP : (lambda $0:obj (pickup:<obj,t> $0))
-pickup :- S/NP : (lambda $0:obj (pickup:<obj,t> $0))
+that :- NP/N : io:<<e,t>,e>
+the :- NP/N : io:<<e,t>,e>
+the :- S/N : io:<<e,t>,e>
+knife :- N : <e,t>
+a :- NP/N : a:<<e,t>,e>
+knife: N :
+and :- C : conj:c
+, :- C : conj:c
+, :- C : disj:c
+or :- C : disj:c

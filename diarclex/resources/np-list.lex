@@ -1,3 +1,3 @@
-knife :- NP : knife:obj
-box :- NP : box:obj
-block :- NP : block:obj
+knife :- NP : knife:e
+box :- NP : box:e
+block :- NP : block:e

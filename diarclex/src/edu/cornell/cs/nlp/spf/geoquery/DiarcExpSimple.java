@@ -197,7 +197,7 @@ public class DiarcExpSimple {
 		// CKY parser
 		// //////////////////////////////////////////////////
 
-		// Use the Hockenmeir-Bisk normal form parsing constaints. To parse with
+		// Use the Hockenmeir-Bisk normal form parsing constraints. To parse with
 		// NF constraints, just set this variable to null.
 		final NormalFormValidator nf = new NormalFormValidator.Builder()
 				.addConstraint(
@@ -357,8 +357,8 @@ public class DiarcExpSimple {
 		// the chart of the CKY parser to a file. It assumes the directory given
 		// exists. If the directory is missing, it will LOG an error message and
 		// won't log the chart. Naturally, this logging slows the system.
-		builder.setParserOutputLogger(new ChartLogger<>(new File("/tmp/charts"),
-				"diarcexpsimple", false));
+		//builder.setParserOutputLogger(new ChartLogger<>(new File("/tmp/charts"),
+				//"diarcexpsimple", false));
 
 		// Not that we set all the learning parameters, we call build() to
 		// create the learner.
@@ -441,15 +441,14 @@ public class DiarcExpSimple {
 		final ExactMatchTestingStatistics<Sentence, LogicalExpression, SingleSentence> stats = new ExactMatchTestingStatistics<Sentence, LogicalExpression, SingleSentence>();
 		tester.test(model, stats);
 		//final File lexlog = new File("diarclex/resources/leglog.ccg");
-		 try
-        {
+		 try {
        	    final PrintStream ps = new PrintStream(new File("diarclex/resources/leglog.ccg"));
        	    modelLogger.log(model, ps);
-        }
-        catch (FileNotFoundException ex)
-        {
-            System.out.println("ahhhh");
-        }
+        } catch (FileNotFoundException ex) { System.err.println("Can't save lexicon to file"); }
+        try {
+			Model.write(model, new File("diarclex/resources/diarc.model"));
+		} catch(IOException ex) { System.err.println("Can't save model to file"); }
+
 
 
 

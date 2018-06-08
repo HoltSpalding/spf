@@ -1,2 +1,5 @@
-pickup the box
-(pickup:<e,t> box:obj)
+the box
+box:obj
+
+the box
+(the:<obj,t> box:obj)
