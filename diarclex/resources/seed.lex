@@ -2,6 +2,7 @@ knife :- N : knife:<e,t>
 box :- N : box:<e,t>
 ball :- N : ball:<e,t>
 brad :- N : brad:<e,t>
+handle :- N : handle:<e,t>
 you :- N : self:<e,t>
 it :- N : it:<e,t>
 obj :- N : (lambda $0:e (obj:<e,t> $0))
@@ -34,3 +35,5 @@ quickly :- S/S : (lambda $0:<a,t> (lambda $1:a (and:<t*,t> (manner:<a,<<a,t>,t>>
 before :- S\S/S : (lambda $1:<a,t> (lambda $2:<a,t> (lambda $0:a (and:<t*,t> (before:<a,t> $0) (conjsubj:<a,<<a,t>,t>> $0 $2) (conjobj:<a,<<a,t>,t>> $0 $1)))))
 make interpreter and allow comments and templates in dictionaries, the above before is for conjuctions :- N : knife:<e,t>
 make sure to :- S/S : (lambda $1:<a,t> (lambda $0:a (modifyaction:<<a,t>,<a,t>> $1 $0)))
+by :- S\S/NP : (lambda $1:<e,t> (lambda $2:<a,t> (lambda $0:a (and:<t*,t> (by:<a,t> $0) (prepobj:<<e,t>,<a,t>> $1 $0) (prepsubj:<a,<<a,t>,t>> $0 $2)))))
+prepositional by, prepositional type shifting,   is by the handle a manor or something else prepobja and prepsubj, how to prevent stuff from running into one another without training:- N : knife:<e,t>

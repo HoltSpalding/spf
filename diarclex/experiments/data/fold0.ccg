@@ -42,3 +42,9 @@ pick up the ball before you throw it
 
 make sure to pick up the ball before you throw it
 (lambda $0:a (modifyaction:<<a,t>,<a,t>> (lambda $1:a (and:<t*,t> (before:<a,t> $1) (conjobj:<a,<<a,t>,t>> $1 (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $3:e (it:<e,t> $3))) (actor:<a,<<e,t>,t>> $2 (lambda $4:e (self:<e,t> $4)))))) (conjsubj:<a,<<a,t>,t>> $1 (lambda $5:a (and:<t*,t> (actor:<a,<<e,t>,t>> $5 (lambda $6:e (self:<e,t> $6))) (pickup:<a,t> $5) (obj:<a,<<e,t>,t>> $5 (lambda $7:e (and:<t*,t> (def:<e,t> $7) (ball:<e,t> $7))))))))) $0))
+
+the handle
+(lambda $0:e (and:<t*,t> (handle:<e,t> $0) (def:<e,t> $0)))
+
+pickup by the handle
+(lambda $0:e (and:<t*,t> (handle:<e,t> $0) (def:<e,t> $0)))

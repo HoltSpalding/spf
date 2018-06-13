@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0d7a6ef-c434-4b73-bade-3494d4c3e93b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/diarclex/experiments/data/fold0.ccg" afterPath="$PROJECT_DIR$/diarclex/experiments/data/fold0.ccg" />
+      <change beforePath="$PROJECT_DIR$/diarclex/resources/diarc.consts.ont" afterPath="$PROJECT_DIR$/diarclex/resources/diarc.consts.ont" />
       <change beforePath="$PROJECT_DIR$/diarclex/resources/diarc.model" afterPath="$PROJECT_DIR$/diarclex/resources/diarc.model" />
-      <change beforePath="$PROJECT_DIR$/diarclex/resources/diarc.preds.ont" afterPath="$PROJECT_DIR$/diarclex/resources/diarc.preds.ont" />
       <change beforePath="$PROJECT_DIR$/diarclex/resources/leglog.ccg" afterPath="$PROJECT_DIR$/diarclex/resources/leglog.ccg" />
-      <change beforePath="$PROJECT_DIR$/diarclex/resources/scratchpad" afterPath="$PROJECT_DIR$/diarclex/resources/scratchpad" />
       <change beforePath="$PROJECT_DIR$/diarclex/resources/seed.lex" afterPath="$PROJECT_DIR$/diarclex/resources/seed.lex" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,8 +41,8 @@
             <file leaf-file-name="seed.lex" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/diarclex/resources/seed.lex">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="630">
-                    <caret line="35" column="88" lean-forward="true" selection-start-line="35" selection-start-column="88" selection-end-line="35" selection-end-column="88" />
+                  <state relative-caret-position="684">
+                    <caret line="38" column="182" lean-forward="false" selection-start-line="38" selection-start-column="182" selection-end-line="38" selection-end-column="182" />
                     <folding />
                   </state>
                 </provider>
@@ -60,8 +58,8 @@
       <file leaf-file-name="DiarcExpSimple.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/diarclex/src/edu/cornell/cs/nlp/spf/geoquery/DiarcExpSimple.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="220" column="26" lean-forward="true" selection-start-line="220" selection-start-column="26" selection-end-line="220" selection-end-column="26" />
+            <state relative-caret-position="280">
+              <caret line="238" column="36" lean-forward="true" selection-start-line="238" selection-start-column="36" selection-end-line="238" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -70,8 +68,8 @@
       <file leaf-file-name="fold0.ccg" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/diarclex/experiments/data/fold0.ccg">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="774">
-              <caret line="43" column="476" lean-forward="false" selection-start-line="43" selection-start-column="476" selection-end-line="43" selection-end-column="476" />
+            <state relative-caret-position="812">
+              <caret line="48" column="10" lean-forward="false" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -90,8 +88,8 @@
       <file leaf-file-name="diarc.consts.ont" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/diarclex/resources/diarc.consts.ont">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="198">
+              <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -141,7 +139,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>population</find>
       <find>loc:</find>
       <find>verb</find>
       <find>the</find>
@@ -171,6 +168,7 @@
       <find>typesFi</find>
       <find>self</find>
       <find>actor</find>
+      <find>preposition</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -213,12 +211,12 @@
         <option value="$PROJECT_DIR$/diarclex/src/edu/cornell/cs/nlp/spf/geoquery/DiarcExpSimple.java" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
         <option value="$PROJECT_DIR$/diarclex/experiments/data/fold1.ccg" />
-        <option value="$PROJECT_DIR$/diarclex/resources/diarc.consts.ont" />
         <option value="$PROJECT_DIR$/diarclex/resources/diarc.types" />
         <option value="$PROJECT_DIR$/diarclex/resources/scratchpad" />
         <option value="$PROJECT_DIR$/diarclex/resources/diarc.preds.ont" />
-        <option value="$PROJECT_DIR$/diarclex/resources/seed.lex" />
+        <option value="$PROJECT_DIR$/diarclex/resources/diarc.consts.ont" />
         <option value="$PROJECT_DIR$/diarclex/experiments/data/fold0.ccg" />
+        <option value="$PROJECT_DIR$/diarclex/resources/seed.lex" />
       </list>
     </option>
   </component>
@@ -1640,34 +1638,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/diarclex/src/edu/cornell/cs/nlp/spf/geoquery/DiarcExpSimple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="220" column="26" lean-forward="true" selection-start-line="220" selection-start-column="26" selection-end-line="220" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/diarclex/resources/diarc.model">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/diarclex/resources/diarc.consts.ont">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/diarclex/resources/diarc.types">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="45" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
           <folding />
         </state>
       </provider>
@@ -1680,18 +1654,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/diarclex/resources/diarc.consts.ont">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diarclex/resources/diarc.types">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="45" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diarclex/src/edu/cornell/cs/nlp/spf/geoquery/DiarcExpSimple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="238" column="36" lean-forward="true" selection-start-line="238" selection-start-column="36" selection-end-line="238" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/diarclex/experiments/data/fold0.ccg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="43" column="476" lean-forward="false" selection-start-line="43" selection-start-column="476" selection-end-line="43" selection-end-column="476" />
+        <state relative-caret-position="812">
+          <caret line="48" column="10" lean-forward="false" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/diarclex/resources/seed.lex">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="35" column="88" lean-forward="true" selection-start-line="35" selection-start-column="88" selection-end-line="35" selection-end-column="88" />
+        <state relative-caret-position="684">
+          <caret line="38" column="182" lean-forward="false" selection-start-line="38" selection-start-column="182" selection-end-line="38" selection-end-column="182" />
           <folding />
         </state>
       </provider>
