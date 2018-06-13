@@ -1,131 +1,586 @@
-Lexical entries [81]:
-[20.0000] or :- C : disj:c {FACLEX#LEX#7#5=10.000(1.000),FACLEX#TMP#5=0.000(0.100),FACLEX#XEME#7=10.000(1.000)} {origin=fixed_domain}
-[20.0067] mod :- S/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (mod:<e,t> $1) ($0 $1)))) {FACLEX#LEX#12#8=10.000(1.000),FACLEX#TMP#8=0.067(0.100),FACLEX#XEME#12=10.000(1.000)} {origin=fixed_domain}
-[20.0000] mod :- NP/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (mod:<e,t> $1) ($0 $1)))) {FACLEX#LEX#12#10=10.000(1.000),FACLEX#TMP#10=0.000(0.100),FACLEX#XEME#12=10.000(1.000)} {origin=fixed_domain}
-[19.9967] mod :- S/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (mod:<e,t> $1) ($0 $1)))) {FACLEX#LEX#12#2=10.000(1.000),FACLEX#TMP#2=-0.033(0.100),FACLEX#XEME#12=10.000(1.000)} {origin=fixed_domain}
-[19.9933] mod :- N/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (mod:<e,t> $1) ($0 $1)))) {FACLEX#LEX#12#7=10.000(1.000),FACLEX#TMP#7=-0.067(0.100),FACLEX#XEME#12=10.000(1.000)} {origin=fixed_domain}
-[10.0067] mod :- NP/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> ($0 $1) (mod:<e,t> $1)))) {FACLEX#LEX#12#9=0.0(1.000),FACLEX#TMP#9=0.067(0.100),FACLEX#XEME#12=10.000(1.000)} {origin=fixed_domain}
-[10.0000] mod :- N : (lambda $0:e (mod:<e,t> $0)) {FACLEX#LEX#12#6=0.0(1.000),FACLEX#TMP#6=0.000(0.100),FACLEX#XEME#12=10.000(1.000)} {origin=fixed_domain}
-[10.0000] mod :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (mod:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#12#0=0.0(1.000),FACLEX#TMP#0=0.000(0.100),FACLEX#XEME#12=10.000(1.000)} {origin=fixed_domain}
-[20.0000] box :- NP : box:e {FACLEX#LEX#27#20=10.000(1.000),FACLEX#TMP#20=0.000(0.100),FACLEX#XEME#27=10.000(1.000)} {origin=fixed_domain}
-[20.0000] box :- N : (lambda $0:e (box:<e,t> $0)) {FACLEX#LEX#0#6=10.000(1.000),FACLEX#TMP#6=0.000(0.100),FACLEX#XEME#0=10.000(1.000)} {origin=fixed_domain}
-[10.0067] box :- S/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (box:<e,t> $1) ($0 $1)))) {FACLEX#LEX#0#8=0.0(1.000),FACLEX#TMP#8=0.067(0.100),FACLEX#XEME#0=10.000(1.000)} {origin=fixed_domain}
-[10.0067] box :- NP/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> ($0 $1) (box:<e,t> $1)))) {FACLEX#LEX#0#9=0.0(1.000),FACLEX#TMP#9=0.067(0.100),FACLEX#XEME#0=10.000(1.000)} {origin=fixed_domain}
-[10.0000] box :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (box:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#0#0=0.000(1.000),FACLEX#TMP#0=0.000(0.100),FACLEX#XEME#0=10.000(1.000)} {origin=fixed_domain}
-[10.0000] box :- NP/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (box:<e,t> $1) ($0 $1)))) {FACLEX#LEX#0#10=0.0(1.000),FACLEX#TMP#10=0.000(0.100),FACLEX#XEME#0=10.000(1.000)} {origin=fixed_domain}
-[9.9967] box :- S/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (box:<e,t> $1) ($0 $1)))) {FACLEX#LEX#0#2=0.0(1.000),FACLEX#TMP#2=-0.033(0.100),FACLEX#XEME#0=10.000(1.000)} {origin=fixed_domain}
-[9.9933] box :- N/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (box:<e,t> $1) ($0 $1)))) {FACLEX#LEX#0#7=0.0(1.000),FACLEX#TMP#7=-0.067(0.100),FACLEX#XEME#0=10.000(1.000)} {origin=fixed_domain}
-[20.0000] , :- C : disj:c {FACLEX#LEX#14#5=10.000(1.000),FACLEX#TMP#5=0.000(0.100),FACLEX#XEME#14=10.000(1.000)} {origin=fixed_domain}
-[20.0000] , :- C : conj:c {FACLEX#LEX#20#5=10.000(1.000),FACLEX#TMP#5=0.000(0.100),FACLEX#XEME#20=10.000(1.000)} {origin=fixed_domain}
-[21.3762] the :- S/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (def:<e,t> $1) ($0 $1)))) {FACLEX#LEX#10#8=10.685(1.000),FACLEX#TMP#8=0.067(0.100),FACLEX#XEME#10=10.685(1.000)} {origin=fixed_domain}
-[20.6915] the :- NP/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> ($0 $1) (def:<e,t> $1)))) {FACLEX#LEX#10#9=10.000(1.000),FACLEX#TMP#9=0.067(0.100),FACLEX#XEME#10=10.685(1.000)} {origin=fixed_domain}
-[20.0000] the :- NP/N : (lambda $0:<e,t> (io:<<e,t>,e> (lambda $1:e ($0 $1)))) {FACLEX#LEX#3#3=10.000(1.000),FACLEX#TMP#3=0.000(0.100),FACLEX#XEME#3=10.000(1.000)} {origin=fixed_domain}
-[19.3203] the :- S/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (definite:<e,t> $1) ($0 $1)))) {FACLEX#LEX#2#2=9.662(1.000),FACLEX#TMP#2=-0.033(0.100),FACLEX#XEME#2=9.662(1.000)} {origin=fixed_domain}
-[19.3035] the :- S/N : (lambda $0:<e,t> (def:<<e,t>,t> (lambda $1:e ($0 $1)))) {FACLEX#LEX#6#4=9.653(1.000),FACLEX#TMP#4=-0.033(0.100),FACLEX#XEME#6=9.653(1.000)} {origin=fixed_domain}
-[10.6848] the :- NP/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (def:<e,t> $1) ($0 $1)))) {FACLEX#LEX#10#10=0.0(1.000),FACLEX#TMP#10=0.000(0.100),FACLEX#XEME#10=10.685(1.000)} {origin=fixed_domain}
-[10.6848] the :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (def:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#10#0=0.0(1.000),FACLEX#TMP#0=0.000(0.100),FACLEX#XEME#10=10.685(1.000)} {origin=fixed_domain}
-[10.6848] the :- N : (lambda $0:e (def:<e,t> $0)) {FACLEX#LEX#10#6=0.0(1.000),FACLEX#TMP#6=0.000(0.100),FACLEX#XEME#10=10.685(1.000)} {origin=fixed_domain}
-[10.6815] the :- S/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (def:<e,t> $1) ($0 $1)))) {FACLEX#LEX#10#2=0.0(1.000),FACLEX#TMP#2=-0.033(0.100),FACLEX#XEME#10=10.685(1.000)} {origin=fixed_domain}
-[10.6781] the :- N/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (def:<e,t> $1) ($0 $1)))) {FACLEX#LEX#10#7=0.0(1.000),FACLEX#TMP#7=-0.067(0.100),FACLEX#XEME#10=10.685(1.000)} {origin=fixed_domain}
-[9.6685] the :- S/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (definite:<e,t> $1) ($0 $1)))) {FACLEX#LEX#2#8=0.0(1.000),FACLEX#TMP#8=0.067(0.100),FACLEX#XEME#2=9.662(1.000)} {origin=fixed_domain}
-[9.6685] the :- NP/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> ($0 $1) (definite:<e,t> $1)))) {FACLEX#LEX#2#9=0.0(1.000),FACLEX#TMP#9=0.067(0.100),FACLEX#XEME#2=9.662(1.000)} {origin=fixed_domain}
-[9.6618] the :- N : (lambda $0:e (definite:<e,t> $0)) {FACLEX#LEX#2#6=0.0(1.000),FACLEX#TMP#6=0.000(0.100),FACLEX#XEME#2=9.662(1.000)} {origin=fixed_domain}
-[9.6618] the :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (definite:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#2#0=0.0(1.000),FACLEX#TMP#0=0.000(0.100),FACLEX#XEME#2=9.662(1.000)} {origin=fixed_domain}
-[9.6618] the :- NP/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (definite:<e,t> $1) ($0 $1)))) {FACLEX#LEX#2#10=0.0(1.000),FACLEX#TMP#10=0.000(0.100),FACLEX#XEME#2=9.662(1.000)} {origin=fixed_domain}
-[9.6551] the :- N/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (definite:<e,t> $1) ($0 $1)))) {FACLEX#LEX#2#7=0.0(1.000),FACLEX#TMP#7=-0.067(0.100),FACLEX#XEME#2=9.662(1.000)} {origin=fixed_domain}
-[20.0000] pickup :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#1#1=10.000(1.000),FACLEX#TMP#1=0.000(0.100),FACLEX#XEME#1=10.000(1.000)} {origin=fixed_domain}
-[20.0000] pickup :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#13#11=10.000(1.000),FACLEX#TMP#11=0.000(0.100),FACLEX#XEME#13=10.000(1.000)} {origin=fixed_domain}
-[20.0000] pickup :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#8#0=10.000(1.000),FACLEX#TMP#0=0.000(0.100),FACLEX#XEME#8=10.000(1.000)} {origin=fixed_domain}
-[20.0000] pickup :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#16#12=10.000(1.000),FACLEX#TMP#12=0.000(0.100),FACLEX#XEME#16=10.000(1.000)} {origin=fixed_domain}
-[20.0000] pickup :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#17#13=10.000(1.000),FACLEX#TMP#13=0.000(0.100),FACLEX#XEME#17=10.000(1.000)} {origin=fixed_domain}
-[20.0000] pickup :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#18#14=10.000(1.000),FACLEX#TMP#14=0.000(0.100),FACLEX#XEME#18=10.000(1.000)} {origin=fixed_domain}
-[20.0000] pickup :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#15#15=10.000(1.000),FACLEX#TMP#15=0.000(0.100),FACLEX#XEME#15=10.000(1.000)} {origin=fixed_domain}
-[20.0000] pickup :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#22#16=10.000(1.000),FACLEX#TMP#16=0.000(0.100),FACLEX#XEME#22=10.000(1.000)} {origin=fixed_domain}
-[20.0000] pickup :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#23#17=10.000(1.000),FACLEX#TMP#17=0.000(0.100),FACLEX#XEME#23=10.000(1.000)} {origin=fixed_domain}
-[20.0000] pickup :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#24#18=10.000(1.000),FACLEX#TMP#18=0.000(0.100),FACLEX#XEME#24=10.000(1.000)} {origin=fixed_domain}
-[20.0000] pickup :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#25#19=10.000(1.000),FACLEX#TMP#19=0.000(0.100),FACLEX#XEME#25=10.000(1.000)} {origin=fixed_domain}
-[10.0067] pickup :- S/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (self:<e,t> $1) ($0 $1)))) {FACLEX#LEX#8#8=0.0(1.000),FACLEX#TMP#8=0.067(0.100),FACLEX#XEME#8=10.000(1.000)} {origin=fixed_domain}
-[10.0067] pickup :- NP/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> ($0 $1) (self:<e,t> $1)))) {FACLEX#LEX#8#9=0.0(1.000),FACLEX#TMP#9=0.067(0.100),FACLEX#XEME#8=10.000(1.000)} {origin=fixed_domain}
-[10.0000] pickup :- N : (lambda $0:e (self:<e,t> $0)) {FACLEX#LEX#8#6=0.000(1.000),FACLEX#TMP#6=0.000(0.100),FACLEX#XEME#8=10.000(1.000)} {origin=fixed_domain}
-[10.0000] pickup :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (obj:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#15#11=0.000(1.000),FACLEX#TMP#11=0.000(0.100),FACLEX#XEME#15=10.000(1.000)} {origin=fixed_domain}
-[10.0000] pickup :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (actor:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#13#15=0.000(1.000),FACLEX#TMP#15=0.000(0.100),FACLEX#XEME#13=10.000(1.000)} {origin=fixed_domain}
-[10.0000] pickup :- NP/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (self:<e,t> $1) ($0 $1)))) {FACLEX#LEX#8#10=0.0(1.000),FACLEX#TMP#10=0.000(0.100),FACLEX#XEME#8=10.000(1.000)} {origin=fixed_domain}
-[10.0000] pickup :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (actor:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#16#1=0.0(1.000),FACLEX#TMP#1=0.000(0.100),FACLEX#XEME#16=10.000(1.000)} {origin=fixed_domain}
-[10.0000] pickup :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (obj:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#1#12=0.0(1.000),FACLEX#TMP#12=0.000(0.100),FACLEX#XEME#1=10.000(1.000)} {origin=fixed_domain}
-[9.9967] pickup :- S/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (self:<e,t> $1) ($0 $1)))) {FACLEX#LEX#8#2=0.0(1.000),FACLEX#TMP#2=-0.033(0.100),FACLEX#XEME#8=10.000(1.000)} {origin=fixed_domain}
-[9.9933] pickup :- N/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (self:<e,t> $1) ($0 $1)))) {FACLEX#LEX#8#7=0.0(1.000),FACLEX#TMP#7=-0.067(0.100),FACLEX#XEME#8=10.000(1.000)} {origin=fixed_domain}
-[20.0000] that :- NP/N : (lambda $0:<e,t> (io:<<e,t>,e> (lambda $1:e ($0 $1)))) {FACLEX#LEX#21#3=10.000(1.000),FACLEX#TMP#3=0.000(0.100),FACLEX#XEME#21=10.000(1.000)} {origin=fixed_domain}
-[20.0000] obj :- N : (lambda $0:e (obj:<e,t> $0)) {FACLEX#LEX#5#6=10.000(1.000),FACLEX#TMP#6=0.000(0.100),FACLEX#XEME#5=10.000(1.000)} {origin=fixed_domain}
-[10.0067] obj :- S/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (obj:<e,t> $1) ($0 $1)))) {FACLEX#LEX#5#8=0.0(1.000),FACLEX#TMP#8=0.067(0.100),FACLEX#XEME#5=10.000(1.000)} {origin=fixed_domain}
-[10.0067] obj :- NP/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> ($0 $1) (obj:<e,t> $1)))) {FACLEX#LEX#5#9=0.0(1.000),FACLEX#TMP#9=0.067(0.100),FACLEX#XEME#5=10.000(1.000)} {origin=fixed_domain}
-[10.0000] obj :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (obj:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#5#0=0.0(1.000),FACLEX#TMP#0=0.000(0.100),FACLEX#XEME#5=10.000(1.000)} {origin=fixed_domain}
-[10.0000] obj :- NP/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (obj:<e,t> $1) ($0 $1)))) {FACLEX#LEX#5#10=0.0(1.000),FACLEX#TMP#10=0.000(0.100),FACLEX#XEME#5=10.000(1.000)} {origin=fixed_domain}
-[9.9967] obj :- S/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (obj:<e,t> $1) ($0 $1)))) {FACLEX#LEX#5#2=0.000(1.000),FACLEX#TMP#2=-0.033(0.100),FACLEX#XEME#5=10.000(1.000)} {origin=fixed_domain}
-[9.9933] obj :- N/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (obj:<e,t> $1) ($0 $1)))) {FACLEX#LEX#5#7=0.000(1.000),FACLEX#TMP#7=-0.067(0.100),FACLEX#XEME#5=10.000(1.000)} {origin=fixed_domain}
-[20.0000] knife :- NP : knife:e {FACLEX#LEX#26#20=10.000(1.000),FACLEX#TMP#20=0.000(0.100),FACLEX#XEME#26=10.000(1.000)} {origin=fixed_domain}
-[20.0000] knife :- N : (lambda $0:e (knife:<e,t> $0)) {FACLEX#LEX#9#6=10.000(1.000),FACLEX#TMP#6=0.000(0.100),FACLEX#XEME#9=10.000(1.000)} {origin=fixed_domain}
-[10.0067] knife :- S/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (knife:<e,t> $1) ($0 $1)))) {FACLEX#LEX#9#8=0.000(1.000),FACLEX#TMP#8=0.067(0.100),FACLEX#XEME#9=10.000(1.000)} {origin=fixed_domain}
-[10.0067] knife :- NP/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> ($0 $1) (knife:<e,t> $1)))) {FACLEX#LEX#9#9=0.0(1.000),FACLEX#TMP#9=0.067(0.100),FACLEX#XEME#9=10.000(1.000)} {origin=fixed_domain}
-[10.0000] knife :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (knife:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#9#0=0.0(1.000),FACLEX#TMP#0=0.000(0.100),FACLEX#XEME#9=10.000(1.000)} {origin=fixed_domain}
-[10.0000] knife :- NP/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (knife:<e,t> $1) ($0 $1)))) {FACLEX#LEX#9#10=0.0(1.000),FACLEX#TMP#10=0.000(0.100),FACLEX#XEME#9=10.000(1.000)} {origin=fixed_domain}
-[9.9967] knife :- S/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (knife:<e,t> $1) ($0 $1)))) {FACLEX#LEX#9#2=0.0(1.000),FACLEX#TMP#2=-0.033(0.100),FACLEX#XEME#9=10.000(1.000)} {origin=fixed_domain}
-[9.9933] knife :- N/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (knife:<e,t> $1) ($0 $1)))) {FACLEX#LEX#9#7=0.0(1.000),FACLEX#TMP#7=-0.067(0.100),FACLEX#XEME#9=10.000(1.000)} {origin=fixed_domain}
-[20.0000] and :- C : conj:c {FACLEX#LEX#19#5=10.000(1.000),FACLEX#TMP#5=0.000(0.100),FACLEX#XEME#19=10.000(1.000)} {origin=fixed_domain}
-[20.0067] blue :- S/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (blue:<e,t> $1) ($0 $1)))) {FACLEX#LEX#11#8=10.000(1.000),FACLEX#TMP#8=0.067(0.100),FACLEX#XEME#11=10.000(1.000)} {origin=fixed_domain}
-[19.9967] blue :- S/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (blue:<e,t> $1) ($0 $1)))) {FACLEX#LEX#11#2=10.000(1.000),FACLEX#TMP#2=-0.033(0.100),FACLEX#XEME#11=10.000(1.000)} {origin=fixed_domain}
-[10.6914] blue :- NP/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> ($0 $1) (blue:<e,t> $1)))) {FACLEX#LEX#11#9=0.685(1.000),FACLEX#TMP#9=0.067(0.100),FACLEX#XEME#11=10.000(1.000)} {origin=fixed_domain}
-[10.0000] blue :- N : (lambda $0:e (blue:<e,t> $0)) {FACLEX#LEX#11#6=0.000(1.000),FACLEX#TMP#6=0.000(0.100),FACLEX#XEME#11=10.000(1.000)} {origin=fixed_domain}
-[10.0000] blue :- NP/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (blue:<e,t> $1) ($0 $1)))) {FACLEX#LEX#11#10=0.000(1.000),FACLEX#TMP#10=0.000(0.100),FACLEX#XEME#11=10.000(1.000)} {origin=fixed_domain}
-[10.0000] blue :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (blue:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#11#0=0.0(1.000),FACLEX#TMP#0=0.000(0.100),FACLEX#XEME#11=10.000(1.000)} {origin=fixed_domain}
-[9.3085] blue :- N/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (blue:<e,t> $1) ($0 $1)))) {FACLEX#LEX#11#7=-0.685(1.000),FACLEX#TMP#7=-0.067(0.100),FACLEX#XEME#11=10.000(1.000)} {origin=fixed_domain}
-[20.0000] block :- NP : block:e {FACLEX#LEX#28#20=10.000(1.000),FACLEX#TMP#20=0.000(0.100),FACLEX#XEME#28=10.000(1.000)} {origin=fixed_domain}
-[20.0000] a :- NP/N : (lambda $0:<e,t> (a:<<e,t>,e> (lambda $1:e ($0 $1)))) {FACLEX#LEX#4#3=10.000(1.000),FACLEX#TMP#3=0.000(0.100),FACLEX#XEME#4=10.000(1.000)} {origin=fixed_domain}
-Feature weights [105]:
+Lexical entries [406]:
+[31.4355] pick up :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#5#5=21.435(1.000),FACLEX#TMP#5=0.000(0.100),FACLEX#XEME#5=10.000(1.000)} {origin=fixed_domain}
+[31.4355] pick up :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#8#7=21.435(1.000),FACLEX#TMP#7=0.000(0.100),FACLEX#XEME#8=10.000(1.000)} {origin=fixed_domain}
+[31.4355] pick up :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#13#11=21.435(1.000),FACLEX#TMP#11=0.000(0.100),FACLEX#XEME#13=10.000(1.000)} {origin=fixed_domain}
+[31.4355] pick up :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#17#14=21.435(1.000),FACLEX#TMP#14=0.000(0.100),FACLEX#XEME#17=10.000(1.000)} {origin=fixed_domain}
+[31.4355] pick up :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#11#19=21.435(1.000),FACLEX#TMP#19=0.000(0.100),FACLEX#XEME#11=10.000(1.000)} {origin=fixed_domain}
+[31.4355] pick up :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#4#8=21.435(1.000),FACLEX#TMP#8=0.000(0.100),FACLEX#XEME#4=10.000(1.000)} {origin=fixed_domain}
+[31.4355] pick up :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#22#13=21.435(1.000),FACLEX#TMP#13=0.000(0.100),FACLEX#XEME#22=10.000(1.000)} {origin=fixed_domain}
+[31.4355] pick up :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#26#28=21.435(1.000),FACLEX#TMP#28=0.000(0.100),FACLEX#XEME#26=10.000(1.000)} {origin=fixed_domain}
+[31.4355] pick up :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#27#31=21.435(1.000),FACLEX#TMP#31=0.000(0.100),FACLEX#XEME#27=10.000(1.000)} {origin=fixed_domain}
+[31.4355] pick up :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (pickup:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#5#39=21.435(1.000),FACLEX#TMP#39=0.000(0.100),FACLEX#XEME#5=10.000(1.000)} {origin=fixed_domain}
+[31.4355] pick up :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#32#10=21.435(1.000),FACLEX#TMP#10=0.000(0.100),FACLEX#XEME#32=10.000(1.000)} {origin=fixed_domain}
+[31.4355] pick up :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (pickup:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#34#42=21.435(1.000),FACLEX#TMP#42=0.000(0.100),FACLEX#XEME#34=10.000(1.000)} {origin=fixed_domain}
+[31.4355] pick up :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#35#44=21.435(1.000),FACLEX#TMP#44=0.000(0.100),FACLEX#XEME#35=10.000(1.000)} {origin=fixed_domain}
+[31.4355] pick up :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#32#45=21.435(1.000),FACLEX#TMP#45=0.000(0.100),FACLEX#XEME#32=10.000(1.000)} {origin=fixed_domain}
+[31.4355] pick up :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#22#52=21.435(1.000),FACLEX#TMP#52=0.000(0.100),FACLEX#XEME#22=10.000(1.000)} {origin=fixed_domain}
+[31.4355] pick up :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#31#57=21.435(1.000),FACLEX#TMP#57=0.000(0.100),FACLEX#XEME#31=10.000(1.000)} {origin=fixed_domain}
+[31.4355] pick up :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#35#58=21.435(1.000),FACLEX#TMP#58=0.000(0.100),FACLEX#XEME#35=10.000(1.000)} {origin=fixed_domain}
+[31.4355] pick up :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#22#40=21.435(1.000),FACLEX#TMP#40=0.000(0.100),FACLEX#XEME#22=10.000(1.000)} {origin=fixed_domain}
+[31.4355] pick up :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#4#27=21.435(1.000),FACLEX#TMP#27=0.000(0.100),FACLEX#XEME#4=10.000(1.000)} {origin=fixed_domain}
+[31.4355] pick up :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#31#6=21.435(1.000),FACLEX#TMP#6=0.000(0.100),FACLEX#XEME#31=10.000(1.000)} {origin=fixed_domain}
+[31.4355] pick up :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#17#43=21.435(1.000),FACLEX#TMP#43=0.000(0.100),FACLEX#XEME#17=10.000(1.000)} {origin=fixed_domain}
+[31.4355] pick up :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#21#63=21.435(1.000),FACLEX#TMP#63=0.000(0.100),FACLEX#XEME#21=10.000(1.000)} {origin=fixed_domain}
+[31.4355] pick up :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#27#46=21.435(1.000),FACLEX#TMP#46=0.000(0.100),FACLEX#XEME#27=10.000(1.000)} {origin=fixed_domain}
+[31.4355] pick up :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#11#54=21.435(1.000),FACLEX#TMP#54=0.000(0.100),FACLEX#XEME#11=10.000(1.000)} {origin=fixed_domain}
+[31.4355] pick up :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#4#53=21.435(1.000),FACLEX#TMP#53=0.000(0.100),FACLEX#XEME#4=10.000(1.000)} {origin=fixed_domain}
+[31.4355] pick up :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#21#61=21.435(1.000),FACLEX#TMP#61=0.000(0.100),FACLEX#XEME#21=10.000(1.000)} {origin=fixed_domain}
+[31.4355] pick up :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#32#50=21.435(1.000),FACLEX#TMP#50=0.000(0.100),FACLEX#XEME#32=10.000(1.000)} {origin=fixed_domain}
+[31.4355] pick up :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#4#16=21.435(1.000),FACLEX#TMP#16=0.000(0.100),FACLEX#XEME#4=10.000(1.000)} {origin=fixed_domain}
+[31.4355] pick up :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (pickup:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#5#25=21.435(1.000),FACLEX#TMP#25=0.000(0.100),FACLEX#XEME#5=10.000(1.000)} {origin=fixed_domain}
+[31.4355] pick up :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (pickup:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#34#47=21.435(1.000),FACLEX#TMP#47=0.000(0.100),FACLEX#XEME#34=10.000(1.000)} {origin=fixed_domain}
+[31.4355] pick up :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#8#35=21.435(1.000),FACLEX#TMP#35=0.000(0.100),FACLEX#XEME#8=10.000(1.000)} {origin=fixed_domain}
+[31.4355] pick up :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#5#62=21.435(1.000),FACLEX#TMP#62=0.000(0.100),FACLEX#XEME#5=10.000(1.000)} {origin=fixed_domain}
+[31.4355] pick up :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#13#15=21.435(1.000),FACLEX#TMP#15=0.000(0.100),FACLEX#XEME#13=10.000(1.000)} {origin=fixed_domain}
+[31.4355] pick up :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#22#4=21.435(1.000),FACLEX#TMP#4=0.000(0.100),FACLEX#XEME#22=10.000(1.000)} {origin=fixed_domain}
+[31.4355] pick up :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#26#33=21.435(1.000),FACLEX#TMP#33=0.000(0.100),FACLEX#XEME#26=10.000(1.000)} {origin=fixed_domain}
+[31.4355] pick up :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#32#17=21.435(1.000),FACLEX#TMP#17=0.000(0.100),FACLEX#XEME#32=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (actor:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#4#4=0.000(1.000),FACLEX#TMP#4=0.000(0.100),FACLEX#XEME#4=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (actor:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#11#10=0.000(1.000),FACLEX#TMP#10=0.000(0.100),FACLEX#XEME#11=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (actor:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#11#17=0.000(1.000),FACLEX#TMP#17=0.000(0.100),FACLEX#XEME#11=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#21#20=0.000(1.000),FACLEX#TMP#20=0.000(0.100),FACLEX#XEME#21=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#22#21=0.000(1.000),FACLEX#TMP#21=0.000(0.100),FACLEX#XEME#22=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S\S : (lambda $0:<a,t> (lambda $1:a (and:<t*,t> (manner:<a,<<a,t>,t>> $1 (lambda $2:a (pickup:<a,t> $2))) ($0 $1)))) {FACLEX#LEX#5#23=0.000(1.000),FACLEX#TMP#23=0.000(0.100),FACLEX#XEME#5=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (actor:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#8#14=0.0(1.000),FACLEX#TMP#14=0.000(0.100),FACLEX#XEME#8=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (obj:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#22#24=0.000(1.000),FACLEX#TMP#24=0.000(0.100),FACLEX#XEME#22=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (obj:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#22#27=0.000(1.000),FACLEX#TMP#27=0.000(0.100),FACLEX#XEME#22=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (obj:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (actor:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#17#29=0.000(1.000),FACLEX#TMP#29=0.000(0.100),FACLEX#XEME#17=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (actor:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#4#30=0.000(1.000),FACLEX#TMP#30=0.000(0.100),FACLEX#XEME#4=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (obj:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (actor:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#17#35=0.000(1.000),FACLEX#TMP#35=0.000(0.100),FACLEX#XEME#17=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#31#41=0.000(1.000),FACLEX#TMP#41=0.000(0.100),FACLEX#XEME#31=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (obj:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#32#19=0.000(1.000),FACLEX#TMP#19=0.000(0.100),FACLEX#XEME#32=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#4#21=0.0(1.000),FACLEX#TMP#21=0.000(0.100),FACLEX#XEME#4=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (obj:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#22#51=0.000(1.000),FACLEX#TMP#51=0.000(0.100),FACLEX#XEME#22=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (self:<e,t> $1) ($0 $1)))) {FACLEX#LEX#13#9=0.0(1.000),FACLEX#TMP#9=0.000(0.100),FACLEX#XEME#13=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#22#53=0.0(1.000),FACLEX#TMP#53=0.000(0.100),FACLEX#XEME#22=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- NP/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (self:<e,t> $1) ($0 $1)))) {FACLEX#LEX#13#34=0.0(1.000),FACLEX#TMP#34=0.000(0.100),FACLEX#XEME#13=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (actor:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#4#40=0.0(1.000),FACLEX#TMP#40=0.000(0.100),FACLEX#XEME#4=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#22#37=0.0(1.000),FACLEX#TMP#37=0.000(0.100),FACLEX#XEME#22=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (obj:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#22#38=0.0(1.000),FACLEX#TMP#38=0.000(0.100),FACLEX#XEME#22=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- NP/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> ($0 $1) (self:<e,t> $1)))) {FACLEX#LEX#13#32=0.0(1.000),FACLEX#TMP#32=0.000(0.100),FACLEX#XEME#13=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (obj:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#32#54=0.0(1.000),FACLEX#TMP#54=0.000(0.100),FACLEX#XEME#32=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (actor:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#4#52=0.0(1.000),FACLEX#TMP#52=0.000(0.100),FACLEX#XEME#4=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#4#38=0.0(1.000),FACLEX#TMP#38=0.000(0.100),FACLEX#XEME#4=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (pickup:<a,t> $1) (actor:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#27#56=0.0(1.000),FACLEX#TMP#56=0.000(0.100),FACLEX#XEME#27=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#4#36=0.0(1.000),FACLEX#TMP#36=0.000(0.100),FACLEX#XEME#4=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S/S : (lambda $0:<a,t> (lambda $1:a (and:<t*,t> (manner:<a,<<a,t>,t>> $1 (lambda $2:a (pickup:<a,t> $2))) ($0 $1)))) {FACLEX#LEX#5#48=0.0(1.000),FACLEX#TMP#48=0.000(0.100),FACLEX#XEME#5=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (actor:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#4#13=0.0(1.000),FACLEX#TMP#13=0.000(0.100),FACLEX#XEME#4=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#22#30=0.0(1.000),FACLEX#TMP#30=0.000(0.100),FACLEX#XEME#22=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#21#59=0.0(1.000),FACLEX#TMP#59=0.000(0.100),FACLEX#XEME#21=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- N : (lambda $0:e (self:<e,t> $0)) {FACLEX#LEX#13#1=0.0(1.000),FACLEX#TMP#1=0.000(0.100),FACLEX#XEME#13=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> ($0 $1) (self:<e,t> $1)))) {FACLEX#LEX#13#2=0.0(1.000),FACLEX#TMP#2=0.000(0.100),FACLEX#XEME#13=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#4#12=0.0(1.000),FACLEX#TMP#12=0.000(0.100),FACLEX#XEME#4=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#31#64=0.000(1.000),FACLEX#TMP#64=0.000(0.100),FACLEX#XEME#31=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- N/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (self:<e,t> $1) ($0 $1)))) {FACLEX#LEX#13#3=0.0(1.000),FACLEX#TMP#3=0.000(0.100),FACLEX#XEME#13=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (obj:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#22#16=0.0(1.000),FACLEX#TMP#16=0.000(0.100),FACLEX#XEME#22=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (actor:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#8#43=0.0(1.000),FACLEX#TMP#43=0.000(0.100),FACLEX#XEME#8=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#22#12=0.0(1.000),FACLEX#TMP#12=0.000(0.100),FACLEX#XEME#22=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (actor:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#11#45=0.0(1.000),FACLEX#TMP#45=0.000(0.100),FACLEX#XEME#11=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (actor:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#11#50=0.0(1.000),FACLEX#TMP#50=0.000(0.100),FACLEX#XEME#11=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#4#24=0.0(1.000),FACLEX#TMP#24=0.000(0.100),FACLEX#XEME#4=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#27#0=0.0(1.000),FACLEX#TMP#0=0.000(0.100),FACLEX#XEME#27=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (obj:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (actor:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#17#49=0.0(1.000),FACLEX#TMP#49=0.000(0.100),FACLEX#XEME#17=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#4#51=0.0(1.000),FACLEX#TMP#51=0.000(0.100),FACLEX#XEME#4=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (obj:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (actor:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#17#7=0.0(1.000),FACLEX#TMP#7=0.000(0.100),FACLEX#XEME#17=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#13#18=0.0(1.000),FACLEX#TMP#18=0.000(0.100),FACLEX#XEME#13=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (actor:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#4#37=0.0(1.000),FACLEX#TMP#37=0.000(0.100),FACLEX#XEME#4=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#27#67=0.0(1.000),FACLEX#TMP#67=0.000(0.100),FACLEX#XEME#27=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (pickup:<a,t> $1) (actor:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#27#55=0.0(1.000),FACLEX#TMP#55=0.000(0.100),FACLEX#XEME#27=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (obj:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#8#26=0.0(1.000),FACLEX#TMP#26=0.000(0.100),FACLEX#XEME#8=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#17#26=0.0(1.000),FACLEX#TMP#26=0.000(0.100),FACLEX#XEME#17=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#13#22=0.0(1.000),FACLEX#TMP#22=0.000(0.100),FACLEX#XEME#13=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#8#49=0.0(1.000),FACLEX#TMP#49=0.000(0.100),FACLEX#XEME#8=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#17#66=0.0(1.000),FACLEX#TMP#66=0.000(0.100),FACLEX#XEME#17=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#22#8=0.0(1.000),FACLEX#TMP#8=0.000(0.100),FACLEX#XEME#22=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#8#29=0.0(1.000),FACLEX#TMP#29=0.000(0.100),FACLEX#XEME#8=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (obj:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#8#66=0.0(1.000),FACLEX#TMP#66=0.000(0.100),FACLEX#XEME#8=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pick up :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (obj:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#22#36=0.0(1.000),FACLEX#TMP#36=0.000(0.100),FACLEX#XEME#22=10.000(1.000)} {origin=fixed_domain}
+[20.0000] mod :- NP/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (mod:<e,t> $1) ($0 $1)))) {FACLEX#LEX#18#34=10.000(1.000),FACLEX#TMP#34=0.000(0.100),FACLEX#XEME#18=10.000(1.000)} {origin=fixed_domain}
+[20.0000] mod :- N/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (mod:<e,t> $1) ($0 $1)))) {FACLEX#LEX#18#3=10.000(1.000),FACLEX#TMP#3=0.000(0.100),FACLEX#XEME#18=10.000(1.000)} {origin=fixed_domain}
+[20.0000] mod :- S/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (mod:<e,t> $1) ($0 $1)))) {FACLEX#LEX#18#9=10.000(1.000),FACLEX#TMP#9=0.000(0.100),FACLEX#XEME#18=10.000(1.000)} {origin=fixed_domain}
+[20.0000] mod :- S/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> ($0 $1) (mod:<e,t> $1)))) {FACLEX#LEX#18#2=10.000(1.000),FACLEX#TMP#2=0.000(0.100),FACLEX#XEME#18=10.000(1.000)} {origin=fixed_domain}
+[10.0000] mod :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (mod:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#18#15=0.000(1.000),FACLEX#TMP#15=0.000(0.100),FACLEX#XEME#18=10.000(1.000)} {origin=fixed_domain}
+[10.0000] mod :- N : (lambda $0:e (mod:<e,t> $0)) {FACLEX#LEX#18#1=0.0(1.000),FACLEX#TMP#1=0.000(0.100),FACLEX#XEME#18=10.000(1.000)} {origin=fixed_domain}
+[10.0000] mod :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (mod:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#18#22=0.0(1.000),FACLEX#TMP#22=0.000(0.100),FACLEX#XEME#18=10.000(1.000)} {origin=fixed_domain}
+[10.0000] mod :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (mod:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#18#18=0.0(1.000),FACLEX#TMP#18=0.000(0.100),FACLEX#XEME#18=10.000(1.000)} {origin=fixed_domain}
+[10.0000] mod :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (mod:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#18#11=0.0(1.000),FACLEX#TMP#11=0.000(0.100),FACLEX#XEME#18=10.000(1.000)} {origin=fixed_domain}
+[10.0000] mod :- NP/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> ($0 $1) (mod:<e,t> $1)))) {FACLEX#LEX#18#32=0.0(1.000),FACLEX#TMP#32=0.000(0.100),FACLEX#XEME#18=10.000(1.000)} {origin=fixed_domain}
+[20.0000] or :- C : disj:c {FACLEX#LEX#50#60=10.000(1.000),FACLEX#TMP#60=0.000(0.100),FACLEX#XEME#50=10.000(1.000)} {origin=fixed_domain}
+[20.0000] quickly :- S\S : (lambda $0:<a,t> (lambda $1:a (and:<t*,t> (manner:<a,<<a,t>,t>> $1 (lambda $2:a (quickly:<a,t> $2))) ($0 $1)))) {FACLEX#LEX#25#23=10.000(1.000),FACLEX#TMP#23=0.000(0.100),FACLEX#XEME#25=10.000(1.000)} {origin=fixed_domain}
+[20.0000] quickly :- S/S : (lambda $0:<a,t> (lambda $1:a (and:<t*,t> (manner:<a,<<a,t>,t>> $1 (lambda $2:a (quickly:<a,t> $2))) ($0 $1)))) {FACLEX#LEX#25#48=10.000(1.000),FACLEX#TMP#48=0.000(0.100),FACLEX#XEME#25=10.000(1.000)} {origin=fixed_domain}
+[20.0000] quickly :- S/S : (lambda $0:<a,t> (lambda $1:a (and:<t*,t> (manner:<a,<<a,t>,t>> $1 (lambda $2:a (quickly:<a,t> $2))) ($0 $1)))) {FACLEX#LEX#51#65=10.000(1.000),FACLEX#TMP#65=0.000(0.100),FACLEX#XEME#51=10.000(1.000)} {origin=fixed_domain}
+[20.0000] quickly :- S\S : (lambda $0:<a,t> (lambda $1:a (and:<t*,t> (manner:<a,<<a,t>,t>> $1 (lambda $2:a (quickly:<a,t> $2))) ($0 $1)))) {FACLEX#LEX#57#70=10.000(1.000),FACLEX#TMP#70=0.000(0.100),FACLEX#XEME#57=10.000(1.000)} {origin=fixed_domain}
+[20.0000] quickly :- S/S : (lambda $0:<a,t> (lambda $1:a (and:<t*,t> (manner:<a,<<a,t>,t>> $1 (lambda $2:a (quickly:<a,t> $2))) ($0 $1)))) {FACLEX#LEX#57#74=10.000(1.000),FACLEX#TMP#74=0.000(0.100),FACLEX#XEME#57=10.000(1.000)} {origin=fixed_domain}
+[20.0000] quickly :- S\S : (lambda $0:<a,t> (lambda $1:a (and:<t*,t> (manner:<a,<<a,t>,t>> $1 (lambda $2:a (quickly:<a,t> $2))) ($0 $1)))) {FACLEX#LEX#51#75=10.000(1.000),FACLEX#TMP#75=0.000(0.100),FACLEX#XEME#51=10.000(1.000)} {origin=fixed_domain}
+[10.0000] quickly :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (quickly:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#25#5=0.0(1.000),FACLEX#TMP#5=0.000(0.100),FACLEX#XEME#25=10.000(1.000)} {origin=fixed_domain}
+[10.0000] quickly :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (quickly:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#25#39=0.0(1.000),FACLEX#TMP#39=0.000(0.100),FACLEX#XEME#25=10.000(1.000)} {origin=fixed_domain}
+[10.0000] quickly :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (quickly:<a,t> $1)))) {FACLEX#LEX#25#62=0.0(1.000),FACLEX#TMP#62=0.000(0.100),FACLEX#XEME#25=10.000(1.000)} {origin=fixed_domain}
+[10.0000] quickly :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (quickly:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#25#25=0.0(1.000),FACLEX#TMP#25=0.000(0.100),FACLEX#XEME#25=10.000(1.000)} {origin=fixed_domain}
+[20.0000] box :- NP : box:e {FACLEX#LEX#61#76=10.000(1.000),FACLEX#TMP#76=0.000(0.100),FACLEX#XEME#61=10.000(1.000)} {origin=fixed_domain}
+[20.0000] box :- N : (lambda $0:e (box:<e,t> $0)) {FACLEX#LEX#16#1=10.000(1.000),FACLEX#TMP#1=0.000(0.100),FACLEX#XEME#16=10.000(1.000)} {origin=fixed_domain}
+[10.0000] box :- N/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (box:<e,t> $1) ($0 $1)))) {FACLEX#LEX#16#3=0.000(1.000),FACLEX#TMP#3=0.000(0.100),FACLEX#XEME#16=10.000(1.000)} {origin=fixed_domain}
+[10.0000] box :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (box:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#16#22=0.000(1.000),FACLEX#TMP#22=0.000(0.100),FACLEX#XEME#16=10.000(1.000)} {origin=fixed_domain}
+[10.0000] box :- S/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> ($0 $1) (box:<e,t> $1)))) {FACLEX#LEX#16#2=0.0(1.000),FACLEX#TMP#2=0.000(0.100),FACLEX#XEME#16=10.000(1.000)} {origin=fixed_domain}
+[10.0000] box :- S/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (box:<e,t> $1) ($0 $1)))) {FACLEX#LEX#16#9=0.0(1.000),FACLEX#TMP#9=0.000(0.100),FACLEX#XEME#16=10.000(1.000)} {origin=fixed_domain}
+[10.0000] box :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (box:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#16#18=0.0(1.000),FACLEX#TMP#18=0.000(0.100),FACLEX#XEME#16=10.000(1.000)} {origin=fixed_domain}
+[10.0000] box :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (box:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#16#15=0.0(1.000),FACLEX#TMP#15=0.000(0.100),FACLEX#XEME#16=10.000(1.000)} {origin=fixed_domain}
+[10.0000] box :- NP/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (box:<e,t> $1) ($0 $1)))) {FACLEX#LEX#16#34=0.0(1.000),FACLEX#TMP#34=0.000(0.100),FACLEX#XEME#16=10.000(1.000)} {origin=fixed_domain}
+[10.0000] box :- NP/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> ($0 $1) (box:<e,t> $1)))) {FACLEX#LEX#16#32=0.0(1.000),FACLEX#TMP#32=0.000(0.100),FACLEX#XEME#16=10.000(1.000)} {origin=fixed_domain}
+[10.0000] box :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (box:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#16#11=0.0(1.000),FACLEX#TMP#11=0.000(0.100),FACLEX#XEME#16=10.000(1.000)} {origin=fixed_domain}
+[20.0000] it :- N : (lambda $0:e (it:<e,t> $0)) {FACLEX#LEX#2#1=10.000(1.000),FACLEX#TMP#1=0.000(0.100),FACLEX#XEME#2=10.000(1.000)} {origin=fixed_domain}
+[10.0000] it :- S/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> ($0 $1) (it:<e,t> $1)))) {FACLEX#LEX#2#2=0.000(1.000),FACLEX#TMP#2=0.000(0.100),FACLEX#XEME#2=10.000(1.000)} {origin=fixed_domain}
+[10.0000] it :- NP/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> ($0 $1) (it:<e,t> $1)))) {FACLEX#LEX#2#32=0.0(1.000),FACLEX#TMP#32=0.000(0.100),FACLEX#XEME#2=10.000(1.000)} {origin=fixed_domain}
+[10.0000] it :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (it:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#2#11=0.0(1.000),FACLEX#TMP#11=0.000(0.100),FACLEX#XEME#2=10.000(1.000)} {origin=fixed_domain}
+[10.0000] it :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (it:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#2#18=0.0(1.000),FACLEX#TMP#18=0.000(0.100),FACLEX#XEME#2=10.000(1.000)} {origin=fixed_domain}
+[10.0000] it :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (it:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#2#22=0.0(1.000),FACLEX#TMP#22=0.000(0.100),FACLEX#XEME#2=10.000(1.000)} {origin=fixed_domain}
+[10.0000] it :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (it:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#2#15=0.0(1.000),FACLEX#TMP#15=0.000(0.100),FACLEX#XEME#2=10.000(1.000)} {origin=fixed_domain}
+[10.0000] it :- S/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (it:<e,t> $1) ($0 $1)))) {FACLEX#LEX#2#9=0.0(1.000),FACLEX#TMP#9=0.000(0.100),FACLEX#XEME#2=10.000(1.000)} {origin=fixed_domain}
+[10.0000] it :- NP/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (it:<e,t> $1) ($0 $1)))) {FACLEX#LEX#2#34=0.0(1.000),FACLEX#TMP#34=0.000(0.100),FACLEX#XEME#2=10.000(1.000)} {origin=fixed_domain}
+[10.0000] it :- N/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (it:<e,t> $1) ($0 $1)))) {FACLEX#LEX#2#3=0.0(1.000),FACLEX#TMP#3=0.000(0.100),FACLEX#XEME#2=10.000(1.000)} {origin=fixed_domain}
+[20.0000] , :- C : conj:c {FACLEX#LEX#52#60=10.000(1.000),FACLEX#TMP#60=0.000(0.100),FACLEX#XEME#52=10.000(1.000)} {origin=fixed_domain}
+[20.0000] , :- C : disj:c {FACLEX#LEX#56#60=10.000(1.000),FACLEX#TMP#60=0.000(0.100),FACLEX#XEME#56=10.000(1.000)} {origin=fixed_domain}
+[20.0000] the :- S/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> ($0 $1) (def:<e,t> $1)))) {FACLEX#LEX#20#2=10.000(1.000),FACLEX#TMP#2=0.000(0.100),FACLEX#XEME#20=10.000(1.000)} {origin=fixed_domain}
+[20.0000] the :- S/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (def:<e,t> $1) ($0 $1)))) {FACLEX#LEX#20#9=10.000(1.000),FACLEX#TMP#9=0.000(0.100),FACLEX#XEME#20=10.000(1.000)} {origin=fixed_domain}
+[20.0000] the :- NP/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> ($0 $1) (def:<e,t> $1)))) {FACLEX#LEX#20#32=10.000(1.000),FACLEX#TMP#32=0.000(0.100),FACLEX#XEME#20=10.000(1.000)} {origin=fixed_domain}
+[10.0000] the :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (def:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#20#18=0.0(1.000),FACLEX#TMP#18=0.000(0.100),FACLEX#XEME#20=10.000(1.000)} {origin=fixed_domain}
+[10.0000] the :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (def:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#20#15=0.0(1.000),FACLEX#TMP#15=0.000(0.100),FACLEX#XEME#20=10.000(1.000)} {origin=fixed_domain}
+[10.0000] the :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (def:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#20#11=0.0(1.000),FACLEX#TMP#11=0.000(0.100),FACLEX#XEME#20=10.000(1.000)} {origin=fixed_domain}
+[10.0000] the :- N : (lambda $0:e (def:<e,t> $0)) {FACLEX#LEX#20#1=0.0(1.000),FACLEX#TMP#1=0.000(0.100),FACLEX#XEME#20=10.000(1.000)} {origin=fixed_domain}
+[10.0000] the :- NP/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (def:<e,t> $1) ($0 $1)))) {FACLEX#LEX#20#34=0.0(1.000),FACLEX#TMP#34=0.000(0.100),FACLEX#XEME#20=10.000(1.000)} {origin=fixed_domain}
+[10.0000] the :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (def:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#20#22=0.0(1.000),FACLEX#TMP#22=0.000(0.100),FACLEX#XEME#20=10.000(1.000)} {origin=fixed_domain}
+[10.0000] the :- N/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (def:<e,t> $1) ($0 $1)))) {FACLEX#LEX#20#3=0.0(1.000),FACLEX#TMP#3=0.000(0.100),FACLEX#XEME#20=10.000(1.000)} {origin=fixed_domain}
+[20.0000] pickup :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (pickup:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#23#25=10.000(1.000),FACLEX#TMP#25=0.000(0.100),FACLEX#XEME#23=10.000(1.000)} {origin=fixed_domain}
+[20.0000] pickup :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#29#33=10.000(1.000),FACLEX#TMP#33=0.000(0.100),FACLEX#XEME#29=10.000(1.000)} {origin=fixed_domain}
+[20.0000] pickup :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#30#40=10.000(1.000),FACLEX#TMP#40=0.000(0.100),FACLEX#XEME#30=10.000(1.000)} {origin=fixed_domain}
+[20.0000] pickup :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#41#50=10.000(1.000),FACLEX#TMP#50=0.000(0.100),FACLEX#XEME#41=10.000(1.000)} {origin=fixed_domain}
+[20.0000] pickup :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#45#6=10.000(1.000),FACLEX#TMP#6=0.000(0.100),FACLEX#XEME#45=10.000(1.000)} {origin=fixed_domain}
+[20.0000] pickup :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (pickup:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#47#42=10.000(1.000),FACLEX#TMP#42=0.000(0.100),FACLEX#XEME#47=10.000(1.000)} {origin=fixed_domain}
+[20.0000] pickup :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#41#17=10.000(1.000),FACLEX#TMP#17=0.000(0.100),FACLEX#XEME#41=10.000(1.000)} {origin=fixed_domain}
+[20.0000] pickup :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#23#62=10.000(1.000),FACLEX#TMP#62=0.000(0.100),FACLEX#XEME#23=10.000(1.000)} {origin=fixed_domain}
+[20.0000] pickup :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#30#13=10.000(1.000),FACLEX#TMP#13=0.000(0.100),FACLEX#XEME#30=10.000(1.000)} {origin=fixed_domain}
+[20.0000] pickup :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#39#19=10.000(1.000),FACLEX#TMP#19=0.000(0.100),FACLEX#XEME#39=10.000(1.000)} {origin=fixed_domain}
+[20.0000] pickup :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#1#11=10.000(1.000),FACLEX#TMP#11=0.000(0.100),FACLEX#XEME#1=10.000(1.000)} {origin=fixed_domain}
+[20.0000] pickup :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#0#31=10.000(1.000),FACLEX#TMP#31=0.000(0.100),FACLEX#XEME#0=10.000(1.000)} {origin=fixed_domain}
+[20.0000] pickup :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#14#27=10.000(1.000),FACLEX#TMP#27=0.000(0.100),FACLEX#XEME#14=10.000(1.000)} {origin=fixed_domain}
+[20.0000] pickup :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#38#7=10.000(1.000),FACLEX#TMP#7=0.000(0.100),FACLEX#XEME#38=10.000(1.000)} {origin=fixed_domain}
+[20.0000] pickup :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#24#14=10.000(1.000),FACLEX#TMP#14=0.000(0.100),FACLEX#XEME#24=10.000(1.000)} {origin=fixed_domain}
+[20.0000] pickup :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#14#8=10.000(1.000),FACLEX#TMP#8=0.000(0.100),FACLEX#XEME#14=10.000(1.000)} {origin=fixed_domain}
+[20.0000] pickup :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#53#44=10.000(1.000),FACLEX#TMP#44=0.000(0.100),FACLEX#XEME#53=10.000(1.000)} {origin=fixed_domain}
+[20.0000] pickup :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#55#61=10.000(1.000),FACLEX#TMP#61=0.000(0.100),FACLEX#XEME#55=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#0#0=0.000(1.000),FACLEX#TMP#0=0.000(0.100),FACLEX#XEME#0=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- N : (lambda $0:e (self:<e,t> $0)) {FACLEX#LEX#1#1=0.000(1.000),FACLEX#TMP#1=0.000(0.100),FACLEX#XEME#1=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#14#12=0.000(1.000),FACLEX#TMP#12=0.000(0.100),FACLEX#XEME#14=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#1#18=0.0(1.000),FACLEX#TMP#18=0.000(0.100),FACLEX#XEME#1=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> ($0 $1) (self:<e,t> $1)))) {FACLEX#LEX#1#2=0.0(1.000),FACLEX#TMP#2=0.000(0.100),FACLEX#XEME#1=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#24#26=0.000(1.000),FACLEX#TMP#26=0.000(0.100),FACLEX#XEME#24=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (obj:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#30#36=0.000(1.000),FACLEX#TMP#36=0.000(0.100),FACLEX#XEME#30=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#30#37=0.000(1.000),FACLEX#TMP#37=0.000(0.100),FACLEX#XEME#30=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#14#24=0.0(1.000),FACLEX#TMP#24=0.000(0.100),FACLEX#XEME#14=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- NP/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> ($0 $1) (self:<e,t> $1)))) {FACLEX#LEX#1#32=0.0(1.000),FACLEX#TMP#32=0.000(0.100),FACLEX#XEME#1=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#0#46=0.000(1.000),FACLEX#TMP#46=0.000(0.100),FACLEX#XEME#0=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#38#49=0.000(1.000),FACLEX#TMP#49=0.000(0.100),FACLEX#XEME#38=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (actor:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#39#50=0.000(1.000),FACLEX#TMP#50=0.000(0.100),FACLEX#XEME#39=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (actor:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#14#13=0.0(1.000),FACLEX#TMP#13=0.000(0.100),FACLEX#XEME#14=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#14#53=0.000(1.000),FACLEX#TMP#53=0.000(0.100),FACLEX#XEME#14=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#39#54=0.000(1.000),FACLEX#TMP#54=0.000(0.100),FACLEX#XEME#39=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (pickup:<a,t> $1) (actor:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#0#56=0.000(1.000),FACLEX#TMP#56=0.000(0.100),FACLEX#XEME#0=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#30#8=0.0(1.000),FACLEX#TMP#8=0.000(0.100),FACLEX#XEME#30=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (obj:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (actor:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#24#29=0.0(1.000),FACLEX#TMP#29=0.000(0.100),FACLEX#XEME#24=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#1#15=0.0(1.000),FACLEX#TMP#15=0.000(0.100),FACLEX#XEME#1=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#30#4=0.0(1.000),FACLEX#TMP#4=0.000(0.100),FACLEX#XEME#30=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S\S : (lambda $0:<a,t> (lambda $1:a (and:<t*,t> (manner:<a,<<a,t>,t>> $1 (lambda $2:a (pickup:<a,t> $2))) ($0 $1)))) {FACLEX#LEX#23#23=0.0(1.000),FACLEX#TMP#23=0.000(0.100),FACLEX#XEME#23=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#38#29=0.0(1.000),FACLEX#TMP#29=0.000(0.100),FACLEX#XEME#38=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (obj:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#30#16=0.0(1.000),FACLEX#TMP#16=0.000(0.100),FACLEX#XEME#30=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (actor:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#14#37=0.0(1.000),FACLEX#TMP#37=0.000(0.100),FACLEX#XEME#14=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (actor:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#39#45=0.0(1.000),FACLEX#TMP#45=0.000(0.100),FACLEX#XEME#39=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (actor:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#14#4=0.0(1.000),FACLEX#TMP#4=0.000(0.100),FACLEX#XEME#14=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#30#12=0.0(1.000),FACLEX#TMP#12=0.000(0.100),FACLEX#XEME#30=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#45#57=0.0(1.000),FACLEX#TMP#57=0.000(0.100),FACLEX#XEME#45=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (obj:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (actor:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#24#7=0.0(1.000),FACLEX#TMP#7=0.000(0.100),FACLEX#XEME#24=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (obj:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (actor:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#24#49=0.0(1.000),FACLEX#TMP#49=0.000(0.100),FACLEX#XEME#24=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (pickup:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#47#47=0.0(1.000),FACLEX#TMP#47=0.000(0.100),FACLEX#XEME#47=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (pickup:<a,t> $1) (actor:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#0#55=0.0(1.000),FACLEX#TMP#55=0.000(0.100),FACLEX#XEME#0=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- N/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (self:<e,t> $1) ($0 $1)))) {FACLEX#LEX#1#3=0.0(1.000),FACLEX#TMP#3=0.000(0.100),FACLEX#XEME#1=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (obj:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#38#26=0.0(1.000),FACLEX#TMP#26=0.000(0.100),FACLEX#XEME#38=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (actor:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#39#10=0.0(1.000),FACLEX#TMP#10=0.000(0.100),FACLEX#XEME#39=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#14#16=0.0(1.000),FACLEX#TMP#16=0.000(0.100),FACLEX#XEME#14=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (obj:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (actor:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#24#35=0.0(1.000),FACLEX#TMP#35=0.000(0.100),FACLEX#XEME#24=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (pickup:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#23#39=0.0(1.000),FACLEX#TMP#39=0.000(0.100),FACLEX#XEME#23=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (obj:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#30#27=0.0(1.000),FACLEX#TMP#27=0.000(0.100),FACLEX#XEME#30=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (obj:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#38#66=0.000(1.000),FACLEX#TMP#66=0.000(0.100),FACLEX#XEME#38=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (self:<e,t> $1) ($0 $1)))) {FACLEX#LEX#1#9=0.0(1.000),FACLEX#TMP#9=0.000(0.100),FACLEX#XEME#1=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- NP/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (self:<e,t> $1) ($0 $1)))) {FACLEX#LEX#1#34=0.0(1.000),FACLEX#TMP#34=0.000(0.100),FACLEX#XEME#1=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#14#21=0.0(1.000),FACLEX#TMP#21=0.000(0.100),FACLEX#XEME#14=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#14#36=0.0(1.000),FACLEX#TMP#36=0.000(0.100),FACLEX#XEME#14=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#30#52=0.0(1.000),FACLEX#TMP#52=0.000(0.100),FACLEX#XEME#30=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#30#53=0.0(1.000),FACLEX#TMP#53=0.000(0.100),FACLEX#XEME#30=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#53#58=0.000(1.000),FACLEX#TMP#58=0.000(0.100),FACLEX#XEME#53=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (actor:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#39#17=0.0(1.000),FACLEX#TMP#17=0.000(0.100),FACLEX#XEME#39=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#45#64=0.0(1.000),FACLEX#TMP#64=0.000(0.100),FACLEX#XEME#45=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (actor:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#14#30=0.0(1.000),FACLEX#TMP#30=0.000(0.100),FACLEX#XEME#14=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#0#67=0.0(1.000),FACLEX#TMP#67=0.000(0.100),FACLEX#XEME#0=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (actor:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#38#14=0.0(1.000),FACLEX#TMP#14=0.000(0.100),FACLEX#XEME#38=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#30#30=0.0(1.000),FACLEX#TMP#30=0.000(0.100),FACLEX#XEME#30=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#29#28=0.0(1.000),FACLEX#TMP#28=0.000(0.100),FACLEX#XEME#29=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S/S : (lambda $0:<a,t> (lambda $1:a (and:<t*,t> (manner:<a,<<a,t>,t>> $1 (lambda $2:a (pickup:<a,t> $2))) ($0 $1)))) {FACLEX#LEX#23#48=0.0(1.000),FACLEX#TMP#48=0.000(0.100),FACLEX#XEME#23=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#24#66=0.0(1.000),FACLEX#TMP#66=0.000(0.100),FACLEX#XEME#24=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#1#22=0.0(1.000),FACLEX#TMP#22=0.000(0.100),FACLEX#XEME#1=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (obj:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#30#24=0.0(1.000),FACLEX#TMP#24=0.000(0.100),FACLEX#XEME#30=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#30#21=0.0(1.000),FACLEX#TMP#21=0.000(0.100),FACLEX#XEME#30=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#55#59=0.000(1.000),FACLEX#TMP#59=0.000(0.100),FACLEX#XEME#55=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (obj:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#30#51=0.0(1.000),FACLEX#TMP#51=0.000(0.100),FACLEX#XEME#30=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#38#35=0.0(1.000),FACLEX#TMP#35=0.000(0.100),FACLEX#XEME#38=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (obj:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#41#19=0.0(1.000),FACLEX#TMP#19=0.000(0.100),FACLEX#XEME#41=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#41#10=0.0(1.000),FACLEX#TMP#10=0.000(0.100),FACLEX#XEME#41=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#41#45=0.0(1.000),FACLEX#TMP#45=0.000(0.100),FACLEX#XEME#41=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#55#63=0.0(1.000),FACLEX#TMP#63=0.000(0.100),FACLEX#XEME#55=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (actor:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#14#40=0.0(1.000),FACLEX#TMP#40=0.000(0.100),FACLEX#XEME#14=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#14#51=0.0(1.000),FACLEX#TMP#51=0.000(0.100),FACLEX#XEME#14=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#24#43=0.0(1.000),FACLEX#TMP#43=0.000(0.100),FACLEX#XEME#24=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (obj:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#30#38=0.0(1.000),FACLEX#TMP#38=0.000(0.100),FACLEX#XEME#30=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (actor:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#14#52=0.0(1.000),FACLEX#TMP#52=0.000(0.100),FACLEX#XEME#14=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (obj:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#41#54=0.0(1.000),FACLEX#TMP#54=0.000(0.100),FACLEX#XEME#41=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (actor:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#38#43=0.0(1.000),FACLEX#TMP#43=0.000(0.100),FACLEX#XEME#38=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#45#41=0.0(1.000),FACLEX#TMP#41=0.000(0.100),FACLEX#XEME#45=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#55#20=0.0(1.000),FACLEX#TMP#20=0.000(0.100),FACLEX#XEME#55=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#14#38=0.0(1.000),FACLEX#TMP#38=0.000(0.100),FACLEX#XEME#14=10.000(1.000)} {origin=fixed_domain}
+[10.0000] pickup :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#23#5=0.0(1.000),FACLEX#TMP#5=0.000(0.100),FACLEX#XEME#23=10.000(1.000)} {origin=fixed_domain}
+[20.0000] ball :- N : (lambda $0:e (ball:<e,t> $0)) {FACLEX#LEX#12#1=10.000(1.000),FACLEX#TMP#1=0.000(0.100),FACLEX#XEME#12=10.000(1.000)} {origin=fixed_domain}
+[10.0000] ball :- N/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (ball:<e,t> $1) ($0 $1)))) {FACLEX#LEX#12#3=0.000(1.000),FACLEX#TMP#3=0.000(0.100),FACLEX#XEME#12=10.000(1.000)} {origin=fixed_domain}
+[10.0000] ball :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (ball:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#12#15=0.0(1.000),FACLEX#TMP#15=0.000(0.100),FACLEX#XEME#12=10.000(1.000)} {origin=fixed_domain}
+[10.0000] ball :- S/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (ball:<e,t> $1) ($0 $1)))) {FACLEX#LEX#12#9=0.0(1.000),FACLEX#TMP#9=0.000(0.100),FACLEX#XEME#12=10.000(1.000)} {origin=fixed_domain}
+[10.0000] ball :- S/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> ($0 $1) (ball:<e,t> $1)))) {FACLEX#LEX#12#2=0.0(1.000),FACLEX#TMP#2=0.000(0.100),FACLEX#XEME#12=10.000(1.000)} {origin=fixed_domain}
+[10.0000] ball :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (ball:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#12#22=0.0(1.000),FACLEX#TMP#22=0.000(0.100),FACLEX#XEME#12=10.000(1.000)} {origin=fixed_domain}
+[10.0000] ball :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (ball:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#12#18=0.0(1.000),FACLEX#TMP#18=0.000(0.100),FACLEX#XEME#12=10.000(1.000)} {origin=fixed_domain}
+[10.0000] ball :- NP/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> ($0 $1) (ball:<e,t> $1)))) {FACLEX#LEX#12#32=0.0(1.000),FACLEX#TMP#32=0.000(0.100),FACLEX#XEME#12=10.000(1.000)} {origin=fixed_domain}
+[10.0000] ball :- NP/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (ball:<e,t> $1) ($0 $1)))) {FACLEX#LEX#12#34=0.0(1.000),FACLEX#TMP#34=0.000(0.100),FACLEX#XEME#12=10.000(1.000)} {origin=fixed_domain}
+[10.0000] ball :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (ball:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#12#11=0.0(1.000),FACLEX#TMP#11=0.000(0.100),FACLEX#XEME#12=10.000(1.000)} {origin=fixed_domain}
+[20.0000] obj :- N : (lambda $0:e (obj:<e,t> $0)) {FACLEX#LEX#3#1=10.000(1.000),FACLEX#TMP#1=0.000(0.100),FACLEX#XEME#3=10.000(1.000)} {origin=fixed_domain}
+[10.0000] obj :- N/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (obj:<e,t> $1) ($0 $1)))) {FACLEX#LEX#3#3=0.000(1.000),FACLEX#TMP#3=0.000(0.100),FACLEX#XEME#3=10.000(1.000)} {origin=fixed_domain}
+[10.0000] obj :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (obj:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#3#11=0.0(1.000),FACLEX#TMP#11=0.000(0.100),FACLEX#XEME#3=10.000(1.000)} {origin=fixed_domain}
+[10.0000] obj :- NP/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> ($0 $1) (obj:<e,t> $1)))) {FACLEX#LEX#3#32=0.0(1.000),FACLEX#TMP#32=0.000(0.100),FACLEX#XEME#3=10.000(1.000)} {origin=fixed_domain}
+[10.0000] obj :- S/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> ($0 $1) (obj:<e,t> $1)))) {FACLEX#LEX#3#2=0.0(1.000),FACLEX#TMP#2=0.000(0.100),FACLEX#XEME#3=10.000(1.000)} {origin=fixed_domain}
+[10.0000] obj :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (obj:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#3#15=0.0(1.000),FACLEX#TMP#15=0.000(0.100),FACLEX#XEME#3=10.000(1.000)} {origin=fixed_domain}
+[10.0000] obj :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (obj:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#3#18=0.0(1.000),FACLEX#TMP#18=0.000(0.100),FACLEX#XEME#3=10.000(1.000)} {origin=fixed_domain}
+[10.0000] obj :- NP/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (obj:<e,t> $1) ($0 $1)))) {FACLEX#LEX#3#34=0.0(1.000),FACLEX#TMP#34=0.000(0.100),FACLEX#XEME#3=10.000(1.000)} {origin=fixed_domain}
+[10.0000] obj :- S/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (obj:<e,t> $1) ($0 $1)))) {FACLEX#LEX#3#9=0.0(1.000),FACLEX#TMP#9=0.000(0.100),FACLEX#XEME#3=10.000(1.000)} {origin=fixed_domain}
+[10.0000] obj :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (obj:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#3#22=0.0(1.000),FACLEX#TMP#22=0.000(0.100),FACLEX#XEME#3=10.000(1.000)} {origin=fixed_domain}
+[20.0000] knife :- N : (lambda $0:e (knife:<e,t> $0)) {FACLEX#LEX#10#1=10.000(1.000),FACLEX#TMP#1=0.000(0.100),FACLEX#XEME#10=10.000(1.000)} {origin=fixed_domain}
+[20.0000] knife :- NP : knife:e {FACLEX#LEX#60#76=10.000(1.000),FACLEX#TMP#76=0.000(0.100),FACLEX#XEME#60=10.000(1.000)} {origin=fixed_domain}
+[10.0000] knife :- S/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (knife:<e,t> $1) ($0 $1)))) {FACLEX#LEX#10#9=0.000(1.000),FACLEX#TMP#9=0.000(0.100),FACLEX#XEME#10=10.000(1.000)} {origin=fixed_domain}
+[10.0000] knife :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (knife:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#10#18=0.000(1.000),FACLEX#TMP#18=0.000(0.100),FACLEX#XEME#10=10.000(1.000)} {origin=fixed_domain}
+[10.0000] knife :- NP/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (knife:<e,t> $1) ($0 $1)))) {FACLEX#LEX#10#34=0.000(1.000),FACLEX#TMP#34=0.000(0.100),FACLEX#XEME#10=10.000(1.000)} {origin=fixed_domain}
+[10.0000] knife :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (knife:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#10#11=0.0(1.000),FACLEX#TMP#11=0.000(0.100),FACLEX#XEME#10=10.000(1.000)} {origin=fixed_domain}
+[10.0000] knife :- NP/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> ($0 $1) (knife:<e,t> $1)))) {FACLEX#LEX#10#32=0.0(1.000),FACLEX#TMP#32=0.000(0.100),FACLEX#XEME#10=10.000(1.000)} {origin=fixed_domain}
+[10.0000] knife :- S/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> ($0 $1) (knife:<e,t> $1)))) {FACLEX#LEX#10#2=0.0(1.000),FACLEX#TMP#2=0.000(0.100),FACLEX#XEME#10=10.000(1.000)} {origin=fixed_domain}
+[10.0000] knife :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (knife:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#10#22=0.0(1.000),FACLEX#TMP#22=0.000(0.100),FACLEX#XEME#10=10.000(1.000)} {origin=fixed_domain}
+[10.0000] knife :- N/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (knife:<e,t> $1) ($0 $1)))) {FACLEX#LEX#10#3=0.0(1.000),FACLEX#TMP#3=0.000(0.100),FACLEX#XEME#10=10.000(1.000)} {origin=fixed_domain}
+[10.0000] knife :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (knife:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#10#15=0.0(1.000),FACLEX#TMP#15=0.000(0.100),FACLEX#XEME#10=10.000(1.000)} {origin=fixed_domain}
+[20.0000] and :- C : conj:c {FACLEX#LEX#48#60=10.000(1.000),FACLEX#TMP#60=0.000(0.100),FACLEX#XEME#48=10.000(1.000)} {origin=fixed_domain}
+[20.0000] blue :- S/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> ($0 $1) (blue:<e,t> $1)))) {FACLEX#LEX#42#2=10.000(1.000),FACLEX#TMP#2=0.000(0.100),FACLEX#XEME#42=10.000(1.000)} {origin=fixed_domain}
+[20.0000] blue :- S/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (blue:<e,t> $1) ($0 $1)))) {FACLEX#LEX#42#9=10.000(1.000),FACLEX#TMP#9=0.000(0.100),FACLEX#XEME#42=10.000(1.000)} {origin=fixed_domain}
+[10.0000] blue :- N/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (blue:<e,t> $1) ($0 $1)))) {FACLEX#LEX#42#3=0.000(1.000),FACLEX#TMP#3=0.000(0.100),FACLEX#XEME#42=10.000(1.000)} {origin=fixed_domain}
+[10.0000] blue :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (blue:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#42#15=0.0(1.000),FACLEX#TMP#15=0.000(0.100),FACLEX#XEME#42=10.000(1.000)} {origin=fixed_domain}
+[10.0000] blue :- NP/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> ($0 $1) (blue:<e,t> $1)))) {FACLEX#LEX#42#32=0.0(1.000),FACLEX#TMP#32=0.000(0.100),FACLEX#XEME#42=10.000(1.000)} {origin=fixed_domain}
+[10.0000] blue :- NP/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (blue:<e,t> $1) ($0 $1)))) {FACLEX#LEX#42#34=0.0(1.000),FACLEX#TMP#34=0.000(0.100),FACLEX#XEME#42=10.000(1.000)} {origin=fixed_domain}
+[10.0000] blue :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (blue:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#42#11=0.0(1.000),FACLEX#TMP#11=0.000(0.100),FACLEX#XEME#42=10.000(1.000)} {origin=fixed_domain}
+[10.0000] blue :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (blue:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#42#22=0.0(1.000),FACLEX#TMP#22=0.000(0.100),FACLEX#XEME#42=10.000(1.000)} {origin=fixed_domain}
+[10.0000] blue :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (blue:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#42#18=0.0(1.000),FACLEX#TMP#18=0.000(0.100),FACLEX#XEME#42=10.000(1.000)} {origin=fixed_domain}
+[10.0000] blue :- N : (lambda $0:e (blue:<e,t> $0)) {FACLEX#LEX#42#1=0.0(1.000),FACLEX#TMP#1=0.000(0.100),FACLEX#XEME#42=10.000(1.000)} {origin=fixed_domain}
+[20.0000] throw :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#15#24=10.000(1.000),FACLEX#TMP#24=0.000(0.100),FACLEX#XEME#15=10.000(1.000)} {origin=fixed_domain}
+[20.0000] throw :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#15#38=10.000(1.000),FACLEX#TMP#38=0.000(0.100),FACLEX#XEME#15=10.000(1.000)} {origin=fixed_domain}
+[20.0000] throw :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#9#37=10.000(1.000),FACLEX#TMP#37=0.000(0.100),FACLEX#XEME#9=10.000(1.000)} {origin=fixed_domain}
+[20.0000] throw :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#36#47=10.000(1.000),FACLEX#TMP#47=0.000(0.100),FACLEX#XEME#36=10.000(1.000)} {origin=fixed_domain}
+[20.0000] throw :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#43#0=10.000(1.000),FACLEX#TMP#0=0.000(0.100),FACLEX#XEME#43=10.000(1.000)} {origin=fixed_domain}
+[20.0000] throw :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#43#55=10.000(1.000),FACLEX#TMP#55=0.000(0.100),FACLEX#XEME#43=10.000(1.000)} {origin=fixed_domain}
+[20.0000] throw :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#19#18=10.000(1.000),FACLEX#TMP#18=0.000(0.100),FACLEX#XEME#19=10.000(1.000)} {origin=fixed_domain}
+[20.0000] throw :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#36#42=10.000(1.000),FACLEX#TMP#42=0.000(0.100),FACLEX#XEME#36=10.000(1.000)} {origin=fixed_domain}
+[20.0000] throw :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#9#30=10.000(1.000),FACLEX#TMP#30=0.000(0.100),FACLEX#XEME#9=10.000(1.000)} {origin=fixed_domain}
+[20.0000] throw :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#46#59=10.000(1.000),FACLEX#TMP#59=0.000(0.100),FACLEX#XEME#46=10.000(1.000)} {origin=fixed_domain}
+[20.0000] throw :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (throw:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#37#5=10.000(1.000),FACLEX#TMP#5=0.000(0.100),FACLEX#XEME#37=10.000(1.000)} {origin=fixed_domain}
+[20.0000] throw :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#6#41=10.000(1.000),FACLEX#TMP#41=0.000(0.100),FACLEX#XEME#6=10.000(1.000)} {origin=fixed_domain}
+[20.0000] throw :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#6#64=10.000(1.000),FACLEX#TMP#64=0.000(0.100),FACLEX#XEME#6=10.000(1.000)} {origin=fixed_domain}
+[20.0000] throw :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#15#36=10.000(1.000),FACLEX#TMP#36=0.000(0.100),FACLEX#XEME#15=10.000(1.000)} {origin=fixed_domain}
+[20.0000] throw :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#44#66=10.000(1.000),FACLEX#TMP#66=0.000(0.100),FACLEX#XEME#44=10.000(1.000)} {origin=fixed_domain}
+[20.0000] throw :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#43#67=10.000(1.000),FACLEX#TMP#67=0.000(0.100),FACLEX#XEME#43=10.000(1.000)} {origin=fixed_domain}
+[20.0000] throw :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#46#20=10.000(1.000),FACLEX#TMP#20=0.000(0.100),FACLEX#XEME#46=10.000(1.000)} {origin=fixed_domain}
+[20.0000] throw :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#54#68=10.000(1.000),FACLEX#TMP#68=0.000(0.100),FACLEX#XEME#54=10.000(1.000)} {origin=fixed_domain}
+[20.0000] throw :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#15#51=10.000(1.000),FACLEX#TMP#51=0.000(0.100),FACLEX#XEME#15=10.000(1.000)} {origin=fixed_domain}
+[20.0000] throw :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (throw:<a,t> $1)))) {FACLEX#LEX#37#62=10.000(1.000),FACLEX#TMP#62=0.000(0.100),FACLEX#XEME#37=10.000(1.000)} {origin=fixed_domain}
+[20.0000] throw :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#37#25=10.000(1.000),FACLEX#TMP#25=0.000(0.100),FACLEX#XEME#37=10.000(1.000)} {origin=fixed_domain}
+[20.0000] throw :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#33#29=10.000(1.000),FACLEX#TMP#29=0.000(0.100),FACLEX#XEME#33=10.000(1.000)} {origin=fixed_domain}
+[20.0000] throw :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#54#69=10.000(1.000),FACLEX#TMP#69=0.000(0.100),FACLEX#XEME#54=10.000(1.000)} {origin=fixed_domain}
+[20.0000] throw :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#58#71=10.000(1.000),FACLEX#TMP#71=0.000(0.100),FACLEX#XEME#58=10.000(1.000)} {origin=fixed_domain}
+[20.0000] throw :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (throw:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#7#46=10.000(1.000),FACLEX#TMP#46=0.000(0.100),FACLEX#XEME#7=10.000(1.000)} {origin=fixed_domain}
+[20.0000] throw :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#58#72=10.000(1.000),FACLEX#TMP#72=0.000(0.100),FACLEX#XEME#58=10.000(1.000)} {origin=fixed_domain}
+[20.0000] throw :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#43#56=10.000(1.000),FACLEX#TMP#56=0.000(0.100),FACLEX#XEME#43=10.000(1.000)} {origin=fixed_domain}
+[20.0000] throw :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#19#22=10.000(1.000),FACLEX#TMP#22=0.000(0.100),FACLEX#XEME#19=10.000(1.000)} {origin=fixed_domain}
+[20.0000] throw :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (throw:<a,t> $1)))) {FACLEX#LEX#49#54=10.000(1.000),FACLEX#TMP#54=0.000(0.100),FACLEX#XEME#49=10.000(1.000)} {origin=fixed_domain}
+[20.0000] throw :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#33#49=10.000(1.000),FACLEX#TMP#49=0.000(0.100),FACLEX#XEME#33=10.000(1.000)} {origin=fixed_domain}
+[20.0000] throw :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#9#21=10.000(1.000),FACLEX#TMP#21=0.000(0.100),FACLEX#XEME#9=10.000(1.000)} {origin=fixed_domain}
+[20.0000] throw :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#37#39=10.000(1.000),FACLEX#TMP#39=0.000(0.100),FACLEX#XEME#37=10.000(1.000)} {origin=fixed_domain}
+[20.0000] throw :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (throw:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#7#31=10.000(1.000),FACLEX#TMP#31=0.000(0.100),FACLEX#XEME#7=10.000(1.000)} {origin=fixed_domain}
+[20.0000] throw :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (throw:<a,t> $1)))) {FACLEX#LEX#49#19=10.000(1.000),FACLEX#TMP#19=0.000(0.100),FACLEX#XEME#49=10.000(1.000)} {origin=fixed_domain}
+[20.0000] throw :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#9#12=10.000(1.000),FACLEX#TMP#12=0.000(0.100),FACLEX#XEME#9=10.000(1.000)} {origin=fixed_domain}
+[20.0000] throw :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#44#26=10.000(1.000),FACLEX#TMP#26=0.000(0.100),FACLEX#XEME#44=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#6#6=0.000(1.000),FACLEX#TMP#6=0.000(0.100),FACLEX#XEME#6=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#7#0=0.000(1.000),FACLEX#TMP#0=0.000(0.100),FACLEX#XEME#7=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#9#8=0.000(1.000),FACLEX#TMP#8=0.000(0.100),FACLEX#XEME#9=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (actor:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#15#13=0.000(1.000),FACLEX#TMP#13=0.000(0.100),FACLEX#XEME#15=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#15#16=0.000(1.000),FACLEX#TMP#16=0.000(0.100),FACLEX#XEME#15=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- N : (lambda $0:e (self:<e,t> $0)) {FACLEX#LEX#19#1=0.000(1.000),FACLEX#TMP#1=0.000(0.100),FACLEX#XEME#19=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> ($0 $1) (self:<e,t> $1)))) {FACLEX#LEX#19#2=0.0(1.000),FACLEX#TMP#2=0.000(0.100),FACLEX#XEME#19=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (obj:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#33#26=0.000(1.000),FACLEX#TMP#26=0.000(0.100),FACLEX#XEME#33=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (actor:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#33#43=0.000(1.000),FACLEX#TMP#43=0.000(0.100),FACLEX#XEME#33=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S/S : (lambda $0:<a,t> (lambda $1:a (and:<t*,t> (manner:<a,<<a,t>,t>> $1 (lambda $2:a (throw:<a,t> $2))) ($0 $1)))) {FACLEX#LEX#37#48=0.000(1.000),FACLEX#TMP#48=0.000(0.100),FACLEX#XEME#37=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#33#35=0.0(1.000),FACLEX#TMP#35=0.000(0.100),FACLEX#XEME#33=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (actor:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#7#55=0.000(1.000),FACLEX#TMP#55=0.000(0.100),FACLEX#XEME#7=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (obj:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (actor:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#44#7=0.000(1.000),FACLEX#TMP#7=0.000(0.100),FACLEX#XEME#44=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (actor:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#15#40=0.0(1.000),FACLEX#TMP#40=0.000(0.100),FACLEX#XEME#15=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (actor:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#15#37=0.0(1.000),FACLEX#TMP#37=0.000(0.100),FACLEX#XEME#15=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (throw:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#43#46=0.0(1.000),FACLEX#TMP#46=0.000(0.100),FACLEX#XEME#43=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- NP/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> ($0 $1) (self:<e,t> $1)))) {FACLEX#LEX#19#32=0.0(1.000),FACLEX#TMP#32=0.000(0.100),FACLEX#XEME#19=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#46#61=0.000(1.000),FACLEX#TMP#61=0.000(0.100),FACLEX#XEME#46=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (obj:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (actor:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#44#29=0.0(1.000),FACLEX#TMP#29=0.000(0.100),FACLEX#XEME#44=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (actor:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#15#52=0.0(1.000),FACLEX#TMP#52=0.000(0.100),FACLEX#XEME#15=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S\S : (lambda $0:<a,t> (lambda $1:a (and:<t*,t> (manner:<a,<<a,t>,t>> $1 (lambda $2:a (throw:<a,t> $2))) ($0 $1)))) {FACLEX#LEX#37#23=0.0(1.000),FACLEX#TMP#23=0.000(0.100),FACLEX#XEME#37=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (actor:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (throw:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#49#45=0.000(1.000),FACLEX#TMP#45=0.000(0.100),FACLEX#XEME#49=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#9#40=0.0(1.000),FACLEX#TMP#40=0.000(0.100),FACLEX#XEME#9=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#15#53=0.0(1.000),FACLEX#TMP#53=0.000(0.100),FACLEX#XEME#15=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#15#12=0.0(1.000),FACLEX#TMP#12=0.000(0.100),FACLEX#XEME#15=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#44#43=0.0(1.000),FACLEX#TMP#43=0.000(0.100),FACLEX#XEME#44=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (throw:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#43#31=0.0(1.000),FACLEX#TMP#31=0.000(0.100),FACLEX#XEME#43=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (actor:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (throw:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#49#17=0.0(1.000),FACLEX#TMP#17=0.000(0.100),FACLEX#XEME#49=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#46#63=0.0(1.000),FACLEX#TMP#63=0.000(0.100),FACLEX#XEME#46=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#15#21=0.0(1.000),FACLEX#TMP#21=0.000(0.100),FACLEX#XEME#15=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (obj:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#33#66=0.0(1.000),FACLEX#TMP#66=0.000(0.100),FACLEX#XEME#33=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (actor:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (throw:<a,t> $1)))) {FACLEX#LEX#49#10=0.0(1.000),FACLEX#TMP#10=0.000(0.100),FACLEX#XEME#49=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#15#8=0.0(1.000),FACLEX#TMP#8=0.000(0.100),FACLEX#XEME#15=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (actor:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#33#14=0.0(1.000),FACLEX#TMP#14=0.000(0.100),FACLEX#XEME#33=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#15#27=0.0(1.000),FACLEX#TMP#27=0.000(0.100),FACLEX#XEME#15=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (obj:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#9#27=0.0(1.000),FACLEX#TMP#27=0.000(0.100),FACLEX#XEME#9=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#9#13=0.0(1.000),FACLEX#TMP#13=0.000(0.100),FACLEX#XEME#9=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (actor:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#7#56=0.0(1.000),FACLEX#TMP#56=0.000(0.100),FACLEX#XEME#7=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (actor:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#15#30=0.0(1.000),FACLEX#TMP#30=0.000(0.100),FACLEX#XEME#15=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (actor:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#15#4=0.0(1.000),FACLEX#TMP#4=0.000(0.100),FACLEX#XEME#15=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#7#67=0.0(1.000),FACLEX#TMP#67=0.000(0.100),FACLEX#XEME#7=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#33#7=0.0(1.000),FACLEX#TMP#7=0.000(0.100),FACLEX#XEME#33=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#44#14=0.0(1.000),FACLEX#TMP#14=0.000(0.100),FACLEX#XEME#44=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (obj:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#9#38=0.0(1.000),FACLEX#TMP#38=0.000(0.100),FACLEX#XEME#9=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (obj:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (actor:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#44#49=0.0(1.000),FACLEX#TMP#49=0.000(0.100),FACLEX#XEME#44=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#9#52=0.0(1.000),FACLEX#TMP#52=0.000(0.100),FACLEX#XEME#9=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (self:<e,t> $1) ($0 $1)))) {FACLEX#LEX#19#9=0.0(1.000),FACLEX#TMP#9=0.000(0.100),FACLEX#XEME#19=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#9#53=0.0(1.000),FACLEX#TMP#53=0.000(0.100),FACLEX#XEME#9=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- NP/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (self:<e,t> $1) ($0 $1)))) {FACLEX#LEX#19#34=0.0(1.000),FACLEX#TMP#34=0.000(0.100),FACLEX#XEME#19=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#6#57=0.0(1.000),FACLEX#TMP#57=0.000(0.100),FACLEX#XEME#6=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#19#15=0.0(1.000),FACLEX#TMP#15=0.000(0.100),FACLEX#XEME#19=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (obj:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#9#51=0.0(1.000),FACLEX#TMP#51=0.000(0.100),FACLEX#XEME#9=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (obj:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#9#24=0.0(1.000),FACLEX#TMP#24=0.000(0.100),FACLEX#XEME#9=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (obj:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (actor:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#44#35=0.0(1.000),FACLEX#TMP#35=0.000(0.100),FACLEX#XEME#44=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- N/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (self:<e,t> $1) ($0 $1)))) {FACLEX#LEX#19#3=0.0(1.000),FACLEX#TMP#3=0.000(0.100),FACLEX#XEME#19=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#19#11=0.0(1.000),FACLEX#TMP#11=0.000(0.100),FACLEX#XEME#19=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S\N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (pickup:<a,t> $2) (actor:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#9#4=0.0(1.000),FACLEX#TMP#4=0.000(0.100),FACLEX#XEME#9=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S\N/NP : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $3:e ($0 $3))) (obj:<a,<<e,t>,t>> $2 (lambda $4:e ($1 $4))))))) {FACLEX#LEX#9#36=0.0(1.000),FACLEX#TMP#36=0.000(0.100),FACLEX#XEME#9=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (actor:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (throw:<a,t> $1)))) {FACLEX#LEX#49#50=0.0(1.000),FACLEX#TMP#50=0.000(0.100),FACLEX#XEME#49=10.000(1.000)} {origin=fixed_domain}
+[10.0000] throw :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (obj:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#9#16=0.0(1.000),FACLEX#TMP#16=0.000(0.100),FACLEX#XEME#9=10.000(1.000)} {origin=fixed_domain}
+[20.0000] you :- N : (lambda $0:e (self:<e,t> $0)) {FACLEX#LEX#40#1=10.000(1.000),FACLEX#TMP#1=0.000(0.100),FACLEX#XEME#40=10.000(1.000)} {origin=fixed_domain}
+[10.0000] you :- S/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (self:<e,t> $1) ($0 $1)))) {FACLEX#LEX#40#9=0.000(1.000),FACLEX#TMP#9=0.000(0.100),FACLEX#XEME#40=10.000(1.000)} {origin=fixed_domain}
+[10.0000] you :- NP/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (self:<e,t> $1) ($0 $1)))) {FACLEX#LEX#40#34=0.0(1.000),FACLEX#TMP#34=0.000(0.100),FACLEX#XEME#40=10.000(1.000)} {origin=fixed_domain}
+[10.0000] you :- NP/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> ($0 $1) (self:<e,t> $1)))) {FACLEX#LEX#40#32=0.0(1.000),FACLEX#TMP#32=0.000(0.100),FACLEX#XEME#40=10.000(1.000)} {origin=fixed_domain}
+[10.0000] you :- S/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> ($0 $1) (self:<e,t> $1)))) {FACLEX#LEX#40#2=0.0(1.000),FACLEX#TMP#2=0.000(0.100),FACLEX#XEME#40=10.000(1.000)} {origin=fixed_domain}
+[10.0000] you :- N/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (self:<e,t> $1) ($0 $1)))) {FACLEX#LEX#40#3=0.0(1.000),FACLEX#TMP#3=0.000(0.100),FACLEX#XEME#40=10.000(1.000)} {origin=fixed_domain}
+[10.0000] you :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#40#18=0.0(1.000),FACLEX#TMP#18=0.000(0.100),FACLEX#XEME#40=10.000(1.000)} {origin=fixed_domain}
+[10.0000] you :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#40#11=0.0(1.000),FACLEX#TMP#11=0.000(0.100),FACLEX#XEME#40=10.000(1.000)} {origin=fixed_domain}
+[10.0000] you :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#40#22=0.0(1.000),FACLEX#TMP#22=0.000(0.100),FACLEX#XEME#40=10.000(1.000)} {origin=fixed_domain}
+[10.0000] you :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (self:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#40#15=0.0(1.000),FACLEX#TMP#15=0.000(0.100),FACLEX#XEME#40=10.000(1.000)} {origin=fixed_domain}
+[20.0000] block :- NP : block:e {FACLEX#LEX#62#76=10.000(1.000),FACLEX#TMP#76=0.000(0.100),FACLEX#XEME#62=10.000(1.000)} {origin=fixed_domain}
+[20.0000] brad :- N : (lambda $0:e (brad:<e,t> $0)) {FACLEX#LEX#28#1=10.000(1.000),FACLEX#TMP#1=0.000(0.100),FACLEX#XEME#28=10.000(1.000)} {origin=fixed_domain}
+[10.0000] brad :- NP/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> ($0 $1) (brad:<e,t> $1)))) {FACLEX#LEX#28#32=0.000(1.000),FACLEX#TMP#32=0.000(0.100),FACLEX#XEME#28=10.000(1.000)} {origin=fixed_domain}
+[10.0000] brad :- S/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> ($0 $1) (brad:<e,t> $1)))) {FACLEX#LEX#28#2=0.0(1.000),FACLEX#TMP#2=0.000(0.100),FACLEX#XEME#28=10.000(1.000)} {origin=fixed_domain}
+[10.0000] brad :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (brad:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#28#18=0.0(1.000),FACLEX#TMP#18=0.000(0.100),FACLEX#XEME#28=10.000(1.000)} {origin=fixed_domain}
+[10.0000] brad :- S/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (brad:<e,t> $1) ($0 $1)))) {FACLEX#LEX#28#9=0.0(1.000),FACLEX#TMP#9=0.000(0.100),FACLEX#XEME#28=10.000(1.000)} {origin=fixed_domain}
+[10.0000] brad :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (brad:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#28#15=0.0(1.000),FACLEX#TMP#15=0.000(0.100),FACLEX#XEME#28=10.000(1.000)} {origin=fixed_domain}
+[10.0000] brad :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (brad:<e,t> $2))) (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3)))))) {FACLEX#LEX#28#22=0.0(1.000),FACLEX#TMP#22=0.000(0.100),FACLEX#XEME#28=10.000(1.000)} {origin=fixed_domain}
+[10.0000] brad :- N/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (brad:<e,t> $1) ($0 $1)))) {FACLEX#LEX#28#3=0.0(1.000),FACLEX#TMP#3=0.000(0.100),FACLEX#XEME#28=10.000(1.000)} {origin=fixed_domain}
+[10.0000] brad :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (actor:<a,<<e,t>,t>> $1 (lambda $2:e (brad:<e,t> $2))) (obj:<a,<<e,t>,t>> $1 (lambda $3:e ($0 $3))) (pickup:<a,t> $1)))) {FACLEX#LEX#28#11=0.0(1.000),FACLEX#TMP#11=0.000(0.100),FACLEX#XEME#28=10.000(1.000)} {origin=fixed_domain}
+[10.0000] brad :- NP/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (brad:<e,t> $1) ($0 $1)))) {FACLEX#LEX#28#34=0.0(1.000),FACLEX#TMP#34=0.000(0.100),FACLEX#XEME#28=10.000(1.000)} {origin=fixed_domain}
+[20.0000] a :- NP/N : (lambda $0:<e,t> (a:<<e,t>,e> (lambda $1:e ($0 $1)))) {FACLEX#LEX#59#73=10.000(1.000),FACLEX#TMP#73=0.000(0.100),FACLEX#XEME#59=10.000(1.000)} {origin=fixed_domain}
+Feature weights [319]:
 DYNSKIP=-1.0
 FACLEX#LEX#0#0=0.0
-FACLEX#LEX#0#6=10.0
-FACLEX#LEX#1#1=10.0
-FACLEX#LEX#10#8=10.684784973133395
-FACLEX#LEX#10#9=10.0
+FACLEX#LEX#0#31=10.0
+FACLEX#LEX#0#46=0.0
+FACLEX#LEX#0#56=0.0
+FACLEX#LEX#1#1=0.0
+FACLEX#LEX#1#11=10.0
+FACLEX#LEX#10#1=10.0
+FACLEX#LEX#10#18=0.0
+FACLEX#LEX#10#34=0.0
+FACLEX#LEX#10#9=0.0
 FACLEX#LEX#11#10=0.0
-FACLEX#LEX#11#2=10.0
-FACLEX#LEX#11#6=0.0
-FACLEX#LEX#11#7=-0.6847889783285874
-FACLEX#LEX#11#8=10.0
-FACLEX#LEX#11#9=0.6847259257380424
-FACLEX#LEX#12#10=10.0
-FACLEX#LEX#12#2=10.0
-FACLEX#LEX#12#7=10.0
-FACLEX#LEX#12#8=10.0
-FACLEX#LEX#13#11=10.0
-FACLEX#LEX#13#15=0.0
-FACLEX#LEX#14#5=10.0
-FACLEX#LEX#15#11=0.0
-FACLEX#LEX#15#15=10.0
-FACLEX#LEX#16#12=10.0
-FACLEX#LEX#17#13=10.0
-FACLEX#LEX#18#14=10.0
-FACLEX#LEX#19#5=10.0
-FACLEX#LEX#2#2=9.661838534685081
-FACLEX#LEX#20#5=10.0
-FACLEX#LEX#21#3=10.0
-FACLEX#LEX#22#16=10.0
-FACLEX#LEX#23#17=10.0
-FACLEX#LEX#24#18=10.0
-FACLEX#LEX#25#19=10.0
-FACLEX#LEX#26#20=10.0
-FACLEX#LEX#27#20=10.0
-FACLEX#LEX#28#20=10.0
-FACLEX#LEX#3#3=10.0
-FACLEX#LEX#4#3=10.0
-FACLEX#LEX#5#2=0.0
-FACLEX#LEX#5#6=10.0
-FACLEX#LEX#5#7=0.0
-FACLEX#LEX#6#4=9.653405172362461
-FACLEX#LEX#7#5=10.0
-FACLEX#LEX#8#0=10.0
-FACLEX#LEX#8#6=0.0
-FACLEX#LEX#9#6=10.0
+FACLEX#LEX#11#17=0.0
+FACLEX#LEX#11#19=21.435469250725863
+FACLEX#LEX#11#54=21.435469250725863
+FACLEX#LEX#12#1=10.0
+FACLEX#LEX#12#3=0.0
+FACLEX#LEX#13#11=21.435469250725863
+FACLEX#LEX#13#15=21.435469250725863
+FACLEX#LEX#14#12=0.0
+FACLEX#LEX#14#27=10.0
+FACLEX#LEX#14#53=0.0
+FACLEX#LEX#14#8=10.0
+FACLEX#LEX#15#13=0.0
+FACLEX#LEX#15#16=0.0
+FACLEX#LEX#15#24=10.0
+FACLEX#LEX#15#36=10.0
+FACLEX#LEX#15#38=10.0
+FACLEX#LEX#15#51=10.0
+FACLEX#LEX#16#1=10.0
+FACLEX#LEX#16#22=0.0
+FACLEX#LEX#16#3=0.0
+FACLEX#LEX#17#14=21.435469250725863
+FACLEX#LEX#17#29=0.0
+FACLEX#LEX#17#35=0.0
+FACLEX#LEX#17#43=21.435469250725863
+FACLEX#LEX#18#15=0.0
+FACLEX#LEX#18#2=10.0
+FACLEX#LEX#18#3=10.0
+FACLEX#LEX#18#34=10.0
+FACLEX#LEX#18#9=10.0
+FACLEX#LEX#19#1=0.0
+FACLEX#LEX#19#18=10.0
+FACLEX#LEX#19#22=10.0
+FACLEX#LEX#2#1=10.0
+FACLEX#LEX#2#2=0.0
+FACLEX#LEX#20#2=10.0
+FACLEX#LEX#20#32=10.0
+FACLEX#LEX#20#9=10.0
+FACLEX#LEX#21#20=0.0
+FACLEX#LEX#21#61=21.435469250725863
+FACLEX#LEX#21#63=21.435469250725863
+FACLEX#LEX#22#13=21.435469250725863
+FACLEX#LEX#22#21=0.0
+FACLEX#LEX#22#24=0.0
+FACLEX#LEX#22#27=0.0
+FACLEX#LEX#22#4=21.435469250725863
+FACLEX#LEX#22#40=21.435469250725863
+FACLEX#LEX#22#51=0.0
+FACLEX#LEX#22#52=21.435469250725863
+FACLEX#LEX#23#25=10.0
+FACLEX#LEX#23#62=10.0
+FACLEX#LEX#24#14=10.0
+FACLEX#LEX#24#26=0.0
+FACLEX#LEX#25#23=10.0
+FACLEX#LEX#25#48=10.0
+FACLEX#LEX#26#28=21.435469250725863
+FACLEX#LEX#26#33=21.435469250725863
+FACLEX#LEX#27#31=21.435469250725863
+FACLEX#LEX#27#46=21.435469250725863
+FACLEX#LEX#28#1=10.0
+FACLEX#LEX#28#32=0.0
+FACLEX#LEX#29#33=10.0
+FACLEX#LEX#3#1=10.0
+FACLEX#LEX#3#3=0.0
+FACLEX#LEX#30#13=10.0
+FACLEX#LEX#30#36=0.0
+FACLEX#LEX#30#37=0.0
+FACLEX#LEX#30#40=10.0
+FACLEX#LEX#31#41=0.0
+FACLEX#LEX#31#57=21.435469250725863
+FACLEX#LEX#31#6=21.435469250725863
+FACLEX#LEX#31#64=0.0
+FACLEX#LEX#32#10=21.435469250725863
+FACLEX#LEX#32#17=21.435469250725863
+FACLEX#LEX#32#19=0.0
+FACLEX#LEX#32#45=21.435469250725863
+FACLEX#LEX#32#50=21.435469250725863
+FACLEX#LEX#33#26=0.0
+FACLEX#LEX#33#29=10.0
+FACLEX#LEX#33#43=0.0
+FACLEX#LEX#33#49=10.0
+FACLEX#LEX#34#42=21.435469250725863
+FACLEX#LEX#34#47=21.435469250725863
+FACLEX#LEX#35#44=21.435469250725863
+FACLEX#LEX#35#58=21.435469250725863
+FACLEX#LEX#36#42=10.0
+FACLEX#LEX#36#47=10.0
+FACLEX#LEX#37#25=10.0
+FACLEX#LEX#37#39=10.0
+FACLEX#LEX#37#48=0.0
+FACLEX#LEX#37#5=10.0
+FACLEX#LEX#37#62=10.0
+FACLEX#LEX#38#49=0.0
+FACLEX#LEX#38#66=0.0
+FACLEX#LEX#38#7=10.0
+FACLEX#LEX#39#19=10.0
+FACLEX#LEX#39#50=0.0
+FACLEX#LEX#39#54=0.0
+FACLEX#LEX#4#16=21.435469250725863
+FACLEX#LEX#4#27=21.435469250725863
+FACLEX#LEX#4#30=0.0
+FACLEX#LEX#4#4=0.0
+FACLEX#LEX#4#53=21.435469250725863
+FACLEX#LEX#4#8=21.435469250725863
+FACLEX#LEX#40#1=10.0
+FACLEX#LEX#40#9=0.0
+FACLEX#LEX#41#17=10.0
+FACLEX#LEX#41#50=10.0
+FACLEX#LEX#42#2=10.0
+FACLEX#LEX#42#3=0.0
+FACLEX#LEX#42#9=10.0
+FACLEX#LEX#43#0=10.0
+FACLEX#LEX#43#55=10.0
+FACLEX#LEX#43#56=10.0
+FACLEX#LEX#43#67=10.0
+FACLEX#LEX#44#26=10.0
+FACLEX#LEX#44#66=10.0
+FACLEX#LEX#44#7=0.0
+FACLEX#LEX#45#6=10.0
+FACLEX#LEX#46#20=10.0
+FACLEX#LEX#46#59=10.0
+FACLEX#LEX#46#61=0.0
+FACLEX#LEX#47#42=10.0
+FACLEX#LEX#48#60=10.0
+FACLEX#LEX#49#19=10.0
+FACLEX#LEX#49#45=0.0
+FACLEX#LEX#49#54=10.0
+FACLEX#LEX#5#23=0.0
+FACLEX#LEX#5#25=21.435469250725863
+FACLEX#LEX#5#39=21.435469250725863
+FACLEX#LEX#5#5=21.435469250725863
+FACLEX#LEX#5#62=21.435469250725863
+FACLEX#LEX#50#60=10.0
+FACLEX#LEX#51#65=10.0
+FACLEX#LEX#51#75=10.0
+FACLEX#LEX#52#60=10.0
+FACLEX#LEX#53#44=10.0
+FACLEX#LEX#53#58=0.0
+FACLEX#LEX#54#68=10.0
+FACLEX#LEX#54#69=10.0
+FACLEX#LEX#55#59=0.0
+FACLEX#LEX#55#61=10.0
+FACLEX#LEX#56#60=10.0
+FACLEX#LEX#57#70=10.0
+FACLEX#LEX#57#74=10.0
+FACLEX#LEX#58#71=10.0
+FACLEX#LEX#58#72=10.0
+FACLEX#LEX#59#73=10.0
+FACLEX#LEX#6#41=10.0
+FACLEX#LEX#6#6=0.0
+FACLEX#LEX#6#64=10.0
+FACLEX#LEX#60#76=10.0
+FACLEX#LEX#61#76=10.0
+FACLEX#LEX#62#76=10.0
+FACLEX#LEX#7#0=0.0
+FACLEX#LEX#7#31=10.0
+FACLEX#LEX#7#46=10.0
+FACLEX#LEX#7#55=0.0
+FACLEX#LEX#8#35=21.435469250725863
+FACLEX#LEX#8#7=21.435469250725863
+FACLEX#LEX#9#12=10.0
+FACLEX#LEX#9#21=10.0
+FACLEX#LEX#9#30=10.0
+FACLEX#LEX#9#37=10.0
 FACLEX#LEX#9#8=0.0
 FACLEX#LEXDEFAULT=1.0
 FACLEX#TMP#0=0.0
@@ -140,19 +595,75 @@ FACLEX#TMP#16=0.0
 FACLEX#TMP#17=0.0
 FACLEX#TMP#18=0.0
 FACLEX#TMP#19=0.0
-FACLEX#TMP#2=-0.03332616368746533
+FACLEX#TMP#2=0.0
 FACLEX#TMP#20=0.0
+FACLEX#TMP#21=0.0
+FACLEX#TMP#22=0.0
+FACLEX#TMP#23=0.0
+FACLEX#TMP#24=0.0
+FACLEX#TMP#25=0.0
+FACLEX#TMP#26=0.0
+FACLEX#TMP#27=0.0
+FACLEX#TMP#28=0.0
+FACLEX#TMP#29=0.0
 FACLEX#TMP#3=0.0
-FACLEX#TMP#4=-0.033324650750661856
+FACLEX#TMP#30=0.0
+FACLEX#TMP#31=0.0
+FACLEX#TMP#32=0.0
+FACLEX#TMP#33=0.0
+FACLEX#TMP#34=0.0
+FACLEX#TMP#35=0.0
+FACLEX#TMP#36=0.0
+FACLEX#TMP#37=0.0
+FACLEX#TMP#38=0.0
+FACLEX#TMP#39=0.0
+FACLEX#TMP#4=0.0
+FACLEX#TMP#40=0.0
+FACLEX#TMP#41=0.0
+FACLEX#TMP#42=0.0
+FACLEX#TMP#43=0.0
+FACLEX#TMP#44=0.0
+FACLEX#TMP#45=0.0
+FACLEX#TMP#46=0.0
+FACLEX#TMP#47=0.0
+FACLEX#TMP#48=0.0
+FACLEX#TMP#49=0.0
 FACLEX#TMP#5=0.0
+FACLEX#TMP#50=0.0
+FACLEX#TMP#51=0.0
+FACLEX#TMP#52=0.0
+FACLEX#TMP#53=0.0
+FACLEX#TMP#54=0.0
+FACLEX#TMP#55=0.0
+FACLEX#TMP#56=0.0
+FACLEX#TMP#57=0.0
+FACLEX#TMP#58=0.0
+FACLEX#TMP#59=0.0
 FACLEX#TMP#6=0.0
-FACLEX#TMP#7=-0.06665081443812751
-FACLEX#TMP#8=0.06664930143263985
-FACLEX#TMP#9=0.06664627555903307
+FACLEX#TMP#60=0.0
+FACLEX#TMP#61=0.0
+FACLEX#TMP#62=0.0
+FACLEX#TMP#63=0.0
+FACLEX#TMP#64=0.0
+FACLEX#TMP#65=0.0
+FACLEX#TMP#66=0.0
+FACLEX#TMP#67=0.0
+FACLEX#TMP#68=0.0
+FACLEX#TMP#69=0.0
+FACLEX#TMP#7=0.0
+FACLEX#TMP#70=0.0
+FACLEX#TMP#71=0.0
+FACLEX#TMP#72=0.0
+FACLEX#TMP#73=0.0
+FACLEX#TMP#74=0.0
+FACLEX#TMP#75=0.0
+FACLEX#TMP#76=0.0
+FACLEX#TMP#8=0.0
+FACLEX#TMP#9=0.0
 FACLEX#TMPDEFAULT=1.0
 FACLEX#XEME#0=10.0
 FACLEX#XEME#1=10.0
-FACLEX#XEME#10=10.68479110259035
+FACLEX#XEME#10=10.0
 FACLEX#XEME#11=10.0
 FACLEX#XEME#12=10.0
 FACLEX#XEME#13=10.0
@@ -162,7 +673,7 @@ FACLEX#XEME#16=10.0
 FACLEX#XEME#17=10.0
 FACLEX#XEME#18=10.0
 FACLEX#XEME#19=10.0
-FACLEX#XEME#2=9.661803725047173
+FACLEX#XEME#2=10.0
 FACLEX#XEME#20=10.0
 FACLEX#XEME#21=10.0
 FACLEX#XEME#22=10.0
@@ -172,17 +683,45 @@ FACLEX#XEME#25=10.0
 FACLEX#XEME#26=10.0
 FACLEX#XEME#27=10.0
 FACLEX#XEME#28=10.0
+FACLEX#XEME#29=10.0
 FACLEX#XEME#3=10.0
+FACLEX#XEME#30=10.0
+FACLEX#XEME#31=10.0
+FACLEX#XEME#32=10.0
+FACLEX#XEME#33=10.0
+FACLEX#XEME#34=10.0
+FACLEX#XEME#35=10.0
+FACLEX#XEME#36=10.0
+FACLEX#XEME#37=10.0
+FACLEX#XEME#38=10.0
+FACLEX#XEME#39=10.0
 FACLEX#XEME#4=10.0
+FACLEX#XEME#40=10.0
+FACLEX#XEME#41=10.0
+FACLEX#XEME#42=10.0
+FACLEX#XEME#43=10.0
+FACLEX#XEME#44=10.0
+FACLEX#XEME#45=10.0
+FACLEX#XEME#46=10.0
+FACLEX#XEME#47=10.0
+FACLEX#XEME#48=10.0
+FACLEX#XEME#49=10.0
 FACLEX#XEME#5=10.0
-FACLEX#XEME#6=9.653405172362461
+FACLEX#XEME#50=10.0
+FACLEX#XEME#51=10.0
+FACLEX#XEME#52=10.0
+FACLEX#XEME#53=10.0
+FACLEX#XEME#54=10.0
+FACLEX#XEME#55=10.0
+FACLEX#XEME#56=10.0
+FACLEX#XEME#57=10.0
+FACLEX#XEME#58=10.0
+FACLEX#XEME#59=10.0
+FACLEX#XEME#6=10.0
+FACLEX#XEME#60=10.0
+FACLEX#XEME#61=10.0
+FACLEX#XEME#62=10.0
 FACLEX#XEME#7=10.0
 FACLEX#XEME#8=10.0
 FACLEX#XEME#9=10.0
 FACLEX#XEMEDEFAULT=1.0
-LOGEXP#CPP1#and:<t*,t>#def:<e,t>#blue:<e,t>=0.68481534034781
-LOGEXP#CPP1#and:<t*,t>#definite:<e,t>#blue:<e,t>=-0.3381778203206499
-LOGEXP#CPP1#and:<t*,t>#mod:<e,t>#def:<e,t>=0.68481534034781
-LOGEXP#CPP1#and:<t*,t>#mod:<e,t>#definite:<e,t>=-0.3381778203206499
-LOGEXP#CPP1#and:<t*,t>#obj:<e,t>#def:<e,t>=0.68481534034781
-LOGEXP#CPP1#and:<t*,t>#obj:<e,t>#definite:<e,t>=-0.3381778203206499

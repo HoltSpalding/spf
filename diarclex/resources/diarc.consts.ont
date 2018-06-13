@@ -3,7 +3,11 @@
 conj:c
 disj:c
 knife:<e,t>
+ball:<e,t>
+it:<e,t>
 knife:e
 self:<e,t>
+brad:<e,t>
+quickly:<a,t>
 
 )

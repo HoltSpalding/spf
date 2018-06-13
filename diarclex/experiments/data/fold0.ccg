@@ -9,3 +9,31 @@ the blue mod obj
 
 pickup the blue mod obj
 (lambda $0:a (and:<t*,t> (pickup:<a,t> $0) (actor:<a,<<e,t>,t>> $0 self:<e,t>) (obj:<a,<<e,t>,t>> $0 (lambda $1:e (and:<t*,t> (obj:<e,t> $1) (def:<e,t> $1) (blue:<e,t> $1) (mod:<e,t> $1))))))
+
+brad pickup the blue mod obj
+(lambda $0:a (and:<t*,t> (pickup:<a,t> $0) (actor:<a,<<e,t>,t>> $0 brad:<e,t>) (obj:<a,<<e,t>,t>> $0 (lambda $1:e (and:<t*,t> (obj:<e,t> $1) (def:<e,t> $1) (blue:<e,t> $1) (mod:<e,t> $1))))))
+
+pick up the blue mod obj
+(lambda $0:a (and:<t*,t> (pickup:<a,t> $0) (actor:<a,<<e,t>,t>> $0 self:<e,t>) (obj:<a,<<e,t>,t>> $0 (lambda $1:e (and:<t*,t> (obj:<e,t> $1) (def:<e,t> $1) (blue:<e,t> $1) (mod:<e,t> $1))))))
+
+brad pick up the blue mod obj
+(lambda $0:a (and:<t*,t> (pickup:<a,t> $0) (actor:<a,<<e,t>,t>> $0 brad:<e,t>) (obj:<a,<<e,t>,t>> $0 (lambda $1:e (and:<t*,t> (obj:<e,t> $1) (def:<e,t> $1) (blue:<e,t> $1) (mod:<e,t> $1))))))
+
+brad pick up the blue mod obj quickly
+(lambda $0:a (and:<t*,t> (pickup:<a,t> $0) (manner:<a,<<a,t>,t>> $0 quickly:<a,t>) (actor:<a,<<e,t>,t>> $0 brad:<e,t>) (obj:<a,<<e,t>,t>> $0 (lambda $1:e (and:<t*,t> (obj:<e,t> $1) (def:<e,t> $1) (blue:<e,t> $1) (mod:<e,t> $1))))))
+
+quickly pick up the mod obj
+(lambda $0:a (and:<t*,t> (pickup:<a,t> $0) (manner:<a,<<a,t>,t>> $0 quickly:<a,t>) (actor:<a,<<e,t>,t>> $0 self:<e,t>) (obj:<a,<<e,t>,t>> $0 (lambda $1:e (and:<t*,t> (obj:<e,t> $1) (def:<e,t> $1) (mod:<e,t> $1))))))
+
+pick up the ball
+(lambda $0:a (and:<t*,t> (pickup:<a,t> $0) (actor:<a,<<e,t>,t>> $0 self:<e,t>) (obj:<a,<<e,t>,t>> $0 (lambda $1:e (and:<t*,t> (ball:<e,t> $1) (def:<e,t> $1))))))
+
+you pick up the ball
+(lambda $0:a (and:<t*,t> (pickup:<a,t> $0) (actor:<a,<<e,t>,t>> $0 self:<e,t>) (obj:<a,<<e,t>,t>> $0 (lambda $1:e (and:<t*,t> (ball:<e,t> $1) (def:<e,t> $1))))))
+
+you throw it
+(lambda $0:a (and:<t*,t> (throw:<a,t> $0) (actor:<a,<<e,t>,t>> $0 self:<e,t>) (obj:<a,<<e,t>,t>> $0 (lambda $1:e (it:<e,t> $1)))))
+
+brad throw it
+(lambda $0:a (and:<t*,t> (throw:<a,t> $0) (actor:<a,<<e,t>,t>> $0 brad:<e,t>) (obj:<a,<<e,t>,t>> $0 (lambda $1:e (it:<e,t> $1)))))
+
