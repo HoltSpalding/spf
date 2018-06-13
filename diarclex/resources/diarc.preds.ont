@@ -22,4 +22,12 @@ actor:<e,t>
 actor:<a,<<e,t>,t>>
 manner:<a,<<a,t>,t>>
 obj:<a,<<e,t>,t>>
+before:<a,t> //relational predicate betwee two actions, assumed outside of the parser
+                //should before be an a, or a relation. we must know if action is a nounphrase or not
+                //we could have r = relations, s = stative, maybe change this later
+conjsubj:<a,<<a,t>,t>> //conjunction subject
+conjobj:<a,<<a,t>,t>>  //conjuction object
+
+modifyaction:<a,<a,t>>
+modifyaction:<<a,t>,<a,t>>
 )

@@ -37,3 +37,8 @@ you throw it
 brad throw it
 (lambda $0:a (and:<t*,t> (throw:<a,t> $0) (actor:<a,<<e,t>,t>> $0 brad:<e,t>) (obj:<a,<<e,t>,t>> $0 (lambda $1:e (it:<e,t> $1)))))
 
+pick up the ball before you throw it
+(lambda $0:a (and:<t*,t> (before:<a,t> $0) (conjobj:<a,<<a,t>,t>> $0 (lambda $1:a (and:<t*,t> (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $2:e (it:<e,t> $2))) (actor:<a,<<e,t>,t>> $1 (lambda $3:e (self:<e,t> $3)))))) (conjsubj:<a,<<a,t>,t>> $0 (lambda $4:a (and:<t*,t> (actor:<a,<<e,t>,t>> $4 (lambda $5:e (self:<e,t> $5))) (pickup:<a,t> $4) (obj:<a,<<e,t>,t>> $4 (lambda $6:e (and:<t*,t> (def:<e,t> $6) (ball:<e,t> $6)))))))))
+
+make sure to pick up the ball before you throw it
+(lambda $0:a (modifyaction:<<a,t>,<a,t>> (lambda $1:a (and:<t*,t> (before:<a,t> $1) (conjobj:<a,<<a,t>,t>> $1 (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $3:e (it:<e,t> $3))) (actor:<a,<<e,t>,t>> $2 (lambda $4:e (self:<e,t> $4)))))) (conjsubj:<a,<<a,t>,t>> $1 (lambda $5:a (and:<t*,t> (actor:<a,<<e,t>,t>> $5 (lambda $6:e (self:<e,t> $6))) (pickup:<a,t> $5) (obj:<a,<<e,t>,t>> $5 (lambda $7:e (and:<t*,t> (def:<e,t> $7) (ball:<e,t> $7))))))))) $0))
