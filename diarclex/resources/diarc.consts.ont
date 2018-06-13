@@ -4,5 +4,6 @@ conj:c
 disj:c
 knife:<e,t>
 knife:e
+self:<e,t>
 
 )

@@ -18,5 +18,7 @@ def:<<e,t>,e>
 mod:<e,t>
 
 pickup:<a,t>
-
+actor:<e,t>
+actor:<a,<<e,t>,t>>
+obj:<a,<<e,t>,t>>
 )

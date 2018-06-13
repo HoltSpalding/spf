@@ -8,4 +8,4 @@ the blue mod obj
 (lambda $0:e (and:<t*,t> (obj:<e,t> $0) (def:<e,t> $0) (blue:<e,t> $0) (mod:<e,t> $0)))
 
 pickup the blue mod obj
-(lambda $0:a (and:<t*,t> (pickup:<a,t> $0) (obj:<a,<<e,t>,t>> $0 (lambda $1:e (and:<t*,t> (obj:<e,t> $1) (def:<e,t> $1) (blue:<e,t> $1) (mod:<e,t> $1))))))
+(lambda $0:a (and:<t*,t> (pickup:<a,t> $0) (actor:<a,<<e,t>,t>> $0 self:<e,t>) (obj:<a,<<e,t>,t>> $0 (lambda $1:e (and:<t*,t> (obj:<e,t> $1) (def:<e,t> $1) (blue:<e,t> $1) (mod:<e,t> $1))))))
