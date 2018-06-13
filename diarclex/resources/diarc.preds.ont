@@ -13,5 +13,10 @@ argmin:<<e,t>,<<e,n>,e>>		// Returns the entity from arg0 that has the minimum v
 // Determiners
 a:<<e,t>,e>			// Indefinite article
 io:<<e,t>,e>        // Definite article, indirect object
+definite:<e,t>
+def:<<e,t>,e>
+mod:<e,t>
+
+pickup:<a,t>
 
 )

@@ -2,25 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0d7a6ef-c434-4b73-bade-3494d4c3e93b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/diarclex/experiments/data/experimentideas.ccg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/diarclex/src/edu/cornell/cs/nlp/spf/geoquery/ExistingModel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/diarclex/resources/scratchpad" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ccg/src/edu/cornell/cs/nlp/spf/ccg/categories/syntax/Syntax.java" afterPath="$PROJECT_DIR$/ccg/src/edu/cornell/cs/nlp/spf/ccg/categories/syntax/Syntax.java" />
       <change beforePath="$PROJECT_DIR$/diarc/spf-2.0.jar" afterPath="$PROJECT_DIR$/diarc/spf-2.0.jar" />
+      <change beforePath="$PROJECT_DIR$/diarclex/experiments/data/experimentideas.ccg" afterPath="" />
       <change beforePath="$PROJECT_DIR$/diarclex/experiments/data/fold0.ccg" afterPath="$PROJECT_DIR$/diarclex/experiments/data/fold0.ccg" />
       <change beforePath="$PROJECT_DIR$/diarclex/experiments/data/fold1.ccg" afterPath="$PROJECT_DIR$/diarclex/experiments/data/fold1.ccg" />
+      <change beforePath="$PROJECT_DIR$/diarclex/experiments/data/fold2.ccg" afterPath="$PROJECT_DIR$/diarclex/experiments/data/fold2.ccg" />
+      <change beforePath="$PROJECT_DIR$/diarclex/experiments/template/jobs.inc" afterPath="$PROJECT_DIR$/diarclex/experiments/template/jobs.inc" />
       <change beforePath="$PROJECT_DIR$/diarclex/resources/diarc.consts.ont" afterPath="$PROJECT_DIR$/diarclex/resources/diarc.consts.ont" />
+      <change beforePath="$PROJECT_DIR$/diarclex/resources/diarc.model" afterPath="$PROJECT_DIR$/diarclex/resources/diarc.model" />
       <change beforePath="$PROJECT_DIR$/diarclex/resources/diarc.preds.ont" afterPath="$PROJECT_DIR$/diarclex/resources/diarc.preds.ont" />
       <change beforePath="$PROJECT_DIR$/diarclex/resources/diarc.types" afterPath="$PROJECT_DIR$/diarclex/resources/diarc.types" />
       <change beforePath="$PROJECT_DIR$/diarclex/resources/leglog.ccg" afterPath="$PROJECT_DIR$/diarclex/resources/leglog.ccg" />
       <change beforePath="$PROJECT_DIR$/diarclex/resources/np-list.lex" afterPath="$PROJECT_DIR$/diarclex/resources/np-list.lex" />
       <change beforePath="$PROJECT_DIR$/diarclex/resources/seed.lex" afterPath="$PROJECT_DIR$/diarclex/resources/seed.lex" />
       <change beforePath="$PROJECT_DIR$/diarclex/src/edu/cornell/cs/nlp/spf/geoquery/DiarcExpSimple.java" afterPath="$PROJECT_DIR$/diarclex/src/edu/cornell/cs/nlp/spf/geoquery/DiarcExpSimple.java" />
-      <change beforePath="$PROJECT_DIR$/geoquery/experiments/template/jobs.inc" afterPath="$PROJECT_DIR$/geoquery/experiments/template/jobs.inc" />
-      <change beforePath="$PROJECT_DIR$/geoquery/resources/seed.lex" afterPath="$PROJECT_DIR$/geoquery/resources/seed.lex" />
-      <change beforePath="$PROJECT_DIR$/geoquery/src/edu/cornell/cs/nlp/spf/geoquery/GeoExp.java" afterPath="$PROJECT_DIR$/geoquery/src/edu/cornell/cs/nlp/spf/geoquery/GeoExp.java" />
+      <change beforePath="$PROJECT_DIR$/diarclex/src/edu/cornell/cs/nlp/spf/geoquery/ExistingModel.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/geoquery/src/edu/cornell/cs/nlp/spf/geoquery/GeoExpSimple.java" afterPath="$PROJECT_DIR$/geoquery/src/edu/cornell/cs/nlp/spf/geoquery/GeoExpSimple.java" />
+      <change beforePath="$PROJECT_DIR$/unittests/src-test/edu/cornell/cs/nlp/spf/TestServices.java" afterPath="$PROJECT_DIR$/unittests/src-test/edu/cornell/cs/nlp/spf/TestServices.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,13 +29,53 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DockManager">
+    <window id="2">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="fold1.ccg" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/diarclex/experiments/data/fold1.ccg">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="162">
+                    <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="155" />
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DiarcExpSimple.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/diarclex/src/edu/cornell/cs/nlp/spf/geoquery/DiarcExpSimple.java">
+      <file leaf-file-name="seed.lex" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/diarclex/resources/seed.lex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="218" column="61" lean-forward="true" selection-start-line="218" selection-start-column="44" selection-end-line="218" selection-end-column="62" />
+            <state relative-caret-position="270">
+              <caret line="15" column="59" lean-forward="false" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fold0.ccg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/diarclex/experiments/data/fold0.ccg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="155" lean-forward="false" selection-start-line="10" selection-start-column="155" selection-end-line="10" selection-end-column="155" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dev.fold1.exp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/diarclex/experiments/template/dev.cross/dev.fold1.exp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -44,61 +84,8 @@
       <file leaf-file-name="diarc.types" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/diarclex/resources/diarc.types">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="84" lean-forward="false" selection-start-line="5" selection-start-column="84" selection-end-line="5" selection-end-column="84" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CKYBinaryParsingRule.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parser.ccg.cky/src/edu/cornell/cs/nlp/spf/parser/ccg/cky/CKYBinaryParsingRule.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RuleUsageTriplet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parser.ccg/src/edu/cornell/cs/nlp/spf/parser/RuleUsageTriplet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-162">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="seed.lex" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/diarclex/resources/seed.lex">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fold1.ccg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/diarclex/experiments/data/fold1.ccg">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="diarc.preds.ont" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/diarclex/resources/diarc.preds.ont">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <caret line="0" column="1" lean-forward="true" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -108,17 +95,47 @@
         <entry file="file://$PROJECT_DIR$/diarclex/resources/diarc.consts.ont">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="np-list.lex" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/diarclex/resources/np-list.lex">
+      <file leaf-file-name="diarc.preds.ont" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/diarclex/resources/diarc.preds.ont">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            <state relative-caret-position="360">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dev.fold3.exp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/diarclex/experiments/template/dev.cross/dev.fold3.exp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scratchpad" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/diarclex/resources/scratchpad">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="leglog.ccg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/diarclex/resources/leglog.ccg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="31" column="134" lean-forward="true" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="134" />
               <folding />
             </state>
           </provider>
@@ -128,11 +145,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>file</find>
-      <find>flurb</find>
-      <find>argmax</find>
-      <find>&lt;e</find>
-      <find>addconstant</find>
       <find>training</find>
       <find>i</find>
       <find>population</find>
@@ -158,6 +170,11 @@
       <find>thi</find>
       <find>parser</find>
       <find>skol</find>
+      <find>save</find>
+      <find>exp</find>
+      <find>dep</find>
+      <find>*</find>
+      <find>typesFi</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -190,19 +207,21 @@
         <option value="$PROJECT_DIR$/geoquery/experiments/template/jobs.inc" />
         <option value="$PROJECT_DIR$/geoquery/src/edu/cornell/cs/nlp/spf/geoquery/GeoExp.java" />
         <option value="$PROJECT_DIR$/build.src/edu/cornell/cs/nlp/spf/geoquery/DiarcExpSimple.java" />
-        <option value="$PROJECT_DIR$/geoquery/src/edu/cornell/cs/nlp/spf/geoquery/GeoExpSimple.java" />
         <option value="$PROJECT_DIR$/ccg/src/edu/cornell/cs/nlp/spf/ccg/categories/syntax/Syntax.java" />
         <option value="$PROJECT_DIR$/geoquery/resources/seed.lex" />
         <option value="$PROJECT_DIR$/build.src/edu/cornell/cs/nlp/spf/utils/main/DiarcMain.java" />
-        <option value="$PROJECT_DIR$/diarclex/resources/leglog.ccg" />
-        <option value="$PROJECT_DIR$/diarclex/experiments/data/fold0.ccg" />
         <option value="$PROJECT_DIR$/diarclex/experiments/data/experimentideas.ccg" />
-        <option value="$PROJECT_DIR$/diarclex/src/edu/cornell/cs/nlp/spf/geoquery/DiarcExpSimple.java" />
+        <option value="$PROJECT_DIR$/geoquery/src/edu/cornell/cs/nlp/spf/geoquery/GeoExpSimple.java" />
         <option value="$PROJECT_DIR$/diarclex/resources/diarc.types" />
-        <option value="$PROJECT_DIR$/diarclex/resources/diarc.preds.ont" />
         <option value="$PROJECT_DIR$/diarclex/resources/np-list.lex" />
+        <option value="$PROJECT_DIR$/diarclex/resources/leglog.ccg" />
+        <option value="$PROJECT_DIR$/diarclex/src/edu/cornell/cs/nlp/spf/geoquery/DiarcExpSimple.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
+        <option value="$PROJECT_DIR$/diarclex/resources/diarc.preds.ont" />
         <option value="$PROJECT_DIR$/diarclex/resources/diarc.consts.ont" />
+        <option value="$PROJECT_DIR$/diarclex/resources/scratchpad" />
         <option value="$PROJECT_DIR$/diarclex/experiments/data/fold1.ccg" />
+        <option value="$PROJECT_DIR$/diarclex/experiments/data/fold0.ccg" />
         <option value="$PROJECT_DIR$/diarclex/resources/seed.lex" />
       </list>
     </option>
@@ -214,10 +233,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2317" />
-    <option name="y" value="445" />
-    <option name="width" value="807" />
-    <option name="height" value="998" />
+    <option name="x" value="2030" />
+    <option name="y" value="24" />
+    <option name="width" value="1046" />
+    <option name="height" value="982" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -235,6 +254,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -246,6 +269,91 @@
               <item name="spf" type="b2602c69:ProjectViewProjectNode" />
               <item name="spf" type="462c0819:PsiDirectoryNode" />
               <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spf" type="462c0819:PsiDirectoryNode" />
+              <item name="build.src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spf" type="462c0819:PsiDirectoryNode" />
+              <item name="build.src" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spf" type="462c0819:PsiDirectoryNode" />
+              <item name="build.src" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="cornell" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spf" type="462c0819:PsiDirectoryNode" />
+              <item name="build.src" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="cornell" type="462c0819:PsiDirectoryNode" />
+              <item name="cs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spf" type="462c0819:PsiDirectoryNode" />
+              <item name="build.src" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="cornell" type="462c0819:PsiDirectoryNode" />
+              <item name="cs" type="462c0819:PsiDirectoryNode" />
+              <item name="nlp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spf" type="462c0819:PsiDirectoryNode" />
+              <item name="build.src" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="cornell" type="462c0819:PsiDirectoryNode" />
+              <item name="cs" type="462c0819:PsiDirectoryNode" />
+              <item name="nlp" type="462c0819:PsiDirectoryNode" />
+              <item name="spf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spf" type="462c0819:PsiDirectoryNode" />
+              <item name="build.src" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="cornell" type="462c0819:PsiDirectoryNode" />
+              <item name="cs" type="462c0819:PsiDirectoryNode" />
+              <item name="nlp" type="462c0819:PsiDirectoryNode" />
+              <item name="spf" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spf" type="462c0819:PsiDirectoryNode" />
+              <item name="build.src" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="cornell" type="462c0819:PsiDirectoryNode" />
+              <item name="cs" type="462c0819:PsiDirectoryNode" />
+              <item name="nlp" type="462c0819:PsiDirectoryNode" />
+              <item name="spf" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spf" type="462c0819:PsiDirectoryNode" />
+              <item name="build.src" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="cornell" type="462c0819:PsiDirectoryNode" />
+              <item name="cs" type="462c0819:PsiDirectoryNode" />
+              <item name="nlp" type="462c0819:PsiDirectoryNode" />
+              <item name="spf" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="parse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spf" type="462c0819:PsiDirectoryNode" />
+              <item name="diarc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spf" type="b2602c69:ProjectViewProjectNode" />
@@ -279,6 +387,14 @@
               <item name="experiments" type="462c0819:PsiDirectoryNode" />
               <item name="template" type="462c0819:PsiDirectoryNode" />
               <item name="dev.cross" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spf" type="462c0819:PsiDirectoryNode" />
+              <item name="diarclex" type="462c0819:PsiDirectoryNode" />
+              <item name="experiments" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spf" type="b2602c69:ProjectViewProjectNode" />
@@ -352,133 +468,25 @@
             <path>
               <item name="spf" type="b2602c69:ProjectViewProjectNode" />
               <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser.ccg" type="462c0819:PsiDirectoryNode" />
+              <item name="explat" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spf" type="b2602c69:ProjectViewProjectNode" />
               <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser.ccg" type="462c0819:PsiDirectoryNode" />
+              <item name="explat" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spf" type="b2602c69:ProjectViewProjectNode" />
               <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser.ccg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser.ccg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="cornell" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser.ccg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="cornell" type="462c0819:PsiDirectoryNode" />
-              <item name="cs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser.ccg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="cornell" type="462c0819:PsiDirectoryNode" />
-              <item name="cs" type="462c0819:PsiDirectoryNode" />
-              <item name="nlp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser.ccg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="cornell" type="462c0819:PsiDirectoryNode" />
-              <item name="cs" type="462c0819:PsiDirectoryNode" />
-              <item name="nlp" type="462c0819:PsiDirectoryNode" />
-              <item name="spf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser.ccg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="cornell" type="462c0819:PsiDirectoryNode" />
-              <item name="cs" type="462c0819:PsiDirectoryNode" />
-              <item name="nlp" type="462c0819:PsiDirectoryNode" />
-              <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser.ccg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="cornell" type="462c0819:PsiDirectoryNode" />
-              <item name="cs" type="462c0819:PsiDirectoryNode" />
-              <item name="nlp" type="462c0819:PsiDirectoryNode" />
-              <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
-              <item name="ccg" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser.ccg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="cornell" type="462c0819:PsiDirectoryNode" />
-              <item name="cs" type="462c0819:PsiDirectoryNode" />
-              <item name="nlp" type="462c0819:PsiDirectoryNode" />
-              <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
-              <item name="ccg" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser.ccg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="cornell" type="462c0819:PsiDirectoryNode" />
-              <item name="cs" type="462c0819:PsiDirectoryNode" />
-              <item name="nlp" type="462c0819:PsiDirectoryNode" />
-              <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser.ccg.cky" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser.ccg.cky" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser.ccg.cky" type="462c0819:PsiDirectoryNode" />
+              <item name="explat" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="edu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spf" type="b2602c69:ProjectViewProjectNode" />
               <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser.ccg.cky" type="462c0819:PsiDirectoryNode" />
+              <item name="explat" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="edu" type="462c0819:PsiDirectoryNode" />
               <item name="cornell" type="462c0819:PsiDirectoryNode" />
@@ -486,7 +494,7 @@
             <path>
               <item name="spf" type="b2602c69:ProjectViewProjectNode" />
               <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser.ccg.cky" type="462c0819:PsiDirectoryNode" />
+              <item name="explat" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="edu" type="462c0819:PsiDirectoryNode" />
               <item name="cornell" type="462c0819:PsiDirectoryNode" />
@@ -495,7 +503,7 @@
             <path>
               <item name="spf" type="b2602c69:ProjectViewProjectNode" />
               <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser.ccg.cky" type="462c0819:PsiDirectoryNode" />
+              <item name="explat" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="edu" type="462c0819:PsiDirectoryNode" />
               <item name="cornell" type="462c0819:PsiDirectoryNode" />
@@ -505,7 +513,7 @@
             <path>
               <item name="spf" type="b2602c69:ProjectViewProjectNode" />
               <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser.ccg.cky" type="462c0819:PsiDirectoryNode" />
+              <item name="explat" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="edu" type="462c0819:PsiDirectoryNode" />
               <item name="cornell" type="462c0819:PsiDirectoryNode" />
@@ -516,94 +524,80 @@
             <path>
               <item name="spf" type="b2602c69:ProjectViewProjectNode" />
               <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser.ccg.cky" type="462c0819:PsiDirectoryNode" />
+              <item name="explat" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="edu" type="462c0819:PsiDirectoryNode" />
               <item name="cornell" type="462c0819:PsiDirectoryNode" />
               <item name="cs" type="462c0819:PsiDirectoryNode" />
               <item name="nlp" type="462c0819:PsiDirectoryNode" />
               <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
+              <item name="explat" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spf" type="b2602c69:ProjectViewProjectNode" />
               <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser.ccg.cky" type="462c0819:PsiDirectoryNode" />
+              <item name="explat" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="edu" type="462c0819:PsiDirectoryNode" />
               <item name="cornell" type="462c0819:PsiDirectoryNode" />
               <item name="cs" type="462c0819:PsiDirectoryNode" />
               <item name="nlp" type="462c0819:PsiDirectoryNode" />
               <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
-              <item name="ccg" type="462c0819:PsiDirectoryNode" />
+              <item name="explat" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spf" type="b2602c69:ProjectViewProjectNode" />
               <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser.ccg.cky" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="cornell" type="462c0819:PsiDirectoryNode" />
-              <item name="cs" type="462c0819:PsiDirectoryNode" />
-              <item name="nlp" type="462c0819:PsiDirectoryNode" />
-              <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
-              <item name="ccg" type="462c0819:PsiDirectoryNode" />
-              <item name="cky" type="462c0819:PsiDirectoryNode" />
+              <item name="geoquery" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spf" type="b2602c69:ProjectViewProjectNode" />
               <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser.ccg.cky" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="cornell" type="462c0819:PsiDirectoryNode" />
-              <item name="cs" type="462c0819:PsiDirectoryNode" />
-              <item name="nlp" type="462c0819:PsiDirectoryNode" />
-              <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
-              <item name="ccg" type="462c0819:PsiDirectoryNode" />
-              <item name="cky" type="462c0819:PsiDirectoryNode" />
-              <item name="single" type="462c0819:PsiDirectoryNode" />
+              <item name="geoquery" type="462c0819:PsiDirectoryNode" />
+              <item name="experiments" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spf" type="b2602c69:ProjectViewProjectNode" />
               <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser.ccg.cky" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="cornell" type="462c0819:PsiDirectoryNode" />
-              <item name="cs" type="462c0819:PsiDirectoryNode" />
-              <item name="nlp" type="462c0819:PsiDirectoryNode" />
-              <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
-              <item name="ccg" type="462c0819:PsiDirectoryNode" />
-              <item name="cky" type="462c0819:PsiDirectoryNode" />
-              <item name="sloppy" type="462c0819:PsiDirectoryNode" />
+              <item name="geoquery" type="462c0819:PsiDirectoryNode" />
+              <item name="experiments" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spf" type="b2602c69:ProjectViewProjectNode" />
               <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser.ccg.cky.genlex" type="462c0819:PsiDirectoryNode" />
+              <item name="geoquery" type="462c0819:PsiDirectoryNode" />
+              <item name="experiments" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="dev.cross" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spf" type="b2602c69:ProjectViewProjectNode" />
               <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser.ccg.cky.genlex" type="462c0819:PsiDirectoryNode" />
+              <item name="geoquery" type="462c0819:PsiDirectoryNode" />
+              <item name="experiments" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="dev.cross" type="462c0819:PsiDirectoryNode" />
+              <item name="logs0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spf" type="462c0819:PsiDirectoryNode" />
+              <item name="geoquery" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spf" type="b2602c69:ProjectViewProjectNode" />
               <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser.ccg.cky.genlex" type="462c0819:PsiDirectoryNode" />
+              <item name="geoquery" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="edu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spf" type="b2602c69:ProjectViewProjectNode" />
               <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser.ccg.cky.genlex" type="462c0819:PsiDirectoryNode" />
+              <item name="geoquery" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="edu" type="462c0819:PsiDirectoryNode" />
               <item name="cornell" type="462c0819:PsiDirectoryNode" />
@@ -611,7 +605,7 @@
             <path>
               <item name="spf" type="b2602c69:ProjectViewProjectNode" />
               <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser.ccg.cky.genlex" type="462c0819:PsiDirectoryNode" />
+              <item name="geoquery" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="edu" type="462c0819:PsiDirectoryNode" />
               <item name="cornell" type="462c0819:PsiDirectoryNode" />
@@ -620,7 +614,7 @@
             <path>
               <item name="spf" type="b2602c69:ProjectViewProjectNode" />
               <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser.ccg.cky.genlex" type="462c0819:PsiDirectoryNode" />
+              <item name="geoquery" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="edu" type="462c0819:PsiDirectoryNode" />
               <item name="cornell" type="462c0819:PsiDirectoryNode" />
@@ -630,7 +624,7 @@
             <path>
               <item name="spf" type="b2602c69:ProjectViewProjectNode" />
               <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser.ccg.cky.genlex" type="462c0819:PsiDirectoryNode" />
+              <item name="geoquery" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="edu" type="462c0819:PsiDirectoryNode" />
               <item name="cornell" type="462c0819:PsiDirectoryNode" />
@@ -641,61 +635,136 @@
             <path>
               <item name="spf" type="b2602c69:ProjectViewProjectNode" />
               <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser.ccg.cky.genlex" type="462c0819:PsiDirectoryNode" />
+              <item name="geoquery" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="edu" type="462c0819:PsiDirectoryNode" />
               <item name="cornell" type="462c0819:PsiDirectoryNode" />
               <item name="cs" type="462c0819:PsiDirectoryNode" />
               <item name="nlp" type="462c0819:PsiDirectoryNode" />
               <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
+              <item name="geoquery" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spf" type="b2602c69:ProjectViewProjectNode" />
               <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser.ccg.cky.genlex" type="462c0819:PsiDirectoryNode" />
+              <item name="mr.lambda" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spf" type="462c0819:PsiDirectoryNode" />
+              <item name="mr.lambda" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spf" type="462c0819:PsiDirectoryNode" />
+              <item name="mr.lambda" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spf" type="462c0819:PsiDirectoryNode" />
+              <item name="mr.lambda" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="cornell" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spf" type="462c0819:PsiDirectoryNode" />
+              <item name="mr.lambda" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="cornell" type="462c0819:PsiDirectoryNode" />
+              <item name="cs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spf" type="462c0819:PsiDirectoryNode" />
+              <item name="mr.lambda" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="cornell" type="462c0819:PsiDirectoryNode" />
+              <item name="cs" type="462c0819:PsiDirectoryNode" />
+              <item name="nlp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spf" type="462c0819:PsiDirectoryNode" />
+              <item name="mr.lambda" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="edu" type="462c0819:PsiDirectoryNode" />
               <item name="cornell" type="462c0819:PsiDirectoryNode" />
               <item name="cs" type="462c0819:PsiDirectoryNode" />
               <item name="nlp" type="462c0819:PsiDirectoryNode" />
               <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
-              <item name="ccg" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spf" type="b2602c69:ProjectViewProjectNode" />
               <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser.ccg.cky.genlex" type="462c0819:PsiDirectoryNode" />
+              <item name="mr.lambda" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="edu" type="462c0819:PsiDirectoryNode" />
               <item name="cornell" type="462c0819:PsiDirectoryNode" />
               <item name="cs" type="462c0819:PsiDirectoryNode" />
               <item name="nlp" type="462c0819:PsiDirectoryNode" />
               <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
-              <item name="ccg" type="462c0819:PsiDirectoryNode" />
-              <item name="cky" type="462c0819:PsiDirectoryNode" />
+              <item name="mr" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spf" type="b2602c69:ProjectViewProjectNode" />
               <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser.ccg.cky.genlex" type="462c0819:PsiDirectoryNode" />
+              <item name="mr.lambda" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="edu" type="462c0819:PsiDirectoryNode" />
               <item name="cornell" type="462c0819:PsiDirectoryNode" />
               <item name="cs" type="462c0819:PsiDirectoryNode" />
               <item name="nlp" type="462c0819:PsiDirectoryNode" />
               <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
-              <item name="ccg" type="462c0819:PsiDirectoryNode" />
-              <item name="cky" type="462c0819:PsiDirectoryNode" />
-              <item name="genlex" type="462c0819:PsiDirectoryNode" />
+              <item name="mr" type="462c0819:PsiDirectoryNode" />
+              <item name="lambda" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spf" type="b2602c69:ProjectViewProjectNode" />
               <item name="spf" type="462c0819:PsiDirectoryNode" />
-              <item name="parser.ccg.features.basic" type="462c0819:PsiDirectoryNode" />
+              <item name="mr.lambda" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="cornell" type="462c0819:PsiDirectoryNode" />
+              <item name="cs" type="462c0819:PsiDirectoryNode" />
+              <item name="nlp" type="462c0819:PsiDirectoryNode" />
+              <item name="spf" type="462c0819:PsiDirectoryNode" />
+              <item name="mr" type="462c0819:PsiDirectoryNode" />
+              <item name="lambda" type="462c0819:PsiDirectoryNode" />
+              <item name="primitivetypes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spf" type="462c0819:PsiDirectoryNode" />
+              <item name="mr.lambda" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="cornell" type="462c0819:PsiDirectoryNode" />
+              <item name="cs" type="462c0819:PsiDirectoryNode" />
+              <item name="nlp" type="462c0819:PsiDirectoryNode" />
+              <item name="spf" type="462c0819:PsiDirectoryNode" />
+              <item name="mr" type="462c0819:PsiDirectoryNode" />
+              <item name="language" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spf" type="462c0819:PsiDirectoryNode" />
+              <item name="mr.lambda" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="cornell" type="462c0819:PsiDirectoryNode" />
+              <item name="cs" type="462c0819:PsiDirectoryNode" />
+              <item name="nlp" type="462c0819:PsiDirectoryNode" />
+              <item name="spf" type="462c0819:PsiDirectoryNode" />
+              <item name="mr" type="462c0819:PsiDirectoryNode" />
+              <item name="language" type="462c0819:PsiDirectoryNode" />
+              <item name="type" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spf" type="b2602c69:ProjectViewProjectNode" />
@@ -880,23 +949,10 @@
               <item name="rules" type="462c0819:PsiDirectoryNode" />
               <item name="typshifting" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="spf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="spf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -906,6 +962,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="JAVA" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1167,24 +1224,24 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956523" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.035675675" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.035675675" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45251754" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32950923" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13621622" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24984066" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24920331" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13621622" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1197,7 +1254,7 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24984066" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24956521" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24920331" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1206,9 +1263,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.035675675" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.035675675" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22115998" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23773104" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13621622" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -1241,7 +1298,184 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/diarclex/resources/init.weights">
+    <entry file="file://$PROJECT_DIR$/geoquery/resources/seed.lex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="17" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parser.ccg.normalform/src/edu/cornell/cs/nlp/spf/parser/ccg/normalform/hb/HBComposedConstraint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diarclex/experiments/template/dev.cross/dev.fold0.exp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geoquery/experiments/data/fold0.ccg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parser.ccg/src/edu/cornell/cs/nlp/spf/parser/graph/IGraphParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parser.ccg.cky/src/edu/cornell/cs/nlp/spf/parser/ccg/cky/CKYBinaryParsingRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parser.ccg.cky/src/edu/cornell/cs/nlp/spf/parser/ccg/cky/sloppy/ForwardSkippingRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-243">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diarclex/experiments/data/experimentideas.ccg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="862">
+          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parser.ccg/src/edu/cornell/cs/nlp/spf/parser/RuleUsageTriplet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/explat/src/edu/cornell/cs/nlp/spf/explat/IResourceRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/explat/src/edu/cornell/cs/nlp/spf/explat/resources/ResourceCreatorRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geoquery/experiments/template/dev.cross/logs0/model.sp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.src/edu/cornell/cs/nlp/spf/geoquery/GeoMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.src/edu/cornell/cs/nlp/spf/geoquery/GeoGenericExperiment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.src/edu/cornell/cs/nlp/spf/geoquery/ExistingModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.src/edu/cornell/cs/nlp/spf/geoquery/GeoDev.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.src/edu/cornell/cs/nlp/spf/geoquery/GeoExpSimple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.src/edu/cornell/cs/nlp/spf/geoquery/GeoExp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="286" column="0" lean-forward="true" selection-start-line="286" selection-start-column="0" selection-end-line="286" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/explat/src/edu/cornell/cs/nlp/spf/explat/DistributedExperiment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/explat/src/edu/cornell/cs/nlp/spf/explat/IJobListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/explat/src/edu/cornell/cs/nlp/spf/explat/Job.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-783">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/explat/src/edu/cornell/cs/nlp/spf/explat/resources/SerializedObjectCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geoquery/experiments/validation.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geoquery/src/edu/cornell/cs/nlp/spf/geoquery/GeoDev.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1250,209 +1484,86 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/geoquery/src/edu/cornell/cs/nlp/spf/geoquery/GeoExpSimple.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="142" column="48" lean-forward="false" selection-start-line="142" selection-start-column="48" selection-end-line="142" selection-end-column="48" />
+        <state relative-caret-position="-612">
+          <caret line="14" column="59" lean-forward="false" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parser.ccg/src/edu/cornell/cs/nlp/spf/parser/ccg/rules/ITypeRaisingRule.java">
+    <entry file="file://$PROJECT_DIR$/geoquery/src/edu/cornell/cs/nlp/spf/geoquery/GeoGenericExperiment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-855">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parser.ccg/src/edu/cornell/cs/nlp/spf/parser/ccg/rules/ILexicalRule.java">
+    <entry file="file://$PROJECT_DIR$/geoquery/src/edu/cornell/cs/nlp/spf/geoquery/GeoResourceRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360">
+          <caret line="7" column="39" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geoquery/experiments/template/learn.inc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parser.ccg/src/edu/cornell/cs/nlp/spf/parser/ccg/rules/IBinaryReversibleParseRule.java">
+    <entry file="file://$PROJECT_DIR$/geoquery/experiments/params.inc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parser.ccg/src/edu/cornell/cs/nlp/spf/parser/ccg/rules/IBinaryParseRule.java">
+    <entry file="file://$PROJECT_DIR$/geoquery/experiments/parser.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="38" lean-forward="false" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geoquery/experiments/template/init.inc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parser.ccg/src/edu/cornell/cs/nlp/spf/parser/ccg/rules/IArrayRuleNameSet.java">
+    <entry file="file://$PROJECT_DIR$/geoquery/experiments/template/genlex.inc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parser.ccg/src/edu/cornell/cs/nlp/spf/parser/ccg/ILexicalParseStep.java">
+    <entry file="file://$PROJECT_DIR$/geoquery/src/edu/cornell/cs/nlp/spf/geoquery/GeoExp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="342">
+          <caret line="186" column="49" lean-forward="false" selection-start-line="186" selection-start-column="49" selection-end-line="186" selection-end-column="49" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parser.ccg/src/edu/cornell/cs/nlp/spf/parser/ccg/IOverloadedParseStep.java">
+    <entry file="file://$PROJECT_DIR$/geoquery/experiments/template/jobs.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="144">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parser.ccg/src/edu/cornell/cs/nlp/spf/parser/ccg/IParseStep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-477">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parser.ccg/src/edu/cornell/cs/nlp/spf/parser/ccg/IWeightedParseStep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parser.ccg/src/edu/cornell/cs/nlp/spf/parser/IDerivation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-711">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parser.ccg/src/edu/cornell/cs/nlp/spf/parser/IOutputLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parser.ccg/src/edu/cornell/cs/nlp/spf/parser/IParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ccg/src/edu/cornell/cs/nlp/spf/ccg/categories/syntax/ComplexSyntax.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4779">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ccg/src/edu/cornell/cs/nlp/spf/ccg/categories/syntax/Slash.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parser.ccg/src/edu/cornell/cs/nlp/spf/parser/ccg/rules/BinaryRuleSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parser.ccg/src/edu/cornell/cs/nlp/spf/parser/IParserOutput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parser.ccg/src/edu/cornell/cs/nlp/spf/parser/ISentenceLexiconGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parser.ccg/src/edu/cornell/cs/nlp/spf/parser/ParsingOp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ccg/src/edu/cornell/cs/nlp/spf/ccg/categories/syntax/SyntaxAttributeTyping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-639">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.src/edu/cornell/cs/nlp/spf/parser/ccg/model/Model.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.src/edu/cornell/cs/nlp/spf/ccg/categories/Category.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1026">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ccg/src/edu/cornell/cs/nlp/spf/ccg/categories/syntax/Syntax.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-774">
-          <caret line="41" column="19" lean-forward="false" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.src/edu/cornell/cs/nlp/spf/utils/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geoquery/experiments/template/dev.cross/dev.fold0.exp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.src/edu/cornell/cs/nlp/spf/parser/graph/IGraphParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.src/edu/cornell/cs/nlp/spf/parser/graph/IGraphDerivation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.src/edu/cornell/cs/nlp/spf/parser/ccg/model/LexiconPruner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geoquery/experiments/template/dev.cross/dev.fold1.exp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/diarclex/resources/diarc.model">
-      <provider selected="true" editor-type-id="text-editor">
+    <entry file="file://$PROJECT_DIR$/diarclex/image.dd">
+      <provider selected="true" editor-type-id="LargeFileEditor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
@@ -1462,31 +1573,96 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geoquery/resources/seed.lex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="17" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parser.ccg.normalform/src/edu/cornell/cs/nlp/spf/parser/ccg/normalform/hb/HBComposedConstraint.java">
+    <entry file="file://$PROJECT_DIR$/mr.lambda/src/edu/cornell/cs/nlp/spf/mr/language/type/TypeRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        <state relative-caret-position="-2521">
+          <caret line="37" column="2" lean-forward="false" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="2" />
           <folding>
             <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/diarclex/src/edu/cornell/cs/nlp/spf/geoquery/DiarcExpSimple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="454" column="8" lean-forward="false" selection-start-line="454" selection-start-column="8" selection-end-line="454" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diarclex/resources/np-list.lex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diarclex/resources/diarc.model">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diarclex/resources/scratchpad">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diarclex/resources/diarc.consts.ont">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diarclex/resources/diarc.types">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="true" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/diarclex/resources/leglog.ccg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="450">
+          <caret line="31" column="134" lean-forward="true" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="134" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diarclex/resources/diarc.preds.ont">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diarclex/experiments/template/dev.cross/dev.fold3.exp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1499,129 +1675,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/diarclex/experiments/template/dev.cross/dev.fold0.exp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geoquery/experiments/data/fold0.ccg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/diarclex/experiments/data/fold0.ccg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parser.ccg/src/edu/cornell/cs/nlp/spf/parser/graph/IGraphParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-324">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/diarclex/src/edu/cornell/cs/nlp/spf/geoquery/DiarcExpSimple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="218" column="61" lean-forward="true" selection-start-line="218" selection-start-column="44" selection-end-line="218" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parser.ccg.cky/src/edu/cornell/cs/nlp/spf/parser/ccg/cky/CKYBinaryParsingRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parser.ccg.cky/src/edu/cornell/cs/nlp/spf/parser/ccg/cky/sloppy/ForwardSkippingRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-243">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/diarclex/experiments/data/experimentideas.ccg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="862">
-          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/diarclex/resources/diarc.preds.ont">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/diarclex/resources/np-list.lex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/diarclex/resources/diarc.types">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="84" lean-forward="false" selection-start-line="5" selection-start-column="84" selection-end-line="5" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/diarclex/resources/diarc.consts.ont">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parser.ccg/src/edu/cornell/cs/nlp/spf/parser/RuleUsageTriplet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="10" column="155" lean-forward="false" selection-start-line="10" selection-start-column="155" selection-end-line="10" selection-end-column="155" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/diarclex/experiments/data/fold1.ccg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+        <state relative-caret-position="162">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="155" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/diarclex/resources/seed.lex">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        <state relative-caret-position="270">
+          <caret line="15" column="59" lean-forward="false" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
           <folding />
         </state>
       </provider>

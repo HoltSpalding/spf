@@ -1,9 +1,8 @@
 (
 
-0:i
 conj:c
 disj:c
 knife:<e,t>
-blue :- ADJ : blue:<e,t>
-blue :- N : blue:<e,t>
+knife:e
+
 )

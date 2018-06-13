@@ -98,363 +98,363 @@ import edu.cornell.cs.nlp.utils.log.LoggerFactory;
  * @author Yoav Artzi
  */
 public class DiarcExpSimple {
-	public static final ILogger LOG = LoggerFactory.create(DiarcExpSimple.class);
+    public static final ILogger LOG = LoggerFactory.create(DiarcExpSimple.class);
 
-	private DiarcExpSimple() {
-		// Private ctor. Service class.
-	}
+    private DiarcExpSimple() {
+        // Private ctor. Service class.
+    }
 
-	public static void main(String[] args) {
-		// //////////////////////////////////////////
-		// Init logging
-		// //////////////////////////////////////////
-		Logger.DEFAULT_LOG = new Log(System.err);
-		Logger.setSkipPrefix(true);
-		LogLevel.setLogLevel(LogLevel.INFO);
+    public static void main(String[] args) {
+        // //////////////////////////////////////////
+        // Init logging
+        // //////////////////////////////////////////
+        Logger.DEFAULT_LOG = new Log(System.err);
+        Logger.setSkipPrefix(true);
+        LogLevel.setLogLevel(LogLevel.INFO);
 
-		// //////////////////////////////////////////
-		// Set some locations to use later
-		// //////////////////////////////////////////
+        // //////////////////////////////////////////
+        // Set some locations to use later
+        // //////////////////////////////////////////
 
-		final File resourceDir = new File("diarclex/resources/");
-		final File dataDir = new File("diarclex/experiments/data");
+        final File resourceDir = new File("diarclex/resources/");
+        final File dataDir = new File("diarclex/experiments/data");
 
-		// //////////////////////////////////////////
-		// Use tree hash vector
-		// //////////////////////////////////////////
+        // //////////////////////////////////////////
+        // Use tree hash vector
+        // //////////////////////////////////////////
 
-		HashVectorFactory.DEFAULT = Type.FAST_TREE;
+        HashVectorFactory.DEFAULT = Type.FAST_TREE;
 
-		// //////////////////////////////////////////
-		// Init lambda calculus system.
-		// //////////////////////////////////////////
+        // //////////////////////////////////////////
+        // Init lambda calculus system.
+        // //////////////////////////////////////////
 
-		final File typesFile = new File(resourceDir, "diarc.types");
-		final File predOntology = new File(resourceDir, "diarc.preds.ont");
-		final File simpleOntology = new File(resourceDir, "diarc.consts.ont");
+        final File typesFile = new File(resourceDir, "diarc.types");
+        final File predOntology = new File(resourceDir, "diarc.preds.ont");
+        final File simpleOntology = new File(resourceDir, "diarc.consts.ont");
 
-		//Does it make sense to have closed ontology for predicates? I would assume so.
-		//What if we want to learn new meaningless predicates just for the purpose of the
-		//The learning process
-		try {
-			// Init the logical expression type system
-			LogicLanguageServices.setInstance(new LogicLanguageServices.Builder(
-					new TypeRepository(typesFile), new FlexibleTypeComparator())
-							.addConstantsToOntology(simpleOntology)
-							.addConstantsToOntology(predOntology)
-							.setUseOntology(true).setNumeralTypeName("i")
-							.closeOntology(false).build());
-		} catch (final IOException e) {
-			throw new RuntimeException(e);
-		}
+        //Does it make sense to have closed ontology for predicates? I would assume so.
+        //What if we want to learn new meaningless predicates just for the purpose of the
+        //The learning process
+        try {
+            // Init the logical expression type system
+            LogicLanguageServices.setInstance(new LogicLanguageServices.Builder(
+                    new TypeRepository(typesFile), new FlexibleTypeComparator())
+                    .addConstantsToOntology(simpleOntology)
+                    .addConstantsToOntology(predOntology)
+                    .setUseOntology(true).setNumeralTypeName("i")
+                    .closeOntology(false).build());
+        } catch (final IOException e) {
+            throw new RuntimeException(e);
+        }
 
-		// //////////////////////////////////////////////////
-		// Category services for logical expressions
-		// //////////////////////////////////////////////////
+        // //////////////////////////////////////////////////
+        // Category services for logical expressions
+        // //////////////////////////////////////////////////
 
-		final LogicalExpressionCategoryServices categoryServices = new LogicalExpressionCategoryServices(
-				true);
+        final LogicalExpressionCategoryServices categoryServices = new LogicalExpressionCategoryServices(
+                true);
 
-		// //////////////////////////////////////////////////
-		// Lexical factoring services
-		// //////////////////////////////////////////////////
+        // //////////////////////////////////////////////////
+        // Lexical factoring services
+        // //////////////////////////////////////////////////
 
-		FactoringServices.set(new FactoringServices.Builder()
-				.addConstant(LogicalConstant.read("exists:<<e,t>,t>"))
-				.addConstant(LogicalConstant.read("the:<<e,t>,e>")).build());
+        FactoringServices.set(new FactoringServices.Builder()
+                .addConstant(LogicalConstant.read("exists:<<e,t>,t>"))
+                .addConstant(LogicalConstant.read("the:<<e,t>,e>")).build());
 
-		// //////////////////////////////////////////////////
-		// Read initial lexicon
-		// //////////////////////////////////////////////////
+        // //////////////////////////////////////////////////
+        // Read initial lexicon
+        // //////////////////////////////////////////////////
 
-		// Create a static set of lexical entries, which are factored using
-		// non-maximal factoring (each lexical entry is factored to multiple
-		// entries). This static set is used to init the model with various
-		// templates and lexemes.
+        // Create a static set of lexical entries, which are factored using
+        // non-maximal factoring (each lexical entry is factored to multiple
+        // entries). This static set is used to init the model with various
+        // templates and lexemes.
 
-		final File seedLexiconFile = new File(resourceDir, "seed.lex");
-		final File npLexiconFile = new File(resourceDir, "np-list.lex");
+        final File seedLexiconFile = new File(resourceDir, "seed.lex");
+        final File npLexiconFile = new File(resourceDir, "np-list.lex");
 
-		final Lexicon<LogicalExpression> readLexicon = new Lexicon<LogicalExpression>();
-		readLexicon.addEntriesFromFile(seedLexiconFile, categoryServices,
-				Origin.FIXED_DOMAIN);
+        final Lexicon<LogicalExpression> readLexicon = new Lexicon<LogicalExpression>();
+        readLexicon.addEntriesFromFile(seedLexiconFile, categoryServices,
+                Origin.FIXED_DOMAIN);
 
-		final Lexicon<LogicalExpression> semiFactored = new Lexicon<LogicalExpression>();
-		for (final LexicalEntry<LogicalExpression> entry : readLexicon
-				.toCollection()) {
-			for (final FactoredLexicalEntry factoredEntry : FactoringServices
-					.factor(entry, true, true, 2)) {
-				semiFactored.add(FactoringServices.factor(factoredEntry));
-			}
-		}
+        final Lexicon<LogicalExpression> semiFactored = new Lexicon<LogicalExpression>();
+        for (final LexicalEntry<LogicalExpression> entry : readLexicon
+                .toCollection()) {
+            for (final FactoredLexicalEntry factoredEntry : FactoringServices
+                    .factor(entry, true, true, 2)) {
+                semiFactored.add(FactoringServices.factor(factoredEntry));
+            }
+        }
 
-		// Read NP list
-		final ILexicon<LogicalExpression> npLexicon = new FactoredLexicon();
-		npLexicon.addEntriesFromFile(npLexiconFile, categoryServices,
-				Origin.FIXED_DOMAIN);
+        // Read NP list
+        final ILexicon<LogicalExpression> npLexicon = new FactoredLexicon();
+        npLexicon.addEntriesFromFile(npLexiconFile, categoryServices,
+                Origin.FIXED_DOMAIN);
 
-		// //////////////////////////////////////////////////
-		// CKY parser
-		// //////////////////////////////////////////////////
+        // //////////////////////////////////////////////////
+        // CKY parser
+        // //////////////////////////////////////////////////
 
-		// Use the Hockenmeir-Bisk normal form parsing constraints. To parse with
-		// NF constraints, just set this variable to null.
-		final NormalFormValidator nf = new NormalFormValidator.Builder()
-				.addConstraint(
-						new HBComposedConstraint(Collections.emptySet(), false))
-				.build();
+        // Use the Hockenmeir-Bisk normal form parsing constraints. To parse with
+        // NF constraints, just set this variable to null.
+        final NormalFormValidator nf = new NormalFormValidator.Builder()
+                .addConstraint(
+                        new HBComposedConstraint(Collections.emptySet(), false))
+                .build();
 
-		// Build the parser.
-		final IGraphParser<Sentence, LogicalExpression> parser = new CKYParser.Builder<Sentence, LogicalExpression>(
-				categoryServices)
-						.setCompleteParseFilter(new SimpleFullParseFilter(
-								SetUtils.createSingleton((Syntax) Syntax.S)))
-						.setPruneLexicalCells(true)
-						.addSloppyLexicalGenerator(
-								new SimpleWordSkippingLexicalGenerator<Sentence, LogicalExpression>(
-										categoryServices))
-						.setMaxNumberOfCellsInSpan(50)
-						.addParseRule(
-								new CKYBinaryParsingRule<LogicalExpression>(
-										new ForwardComposition<LogicalExpression>(
-												categoryServices, 1, false),
-										nf))
-						.addParseRule(
-								new CKYBinaryParsingRule<LogicalExpression>(
-										new BackwardComposition<LogicalExpression>(
-												categoryServices, 1, false),
-										nf))
-						.addParseRule(
-								new CKYBinaryParsingRule<LogicalExpression>(
-										new ForwardApplication<LogicalExpression>(
-												categoryServices),
-										nf))
-						.addParseRule(
-								new CKYBinaryParsingRule<LogicalExpression>(
-										new BackwardApplication<LogicalExpression>(
-												categoryServices),
-										nf))
-						.addParseRule(
-								new CKYUnaryParsingRule<LogicalExpression>(
-										new PrepositionTypeShifting(
-												categoryServices),
-										nf))
-						.addParseRule(
-								new ForwardSkippingRule<LogicalExpression>(
-										categoryServices))
-						.addParseRule(
-								new BackwardSkippingRule<LogicalExpression>(
-										categoryServices, false))
-						.addParseRule(
-								new CKYBinaryParsingRule<LogicalExpression>(
-										new ForwardTypeRaisedComposition(
-												categoryServices),
-										nf))
-						.addParseRule(
-								new CKYBinaryParsingRule<LogicalExpression>(
-										new ThatlessRelative(categoryServices),
-										nf))
-						.addParseRule(
-								new CKYBinaryParsingRule<LogicalExpression>(
-										new PluralExistentialTypeShifting(
-												categoryServices),
-										nf))
-						.build();
+        // Build the parser.
+        final IGraphParser<Sentence, LogicalExpression> parser = new CKYParser.Builder<Sentence, LogicalExpression>(
+                categoryServices)
+                .setCompleteParseFilter(new SimpleFullParseFilter(
+                        SetUtils.createSingleton((Syntax) Syntax.S)))
+                .setPruneLexicalCells(true)
+                .addSloppyLexicalGenerator(
+                        new SimpleWordSkippingLexicalGenerator<Sentence, LogicalExpression>(
+                                categoryServices))
+                .setMaxNumberOfCellsInSpan(50)
+                .addParseRule(
+                        new CKYBinaryParsingRule<LogicalExpression>(
+                                new ForwardComposition<LogicalExpression>(
+                                        categoryServices, 1, false),
+                                nf))
+                .addParseRule(
+                        new CKYBinaryParsingRule<LogicalExpression>(
+                                new BackwardComposition<LogicalExpression>(
+                                        categoryServices, 1, false),
+                                nf))
+                .addParseRule(
+                        new CKYBinaryParsingRule<LogicalExpression>(
+                                new ForwardApplication<LogicalExpression>(
+                                        categoryServices),
+                                nf))
+                .addParseRule(
+                        new CKYBinaryParsingRule<LogicalExpression>(
+                                new BackwardApplication<LogicalExpression>(
+                                        categoryServices),
+                                nf))
+                .addParseRule(
+                        new CKYUnaryParsingRule<LogicalExpression>(
+                                new PrepositionTypeShifting(
+                                        categoryServices),
+                                nf))
+                .addParseRule(
+                        new ForwardSkippingRule<LogicalExpression>(
+                                categoryServices))
+                .addParseRule(
+                        new BackwardSkippingRule<LogicalExpression>(
+                                categoryServices, false))
+                .addParseRule(
+                        new CKYBinaryParsingRule<LogicalExpression>(
+                                new ForwardTypeRaisedComposition(
+                                        categoryServices),
+                                nf))
+                .addParseRule(
+                        new CKYBinaryParsingRule<LogicalExpression>(
+                                new ThatlessRelative(categoryServices),
+                                nf))
+                .addParseRule(
+                        new CKYBinaryParsingRule<LogicalExpression>(
+                                new PluralExistentialTypeShifting(
+                                        categoryServices),
+                                nf))
+                .build();
 
-		// //////////////////////////////////////////////////
-		// Model
-		// //////////////////////////////////////////////////
+        // //////////////////////////////////////////////////
+        // Model
+        // //////////////////////////////////////////////////
 
-		final Model<Sentence, LogicalExpression> model = new Model.Builder<Sentence, LogicalExpression>()
-				.setLexicon(new FactoredLexicon())
-				.addFeatureSet(new FactoredLexicalFeatureSet.Builder<Sentence>()
-						.setTemplateScale(0.1).build())
-				.addFeatureSet(new DynamicWordSkippingFeatures<>(
-						categoryServices.getEmptyCategory()))
-				.addFeatureSet(
-						new LogicalExpressionCoordinationFeatureSet<Sentence>(
-								true, true, true))
-				.build();
+        final Model<Sentence, LogicalExpression> model = new Model.Builder<Sentence, LogicalExpression>()
+                .setLexicon(new FactoredLexicon())
+                .addFeatureSet(new FactoredLexicalFeatureSet.Builder<Sentence>()
+                        .setTemplateScale(0.1).build())
+                .addFeatureSet(new DynamicWordSkippingFeatures<>(
+                        categoryServices.getEmptyCategory()))
+                .addFeatureSet(
+                        new LogicalExpressionCoordinationFeatureSet<Sentence>(
+                                true, true, true))
+                .build();
 
-		// Model logger
-		final ModelLogger modelLogger = new ModelLogger(true);
+        // Model logger
+        final ModelLogger modelLogger = new ModelLogger(true);
 
-		// //////////////////////////////////////////////////
-		// Validation function
-		// //////////////////////////////////////////////////
+        // //////////////////////////////////////////////////
+        // Validation function
+        // //////////////////////////////////////////////////
 
-		final LabeledValidator<SingleSentence, LogicalExpression> validator = new LabeledValidator<SingleSentence, LogicalExpression>();
+        final LabeledValidator<SingleSentence, LogicalExpression> validator = new LabeledValidator<SingleSentence, LogicalExpression>();
 
-		// //////////////////////////////////////////////////
-		// Genlex function
-		// //////////////////////////////////////////////////
+        // //////////////////////////////////////////////////
+        // Genlex function
+        // //////////////////////////////////////////////////
 
-		final TemplateSupervisedGenlex<Sentence, SingleSentence> genlex = new TemplateSupervisedGenlex<Sentence, SingleSentence>(
-				4, false, ILexiconGenerator.GENLEX_LEXICAL_ORIGIN);
+        final TemplateSupervisedGenlex<Sentence, SingleSentence> genlex = new TemplateSupervisedGenlex<Sentence, SingleSentence>(
+                4, false, ILexiconGenerator.GENLEX_LEXICAL_ORIGIN);
 
-		// //////////////////////////////////////////////////
-		// Load training and testing data
-		// //////////////////////////////////////////////////
+        // //////////////////////////////////////////////////
+        // Load training and testing data
+        // //////////////////////////////////////////////////
 
-		//TODO fold1 and 2 is training data, and fold0 is testing data
-		final List<IDataCollection<? extends SingleSentence>> folds = new ArrayList<IDataCollection<? extends SingleSentence>>(
-				10);
-		for (int i = 0; i < 2; ++i) {
-			folds.add(SingleSentenceCollection
-					.read(new File(dataDir, String.format("fold%d.ccg", i))));
-		}
-		final CompositeDataCollection<SingleSentence> train = new CompositeDataCollection<SingleSentence>(
-				folds.subList(1, folds.size()));
-		final IDataCollection<? extends SingleSentence> test = folds.get(0);
+        //TODO fold1 and 2 is training data, and fold0 is testing data
+        final List<IDataCollection<? extends SingleSentence>> folds = new ArrayList<IDataCollection<? extends SingleSentence>>(
+                10);
+        for (int i = 0; i < 2; ++i) {
+            folds.add(SingleSentenceCollection
+                    .read(new File(dataDir, String.format("fold%d.ccg", i))));
+        }
+        final CompositeDataCollection<SingleSentence> train = new CompositeDataCollection<SingleSentence>(
+                folds.subList(1, folds.size()));
+        final IDataCollection<? extends SingleSentence> test = folds.get(0);
 
-		// //////////////////////////////////////////////////
-		// Learner
-		// //////////////////////////////////////////////////
+        // //////////////////////////////////////////////////
+        // Learner
+        // //////////////////////////////////////////////////
 
-		// Many complex classes use the builder design pattern. For example, the
-		// learner we will use in this example is created via a builder. The
-		// builder constructor takes the non-optional argument the learner will
-		// need. All other parameters are optional and have default values
-		// inside the builder. In general, builder classes are located in the
-		// classes they are used to create.
-		final Builder<Sentence, SingleSentence, LogicalExpression> builder = new ValidationStocGrad.Builder<Sentence, SingleSentence, LogicalExpression>(
-				train, parser, validator);
+        // Many complex classes use the builder design pattern. For example, the
+        // learner we will use in this example is created via a builder. The
+        // builder constructor takes the non-optional argument the learner will
+        // need. All other parameters are optional and have default values
+        // inside the builder. In general, builder classes are located in the
+        // classes they are used to create.
+        final Builder<Sentence, SingleSentence, LogicalExpression> builder = new ValidationStocGrad.Builder<Sentence, SingleSentence, LogicalExpression>(
+                train, parser, validator);
 
-		// Add the GENLEX procedure to allow for lexical learning.
-		builder.setGenlex(genlex, categoryServices);
+        // Add the GENLEX procedure to allow for lexical learning.
+        builder.setGenlex(genlex, categoryServices);
 
-		// We will use a larger beam for lexical generation. This will override
-		// the beam set for the parser.
-		builder.setLexiconGenerationBeamSize(100);
+        // We will use a larger beam for lexical generation. This will override
+        // the beam set for the parser.
+        builder.setLexiconGenerationBeamSize(100);
 
-		// 4 learning iterations. If we hadn't specified 4 here, the learner
-		// would have used the default value from the builder class. Usually, we
-		// run experiments with a higher number of iterations, when possible.
-		// However, we use 4 iterations here to make this example faster to run.
-		builder.setNumIterations(4);
+        // 4 learning iterations. If we hadn't specified 4 here, the learner
+        // would have used the default value from the builder class. Usually, we
+        // run experiments with a higher number of iterations, when possible.
+        // However, we use 4 iterations here to make this example faster to run.
+        builder.setNumIterations(4);
 
-		// We are doing supervised learning, so we will use a supervised filter.
-		// See the filter factory for an explanation.
-		builder.setParsingFilterFactory(
-				new SupervisedFilterFactory<>(PredicateUtils.alwaysTrue()));
+        // We are doing supervised learning, so we will use a supervised filter.
+        // See the filter factory for an explanation.
+        builder.setParsingFilterFactory(
+                new SupervisedFilterFactory<>(PredicateUtils.alwaysTrue()));
 
-		// To make learning faster we are going to ignore all sentences that are
-		// longer than 50 tikens.
-		builder.setProcessingFilter(new SentenceLengthFilter<>(50));
+        // To make learning faster we are going to ignore all sentences that are
+        // longer than 50 tikens.
+        builder.setProcessingFilter(new SentenceLengthFilter<>(50));
 
-		// To speed learning further, we make the learner error driven, meaning:
-		// if it can parse a sentence, it will skip lexical induction.
-		builder.setErrorDriven(true);
+        // To speed learning further, we make the learner error driven, meaning:
+        // if it can parse a sentence, it will skip lexical induction.
+        builder.setErrorDriven(true);
 
-		// Another option for speeding the learner. This time we choose not to
-		// use it. If this was set to true, it would have recycled derivations
-		// between the two steps (lexical induction and parameter update).
-		builder.setConflateGenlexAndPrunedParses(false);
+        // Another option for speeding the learner. This time we choose not to
+        // use it. If this was set to true, it would have recycled derivations
+        // between the two steps (lexical induction and parameter update).
+        builder.setConflateGenlexAndPrunedParses(false);
 
-		// Optional: we have the option to create files with more verbose
-		// logging. This is separate from simply increasing the log level of the
-		// system (or of a specific class). The output logger we use here dumps
-		// the chart of the CKY parser to a file. It assumes the directory given
-		// exists. If the directory is missing, it will LOG an error message and
-		// won't log the chart. Naturally, this logging slows the system.
-		//builder.setParserOutputLogger(new ChartLogger<>(new File("/tmp/charts"),
-				//"diarcexpsimple", false));
+        // Optional: we have the option to create files with more verbose
+        // logging. This is separate from simply increasing the log level of the
+        // system (or of a specific class). The output logger we use here dumps
+        // the chart of the CKY parser to a file. It assumes the directory given
+        // exists. If the directory is missing, it will LOG an error message and
+        // won't log the chart. Naturally, this logging slows the system.
+        //builder.setParserOutputLogger(new ChartLogger<>(new File("/tmp/charts"),
+        //"diarcexpsimple", false));
 
-		// Not that we set all the learning parameters, we call build() to
-		// create the learner.
-		final ILearner<Sentence, SingleSentence, Model<Sentence, LogicalExpression>> learner = builder
-				.build();
+        // Not that we set all the learning parameters, we call build() to
+        // create the learner.
+        final ILearner<Sentence, SingleSentence, Model<Sentence, LogicalExpression>> learner = builder
+                .build();
 
-		// //////////////////////////////////////////////////
-		// Tester
-		// //////////////////////////////////////////////////
+        // //////////////////////////////////////////////////
+        // Tester
+        // //////////////////////////////////////////////////
 
-		final Tester.Builder<Sentence, LogicalExpression, SingleSentence> testBuilder = new Tester.Builder<Sentence, LogicalExpression, SingleSentence>(
-				test, parser);
+        final Tester.Builder<Sentence, LogicalExpression, SingleSentence> testBuilder = new Tester.Builder<Sentence, LogicalExpression, SingleSentence>(
+                test, parser);
 
-		// Optional: we have the option to create files with more verbose
-		// logging. This is separate from simply increasing the log level of the
-		// system (or of a specific class). The output logger we use here dumps
-		// the chart of the CKY parser to a file. It assumes the directory given
-		// exists. If the directory is missing, it will LOG an error message and
-		// won't log the chart. Naturally, this logging slows the system.
-		testBuilder.setOutputLogger(new ChartLogger<>(new File("/tmp/charts"),
-				"diarcexpsimple", false));
+        // Optional: we have the option to create files with more verbose
+        // logging. This is separate from simply increasing the log level of the
+        // system (or of a specific class). The output logger we use here dumps
+        // the chart of the CKY parser to a file. It assumes the directory given
+        // exists. If the directory is missing, it will LOG an error message and
+        // won't log the chart. Naturally, this logging slows the system.
+        testBuilder.setOutputLogger(new ChartLogger<>(new File("/tmp/charts"),
+                "diarcexpsimple", false));
 
-		final Tester<Sentence, LogicalExpression, SingleSentence> tester = testBuilder
-				.build();
+        final Tester<Sentence, LogicalExpression, SingleSentence> tester = testBuilder
+                .build();
 
-		// //////////////////////////////////////////////////
-		// Init model
-		// //////////////////////////////////////////////////
+        // //////////////////////////////////////////////////
+        // Init model
+        // //////////////////////////////////////////////////
 
-		new LexiconModelInit<Sentence, LogicalExpression>(semiFactored)
-				.init(model);
-		new LexiconModelInit<Sentence, LogicalExpression>(npLexicon)
-				.init(model);
-		new LexicalFeaturesInit<Sentence, LogicalExpression>(semiFactored,
-				KeyArgs.read("FACLEX#LEX"),
-				new ExpLengthLexicalEntryScorer<LogicalExpression>(10.0, 1.1))
-						.init(model);
-		new LexicalFeaturesInit<Sentence, LogicalExpression>(npLexicon,
-				KeyArgs.read("FACLEX#LEX"),
-				new ExpLengthLexicalEntryScorer<LogicalExpression>(10.0, 1.1))
-						.init(model);
-		new LexicalFeaturesInit<Sentence, LogicalExpression>(semiFactored,
-				KeyArgs.read("FACLEX#XEME"), 10.0).init(model);
-		new LexicalFeaturesInit<Sentence, LogicalExpression>(npLexicon,
-				KeyArgs.read("FACLEX#XEME"), 10.0).init(model);
+        new LexiconModelInit<Sentence, LogicalExpression>(semiFactored)
+                .init(model);
+        new LexiconModelInit<Sentence, LogicalExpression>(npLexicon)
+                .init(model);
+        new LexicalFeaturesInit<Sentence, LogicalExpression>(semiFactored,
+                KeyArgs.read("FACLEX#LEX"),
+                new ExpLengthLexicalEntryScorer<LogicalExpression>(10.0, 1.1))
+                .init(model);
+        new LexicalFeaturesInit<Sentence, LogicalExpression>(npLexicon,
+                KeyArgs.read("FACLEX#LEX"),
+                new ExpLengthLexicalEntryScorer<LogicalExpression>(10.0, 1.1))
+                .init(model);
+        new LexicalFeaturesInit<Sentence, LogicalExpression>(semiFactored,
+                KeyArgs.read("FACLEX#XEME"), 10.0).init(model);
+        new LexicalFeaturesInit<Sentence, LogicalExpression>(npLexicon,
+                KeyArgs.read("FACLEX#XEME"), 10.0).init(model);
 
-		// Init the weight for the dynamic word skipping feature.
-		model.getTheta().set("DYNSKIP", -1.0);
+        // Init the weight for the dynamic word skipping feature.
+        model.getTheta().set("DYNSKIP", -1.0);
 
-		// //////////////////////////////////////////////////
-		// Log initial model
-		// //////////////////////////////////////////////////
+        // //////////////////////////////////////////////////
+        // Log initial model
+        // //////////////////////////////////////////////////
 
-		LOG.info("Initial model:");
-		modelLogger.log(model, System.err);
+        LOG.info("Initial model:");
+        modelLogger.log(model, System.err);
 
-		// //////////////////////////////////////////////////
-		// Training
-		// //////////////////////////////////////////////////
+        // //////////////////////////////////////////////////
+        // Training
+        // //////////////////////////////////////////////////
 
-		final long startTime = System.currentTimeMillis();
+        final long startTime = System.currentTimeMillis();
 
-		learner.train(model);
+        learner.train(model);
 
-		// Output total run time
-		LOG.info("Total training time %.4f seconds",
-				(System.currentTimeMillis() - startTime) / 1000.0);
+        // Output total run time
+        LOG.info("Total training time %.4f seconds",
+                (System.currentTimeMillis() - startTime) / 1000.0);
 
-		// //////////////////////////////////////////////////
-		// Log final model.
-		// //////////////////////////////////////////////////
+        // //////////////////////////////////////////////////
+        // Log final model.
+        // //////////////////////////////////////////////////
 
-		LOG.info("Final model:");
-		//modelLogger.log(model, System.err);
+        LOG.info("Final model:");
+        //modelLogger.log(model, System.err);
 
-		// //////////////////////////////////////////////////
-		// Testing.
-		// //////////////////////////////////////////////////
+        // //////////////////////////////////////////////////
+        // Testing.
+        // //////////////////////////////////////////////////
 
-		final ExactMatchTestingStatistics<Sentence, LogicalExpression, SingleSentence> stats = new ExactMatchTestingStatistics<Sentence, LogicalExpression, SingleSentence>();
-		tester.test(model, stats);
-		//final File lexlog = new File("diarclex/resources/leglog.ccg");
-		 try {
-       	    final PrintStream ps = new PrintStream(new File("diarclex/resources/leglog.ccg"));
-       	    modelLogger.log(model, ps);
+        final ExactMatchTestingStatistics<Sentence, LogicalExpression, SingleSentence> stats = new ExactMatchTestingStatistics<Sentence, LogicalExpression, SingleSentence>();
+        tester.test(model, stats);
+        //final File lexlog = new File("diarclex/resources/leglog.ccg");
+        try {
+            final PrintStream ps = new PrintStream(new File("diarclex/resources/leglog.ccg"));
+            modelLogger.log(model, ps);
         } catch (FileNotFoundException ex) { System.err.println("Can't save lexicon to file"); }
         try {
-			Model.write(model, new File("diarclex/resources/diarc.model"));
-		} catch(IOException ex) { System.err.println("Can't save model to file"); }
+            Model.write(model, new File("diarclex/resources/diarc.model"));
+        } catch(IOException ex) { System.err.println("Can't save model to file"); }
 
 
 
 
-		//LOG.info(stats.toString());
-		//LOG.info(model.lexicon[0].);
+        LOG.info(stats.toString());
+        //LOG.info(model.lexicon[0].);
 
-	}
+    }
 
 }
