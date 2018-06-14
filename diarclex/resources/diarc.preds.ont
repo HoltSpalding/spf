@@ -30,4 +30,7 @@ conjobj:<a,<<a,t>,t>>  //conjuction object
 
 modifyaction:<a,<a,t>>
 modifyaction:<<a,t>,<a,t>>
+prepsubj:<a,<<a,t>,t>>
+prepobj:<a,<<e,t>,t>>
+by:<a,t>
 )

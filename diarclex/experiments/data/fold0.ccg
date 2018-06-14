@@ -46,5 +46,5 @@ make sure to pick up the ball before you throw it
 the handle
 (lambda $0:e (and:<t*,t> (handle:<e,t> $0) (def:<e,t> $0)))
 
-pickup by the handle
-(lambda $0:e (and:<t*,t> (handle:<e,t> $0) (def:<e,t> $0)))
+pickup the knife by the handle
+(lambda $0:a (and:<t*,t> (by:<a,t> $0) (prepobj:<a,<<e,t>,t>> $0 (lambda $1:e (and:<t*,t> (def:<e,t> $1) (handle:<e,t> $1)))) (prepsubj:<a,<<a,t>,t>> $0 (lambda $2:a (and:<t*,t> (actor:<a,<<e,t>,t>> $2 (lambda $3:e (self:<e,t> $3))) (obj:<a,<<e,t>,t>> $2 (lambda $4:e (and:<t*,t> (def:<e,t> $4) (knife:<e,t> $4)))) (pickup:<a,t> $2))))))
