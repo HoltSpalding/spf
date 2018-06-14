@@ -357,8 +357,8 @@ public class DiarcExpSimple {
         // the chart of the CKY parser to a file. It assumes the directory given
         // exists. If the directory is missing, it will LOG an error message and
         // won't log the chart. Naturally, this logging slows the system.
-        //builder.setParserOutputLogger(new ChartLogger<>(new File("/tmp/charts"),
-        //"diarcexpsimple", false));
+        builder.setParserOutputLogger(new ChartLogger<>(new File("diarclex/tmp/charts"),
+        "diarcexpsimple", false));
 
         // Not that we set all the learning parameters, we call build() to
         // create the learner.
@@ -378,7 +378,7 @@ public class DiarcExpSimple {
         // the chart of the CKY parser to a file. It assumes the directory given
         // exists. If the directory is missing, it will LOG an error message and
         // won't log the chart. Naturally, this logging slows the system.
-        testBuilder.setOutputLogger(new ChartLogger<>(new File("/tmp/charts"),
+        testBuilder.setOutputLogger(new ChartLogger<>(new File("diarclex/tmp/charts"),
                 "diarcexpsimple", false));
 
         final Tester<Sentence, LogicalExpression, SingleSentence> tester = testBuilder
