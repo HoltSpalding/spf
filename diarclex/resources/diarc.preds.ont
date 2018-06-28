@@ -6,6 +6,7 @@ exists:<<a,t>,t>
 eq:<e,<e,t>>
 eq:<a,<a,t>>
 not:<t,t>
+the:<<e,t>,t>
 
 argmax:<<e,t>,<<e,n>,e>>		// Returns the entity from arg0 that has the maximum value according to the function arg1
 argmin:<<e,t>,<<e,n>,e>>		// Returns the entity from arg0 that has the minimum value according to the function arg1
@@ -13,7 +14,6 @@ argmin:<<e,t>,<<e,n>,e>>		// Returns the entity from arg0 that has the minimum v
 // Determiners
 a:<<e,t>,e>			// Indefinite article
 io:<<e,t>,e>        // Definite article, indirect object
-def:<e,t>
 mod:<e,t>
 
 pickup:<a,t>

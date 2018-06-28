@@ -160,8 +160,7 @@ public class DiarcExpSimple {
         // //////////////////////////////////////////////////
 
         FactoringServices.set(new FactoringServices.Builder()
-                .addConstant(LogicalConstant.read("exists:<<e,t>,t>"))
-                .addConstant(LogicalConstant.read("the:<<e,t>,e>")).build());
+                .addConstant(LogicalConstant.read("exists:<<e,t>,t>")).build());
 
         // //////////////////////////////////////////////////
         // Read initial lexicon
@@ -250,7 +249,7 @@ public class DiarcExpSimple {
                                 new ForwardTypeRaisedComposition(
                                         categoryServices),
                                 nf))
-                .addParseRule(
+               .addParseRule(
                         new CKYBinaryParsingRule<LogicalExpression>(
                                 new ThatlessRelative(categoryServices),
                                 nf))
@@ -318,7 +317,7 @@ public class DiarcExpSimple {
         // inside the builder. In general, builder classes are located in the
         // classes they are used to create.
         final Builder<Sentence, SingleSentence, LogicalExpression> builder = new ValidationStocGrad.Builder<Sentence, SingleSentence, LogicalExpression>(
-                train, parser, validator);
+               train, parser, validator);
 
         // Add the GENLEX procedure to allow for lexical learning.
         builder.setGenlex(genlex, categoryServices);

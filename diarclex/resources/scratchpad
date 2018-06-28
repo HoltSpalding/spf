@@ -147,3 +147,369 @@ make interpreter and allow comments and templates in dictionaries, the above bef
 
 
 
+*****************************************************************************************************
+*****************************************************************************************************
+********************************************************************************************************
+****************************************************************************************************
+**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
+
+
+
+
+
+
+
+knife :- N : knife:<e,t>
+box :- N : box:<e,t>
+ball :- N : ball:<e,t>
+brad :- N : brad:<e,t>
+handle :- N : handle:<e,t>
+you :- N : self:<e,t>
+it :- N : it:<e,t>
+obj :- N : (lambda $0:e (obj:<e,t> $0))
+mod :- S/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (mod:<e,t> $1) ($0 $1))))
+mod :- S/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (mod:<e,t> $1) ($0 $1))))
+mod :- NP/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (mod:<e,t> $1) ($0 $1))))
+mod :- N/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (mod:<e,t> $1) ($0 $1))))
+blue :- S/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (blue:<e,t> $1) ($0 $1))))
+blue :- S/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (blue:<e,t> $1) ($0 $1))))
+a :- NP/N : a:<<e,t>,e>
+and :- C : conj:c
+, :- C : conj:c
+, :- C : disj:c
+or :- C : disj:c
+pickup :- (S\N)/NP : (lambda $0:<e,t> (lambda $3:<e,t> (lambda $1:a (and:<t*,t> (obj:<a,<<e,t>,t>> $1 (lambda $2:e ($0 $2))) (pickup:<a,t> $1) (actor:<a,<<e,t>,t>> $1 $3)))))
+pickup :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (obj:<a,<<e,t>,t>> $1 (lambda $2:e ($0 $2))) (pickup:<a,t> $1) (actor:<a,<<e,t>,t>> $1 self:<e,t>))))
+pick up :- (S\N)/NP : (lambda $0:<e,t> (lambda $3:<e,t> (lambda $1:a (and:<t*,t> (obj:<a,<<e,t>,t>> $1 (lambda $2:e ($0 $2))) (pickup:<a,t> $1) (actor:<a,<<e,t>,t>> $1 $3)))))
+pick up :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (obj:<a,<<e,t>,t>> $1 (lambda $2:e ($0 $2))) (pickup:<a,t> $1) (actor:<a,<<e,t>,t>> $1 self:<e,t>))))
+pick up :- (S\N)/N : (lambda $0:<e,t> (lambda $3:<e,t> (lambda $1:a (and:<t*,t> (obj:<a,<<e,t>,t>> $1 (lambda $2:e ($0 $2))) (pickup:<a,t> $1) (actor:<a,<<e,t>,t>> $1 $3)))))
+pick up :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (obj:<a,<<e,t>,t>> $1 (lambda $2:e ($0 $2))) (pickup:<a,t> $1) (actor:<a,<<e,t>,t>> $1 self:<e,t>))))
+throw :- (S\N)/NP : (lambda $0:<e,t> (lambda $3:<e,t> (lambda $1:a (and:<t*,t> (obj:<a,<<e,t>,t>> $1 (lambda $2:e ($0 $2))) (throw:<a,t> $1) (actor:<a,<<e,t>,t>> $1 $3)))))
+throw :- S/NP : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (obj:<a,<<e,t>,t>> $1 (lambda $2:e ($0 $2))) (throw:<a,t> $1) (actor:<a,<<e,t>,t>> $1 self:<e,t>))))
+throw :- (S\N)/N : (lambda $0:<e,t> (lambda $3:<e,t> (lambda $1:a (and:<t*,t> (obj:<a,<<e,t>,t>> $1 (lambda $2:e ($0 $2))) (throw:<a,t> $1) (actor:<a,<<e,t>,t>> $1 $3)))))
+throw :- S/N : (lambda $0:<e,t> (lambda $1:a (and:<t*,t> (obj:<a,<<e,t>,t>> $1 (lambda $2:e ($0 $2))) (throw:<a,t> $1) (actor:<a,<<e,t>,t>> $1 self:<e,t>))))
+before :- S\S/S : (lambda $1:<a,t> (lambda $2:<a,t> (lambda $0:a (and:<t*,t> (before:<a,t> $0) (conjsubj:<a,<<a,t>,t>> $0 $2) (conjobj:<a,<<a,t>,t>> $0 $1)))))
+quickly :- S\S : (lambda $0:<a,t> (lambda $1:a (and:<t*,t> (manner:<a,<<a,t>,t>> $1 quickly:<a,t>)  ($0 $1))))
+quickly :- S/S : (lambda $0:<a,t> (lambda $1:a (and:<t*,t> (manner:<a,<<a,t>,t>> $1 quickly:<a,t>)  ($0 $1))))
+make sure to :- S/S : (lambda $1:<a,t> (lambda $0:a (modifyaction:<<a,t>,<a,t>> $1 $0)))
+by :- S\S/NP : (lambda $1:<e,t> (lambda $2:<a,t> (lambda $0:a (and:<t*,t> (by:<a,t> $0) (prepsubj:<a,<<a,t>,t>> $0 $2) (prepobj:<a,<<e,t>,t>> $0 $1)))))
+
+
+//find ccg rules for adjectives
+//idiomatic, non preposition
+in front of :- NP/N : (lambda $0:<e,t> (
+
+
+mod obj
+(lambda $0:e (and:<t*,t> (obj:<e,t> $0) (mod:<e,t> $0)))
+
+blue mod obj
+(lambda $0:e (and:<t*,t> (obj:<e,t> $0) (mod:<e,t> $0) (blue:<e,t> $0)))
+
+the blue mod obj
+(lambda $0:e (and:<t*,t> (obj:<e,t> $0) (def:<e,t> $0) (blue:<e,t> $0) (mod:<e,t> $0)))
+
+pickup the blue mod obj
+(lambda $0:a (and:<t*,t> (pickup:<a,t> $0) (actor:<a,<<e,t>,t>> $0 self:<e,t>) (obj:<a,<<e,t>,t>> $0 (lambda $1:e (and:<t*,t> (obj:<e,t> $1) (def:<e,t> $1) (blue:<e,t> $1) (mod:<e,t> $1))))))
+
+brad pickup the blue mod obj
+(lambda $0:a (and:<t*,t> (pickup:<a,t> $0) (actor:<a,<<e,t>,t>> $0 brad:<e,t>) (obj:<a,<<e,t>,t>> $0 (lambda $1:e (and:<t*,t> (obj:<e,t> $1) (def:<e,t> $1) (blue:<e,t> $1) (mod:<e,t> $1))))))
+
+pick up the blue mod obj
+(lambda $0:a (and:<t*,t> (pickup:<a,t> $0) (actor:<a,<<e,t>,t>> $0 self:<e,t>) (obj:<a,<<e,t>,t>> $0 (lambda $1:e (and:<t*,t> (obj:<e,t> $1) (def:<e,t> $1) (blue:<e,t> $1) (mod:<e,t> $1))))))
+
+brad pick up the blue mod obj
+(lambda $0:a (and:<t*,t> (pickup:<a,t> $0) (actor:<a,<<e,t>,t>> $0 brad:<e,t>) (obj:<a,<<e,t>,t>> $0 (lambda $1:e (and:<t*,t> (obj:<e,t> $1) (def:<e,t> $1) (blue:<e,t> $1) (mod:<e,t> $1))))))
+
+brad pick up the blue mod obj quickly
+(lambda $0:a (and:<t*,t> (pickup:<a,t> $0) (manner:<a,<<a,t>,t>> $0 quickly:<a,t>) (actor:<a,<<e,t>,t>> $0 brad:<e,t>) (obj:<a,<<e,t>,t>> $0 (lambda $1:e (and:<t*,t> (obj:<e,t> $1) (def:<e,t> $1) (blue:<e,t> $1) (mod:<e,t> $1))))))
+
+quickly pick up the mod obj
+(lambda $0:a (and:<t*,t> (pickup:<a,t> $0) (manner:<a,<<a,t>,t>> $0 quickly:<a,t>) (actor:<a,<<e,t>,t>> $0 self:<e,t>) (obj:<a,<<e,t>,t>> $0 (lambda $1:e (and:<t*,t> (obj:<e,t> $1) (def:<e,t> $1) (mod:<e,t> $1))))))
+
+pick up the ball
+(lambda $0:a (and:<t*,t> (pickup:<a,t> $0) (actor:<a,<<e,t>,t>> $0 self:<e,t>) (obj:<a,<<e,t>,t>> $0 (lambda $1:e (and:<t*,t> (ball:<e,t> $1) (def:<e,t> $1))))))
+
+you pick up the ball
+(lambda $0:a (and:<t*,t> (pickup:<a,t> $0) (actor:<a,<<e,t>,t>> $0 self:<e,t>) (obj:<a,<<e,t>,t>> $0 (lambda $1:e (and:<t*,t> (ball:<e,t> $1) (def:<e,t> $1))))))
+
+you throw it
+(lambda $0:a (and:<t*,t> (throw:<a,t> $0) (actor:<a,<<e,t>,t>> $0 self:<e,t>) (obj:<a,<<e,t>,t>> $0 (lambda $1:e (it:<e,t> $1)))))
+
+brad throw it
+(lambda $0:a (and:<t*,t> (throw:<a,t> $0) (actor:<a,<<e,t>,t>> $0 brad:<e,t>) (obj:<a,<<e,t>,t>> $0 (lambda $1:e (it:<e,t> $1)))))
+
+pick up the ball before you throw it
+(lambda $0:a (and:<t*,t> (before:<a,t> $0) (conjobj:<a,<<a,t>,t>> $0 (lambda $1:a (and:<t*,t> (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $2:e (it:<e,t> $2))) (actor:<a,<<e,t>,t>> $1 (lambda $3:e (self:<e,t> $3)))))) (conjsubj:<a,<<a,t>,t>> $0 (lambda $4:a (and:<t*,t> (actor:<a,<<e,t>,t>> $4 (lambda $5:e (self:<e,t> $5))) (pickup:<a,t> $4) (obj:<a,<<e,t>,t>> $4 (lambda $6:e (and:<t*,t> (def:<e,t> $6) (ball:<e,t> $6)))))))))
+
+make sure to pick up the ball before you throw it
+(lambda $0:a (modifyaction:<<a,t>,<a,t>> (lambda $1:a (and:<t*,t> (before:<a,t> $1) (conjobj:<a,<<a,t>,t>> $1 (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $3:e (it:<e,t> $3))) (actor:<a,<<e,t>,t>> $2 (lambda $4:e (self:<e,t> $4)))))) (conjsubj:<a,<<a,t>,t>> $1 (lambda $5:a (and:<t*,t> (actor:<a,<<e,t>,t>> $5 (lambda $6:e (self:<e,t> $6))) (pickup:<a,t> $5) (obj:<a,<<e,t>,t>> $5 (lambda $7:e (and:<t*,t> (def:<e,t> $7) (ball:<e,t> $7))))))))) $0))
+the surface
+(lambda $0:e (and:<t*,t> (name:<e,<e,t>> surface:e $0) (desc:<e,<e,t>> definite:e $0) ))
+
+the blue surface
+(lambda $0:e (and:<t*,t> (name:<e,<e,t>> surface:e $0) (desc:<e,<e,t>> definite:e $0) (desc:<e,<e,t>> blue:e $0)))
+
+the very blue surface
+the handle
+(lambda $0:e (and:<t*,t> (handle:<e,t> $0) (def:<e,t> $0)))
+
+pickup the knife by the handle
+(lambda $0:a (and:<t*,t> (by:<a,t> $0) (prepobj:<a,<<e,t>,t>> $0 (lambda $1:e (and:<t*,t> (def:<e,t> $1) (handle:<e,t> $1)))) (prepsubj:<a,<<a,t>,t>> $0 (lambda $2:a (and:<t*,t> (actor:<a,<<e,t>,t>> $2 (lambda $3:e (self:<e,t> $3))) (obj:<a,<<e,t>,t>> $2 (lambda $4:e (and:<t*,t> (def:<e,t> $4) (knife:<e,t> $4)))) (pickup:<a,t> $2))))))
+
+
+the surface
+(lambda $0:e (and:<t*,t> (surface:<e,t> $0) (definite:<e,t> $0)))
+
+the surface in front of you
+(lambda $0:e (and:<t*,t> (surface:<e,t> $0) (definite:<e,t> $0) (infrontofyou:<e,t> $0)))
+
+the tomato on the surface in front you
+prepobj the surface of the table
+(lambda $0:a (and:<t*,t> (by:<a,t> $0) (prepobj:<a,<<e,t>,t>> $0 (lambda $1:e (and:<t*,t> (def:<e,t> $1) (handle:<e,t> $1)))) (prepsubj:<a,<<a,t>,t>> $0 (lambda $2:a (and:<t*,t> (actor:<a,<<e,t>,t>> $2 (lambda $3:e (self:<e,t> $3))) (obj:<a,<<e,t>,t>> $2 (lambda $4:e (and:<t*,t> (def:<e,t> $4) (knife:<e,t> $4)))) (pickup:<a,t> $2))))))
+
+in front of you :- S/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (infrontofyou:<e,t> $1) ($0 $1))))
+in front of you :- NP/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (infrontofyou:<e,t> $1) ($0 $1))))
+in front of you :- S/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (infrontofyou:<e,t> $1) ($0 $1))))
+in front of you :- NP/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (infrontofyou:<e,t> $1) ($0 $1))))
+
+
+the tomato on the surface in front of you
+(lambda $0:r (and:<t*,t> (prep_subj:<<e,t>,<r,t>> (lambda $1:e (and:<t*,t> (name:<e,<e,t>> tomato:e $1) (desc:<e,<e,t>> definite:e $1))) $0) (prep_subj:<<e,t>,<r,t>> (lambda $2:e (and:<t*,t> (desc:<e,<e,t>> infrontofyou:e $2) (name:<e,<e,t>> surface:e $2) (desc:<e,<e,t>> definite:e $2))) $0) (name:<r,<r,t>> on:r $0)))
+
+the tomato
+(lambda $0:e (and:<t*,t> (name:<e,<e,t>> tomato:e $0) (desc:<e,<e,t>> definite:e $0) ))
+
+the surface
+(lambda $0:e (and:<t*,t> (name:<e,<e,t>> surface:e $0) (desc:<e,<e,t>> definite:e $0) ))
+
+the surface in front of you
+(lambda $0:e (and:<t*,t> (name:<e,<e,t>> surface:e $0) (desc:<e,<e,t>> definite:e $0) (desc:<e,<e,t>> infrontofyou:e $0) ))
+
+
+relation entity
+on :- S\NP/NP : (lambda $0:e (lambda $1:e (lambda $2:r (and:<t*,t> (name:<r,<r,t>> on:r $2) (prep_subj:<e,<r,t>> $1 $2) (prep_obj:<e,<r,t>> $0 $2) ))))
+on :- S\S/S : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:r (and:<t*,t> (name:<r,<r,t>> on:r $2) (prep_subj:<<e,t>,<r,t>> $1 $2) (prep_subj:<<e,t>,<r,t>> $0 $2)))))
+on :- S\S/S : (lambda $0:e (lambda $1:e (lambda $2:r (and:<t*,t> (name:<r,<r,t>> on:r $2) (prep_subj:<e,<r,t>> $1 $2) (prep_obj:<e,<r,t>> $0 $2) ))))
+
+Before you place the tomato on the surface in front of you, you need to place a cutting board down
+
+
+the surface
+(lambda $0:e (and:<t*,t> (name:<e,<e,t>> surface:e $0) (desc:<e,<e,t>> definite:e $0) ))
+
+the blue surface
+(lambda $0:e (and:<t*,t> (name:<e,<e,t>> surface:e $0) (desc:<e,<e,t>> definite:e $0) (desc:<e,<e,t>> blue:e $0)))
+
+the very blue surface
+
+tomato :- N : (lambda $0:e (name:<e,<e,t>> tomato:e $0))
+surface :- N : (lambda $0:e (name:<e,<e,t>> surface:e $0))
+
+
+the :- S/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (desc:<e,<e,t>> definite:e $1) ($0 $1))))
+the :- S/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (desc:<e,<e,t>> definite:e $1) ($0 $1))))
+the :- NP/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (desc:<e,<e,t>> definite:e $1) ($0 $1))))
+the :- NP/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (desc:<e,<e,t>> definite:e $1) ($0 $1))))
+
+
+you :- N : (lambda $0:e (name:<e,<e,t>> self:e $0))
+in front of :- S/N : (lambda $0:<e,t> (lambda $2:r (and:<t*,t> (name:<r,<r,t>> on:r $2) (prepobj:<<e,t>,<r,t>> $0 $2))))
+
+
+blue :- NP/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (desc:<e,<e,t>> blue:e $1) ($0 $1))))
+blue :- N/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (desc:<e,<e,t>> blue:e $1) ($0 $1))))
+blue :- S/N :  (lambda $0:<e,t> (lambda $1:e (lambda $2:d (and:<t*,t> (desc:<e,<d,t>> $1 $2) (name:<d,<d,t>> $2 blue:d) ($0 $1)))))
+blue :- S/N :  (lambda $0:<e,t> (lambda $1:e (lambda $2:d (and:<t*,t> (desc:<e,<d,t>> $1 $2) (name:<d,<d,t>> $2 blue:d) ($0 $1)))))
+blue :- N/N :  (lambda $0:<e,t> (lambda $1:e (lambda $2:d (and:<t*,t> (desc:<e,<d,t>> $1 $2) (name:<d,<d,t>> $2 blue:d) ($0 $1)))))
+
+
+the :- S/N :  (lambda $0:<e,t> (lambda $1:e (lambda $2:d (and:<t*,t> (desc:<e,<d,t>> $1 $2) (name:<d,<d,t>> $2 definite:d) ($0 $1)))))
+very :- S/N/N : (lambda $0:<<<e,t>,e>,t> (lambda $1:<e,t> (lambda $2:e (and:<t*,t> (desc:<d,t> very:d) ($0 $1 $2) ($1 $2)    ))))
+
+surface
+(exists:<e,t> surface:e)
+
+blue surface
+(exists:<e,t> (and:<t*,t> (surface:e) (blue:e) ))
+
+
+//Thematic roles correspond exclusively to actions (theta roles)
+//Everything else modifies an entity, or modifies a modifier
+surface
+∃.e1 name(e1,surface)
+
+blue surface
+∃.e1 name(e1,surface) ^ mod(e1,blue)
+
+the blue surface
+∃.e1 name(e1,surface) ^ mod(e1,blue) ^ mod(e1,definite)
+
+the very blue surface
+∃.e1 name(e1,surface) ^ mod(e1,very(blue))
+
+the tomato on the surface
+∃.e1 name(e1,tomato) ^ mod(e1,definite) ^ mod(e1,r1) ^ name(r1, on) ^ prep_obj(r1,e2) ^ name(e2, surface) ^ mod(e2, definite) ^
+
+(lambda $0:e (and:<t*,t> (name:<e,<e,t>> $0 tomato:e) (desc:<e,<e,t>> $0 definite:e) (lambda $1:r (desc:<r,<e,t>> $1 $0) (and:<t*,t> (name:<r,<r,t>> $1 on:r) (lambda $2:e (and:<t*,t> (name:<e,<e,t>> $2 surface:e) (desc:<e,<e,t>> $2 definite:e)))))) ))
+
+
+*****************************************
+surface
+(lambda $0:e (name:<e,<e,t>> $0 surface:e))
+
+the surface
+(lambda $0:e (and:<t*,t> (name:<e,<e,t>> $0 surface:e) (desc:<e,<e,t>> $0 definite:e)))
+
+the blue surface
+(lambda $0:e (and:<t*,t> (name:<e,<e,t>> $0 surface:e) (desc:<e,<e,t>> $0 definite:e) (desc:<e,<e,t>> $0 blue:e)))
+
+the tomato
+(lambda $0:e (and:<t*,t> (name:<e,<e,t>> $0 tomato:e) (desc:<e,<e,t>> $0 definite:e)))
+
+the tomato on the surface
+(lambda $0:e (and:<t*,t> (name:<e,<e,t>> $0 tomato:e) (desc:<e,<e,t>> $0 definite:e) (lambda $1:r (desc:<r,<e,t>> $1 $0))))
+
+//Nouns
+tomato :- N : (lambda $0:e (name:<e,<e,t>> $0 tomato:e))
+surface :- N : (lambda $0:e (name:<e,<e,t>> $0 surface:e))
+tomato :- S : (lambda $0:e (name:<e,<e,t>> $0 tomato:e))
+surface :- S : (lambda $0:e (name:<e,<e,t>> $0 surface:e))
+
+//modifiers should be metaentities?
+
+
+
+
+//Entity modifiers
+
+
+blue :- NP/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (desc:<e,<e,t>> $1 blue:e) ($0 $1))))
+blue :- N/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (desc:<e,<e,t>> $1 blue:e) ($0 $1))))
+
+the surface
+(and:<t*,t> (name:<e,t> surface:e) (desc:<e,t> definite:e))
+
+the blue surface
+(and:<t*,t> (name:<e,t> surface:e) (desc:<e,t> blue:e) (desc:<e,t> definite:e))
+
+the tomato
+(and:<t*,t> (name:<e,t> tomato:e) (desc:<e,t> definite:e))
+
+on the surface
+(lambda $0:t (and:<t*,t> (desc:<r,t> on:r) (desc:<e,t> definite:e) (name:<e,t> surface:e)))
+
+the tomato on the surface
+(lambda $0:t (and:<t*,t> (desc:<r,t> on:r) (desc:<e,t> definite:e) (name:<e,t> surface:e)))
+
+//Nouns
+tomato :- N : (name:<e,t> tomato:e)
+surface :- N : (name:<e,t> surface:e)
+tomato :- S : (name:<e,t> tomato:e)
+surface :- S : (name:<e,t> surface:e)
+
+//modifiers should be metaentities?
+the :- S/N : (lambda $0:t (and:<t*,t> $0 (desc:<e,t> definite:e) ))
+the :- S/NP : (lambda $0:t (and:<t*,t> $0 (desc:<e,t> definite:e) ))
+the :- NP/N : (lambda $0:t (and:<t*,t> $0 (desc:<e,t> definite:e) ))
+the :- NP/NP : (lambda $0:t (and:<t*,t> $0 (desc:<e,t> definite:e) ))
+
+blue :- S/N : (lambda $0:t (and:<t*,t> $0 (desc:<e,t> blue:e) ))
+blue :- S/NP : (lambda $0:t (and:<t*,t> $0 (desc:<e,t> blue:e) ))
+blue :- NP/N : (lambda $0:t (and:<t*,t> $0 (desc:<e,t> blue:e) ))
+blue :- NP/NP : (lambda $0:t (and:<t*,t> $0 (desc:<e,t> blue:e) ))
+
+on :- S\NP/NP : (lambda $0:t (lambda $1:t (and:<t*,t> $0 (desc:<r,t> on:r) ))
+on the surface
+(lambda $0:t (and:<t*,t> $0 (desc:<t,t> (and:<t*,t> (name:<r,t> on:r) (obj:<t,t> (and:<t*,t> (name:<e,t> surface:e) (desc:<e,t> definite:e)))))))
+
+
+
+
+
+
+*******************************************************************************
+//Nouns
+tomato :- N : (lambda $0:e (name:<e,<e,t>>  $0 tomato:e))
+surface :- N : (lambda $0:e (name:<e,<e,t>> $0 surface:e))
+surface :- S : (lambda $0:e (name:<e,<e,t>> $0 surface:e))
+
+
+
+you :- N : (lambda $0:e (name:<e,<e,t>> self:e $0))
+
+//Modifiers / Articles
+the :- S/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (desc:<e,<d,t>> $1 definite:d) ($0 $1))))
+the :- S/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (desc:<e,<d,t>> $1 definite:d) ($0 $1))))
+the :- NP/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (desc:<e,<d,t>> $1 definite:d) ($0 $1))))
+the :- NP/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (desc:<e,<d,t>> $1 definite:d) ($0 $1))))
+
+blue :- N/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (desc:<e,<d,t>> $1 blue:d) ($0 $1))))
+blue :- S/N : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (desc:<e,<d,t>> $1 blue:d) ($0 $1))))
+blue :- S/NP : (lambda $0:<e,t> (lambda $1:e (and:<t*,t> (desc:<e,<d,t>> $1 blue:d) ($0 $1))))
+
+very :- S/N/N : (lambda $0:<e,t> (lambda $1:<e,t> (lambda $2:e (and:<t*,t> (desc:<d,t> very:d) ($0 $2) ($1 $2)))))
+
+(lambda $0:<e,t> (lambda $1:e (and:<t*,t> (desc:<e,<d,t>> $1 blue:d) ($0 $1))))
+
+surface
+(lambda $0:e (name:<e,<e,t>> $0 surface:e))
+
+blue surface
+(lambda $0:e (and:<t*,t> (desc:<e,<d,t>> $0 blue:d) (name:<e,<e,t>> $0 surface:e)))
+
+the blue surface
+(lambda $0:e (and:<t*,t> (desc:<e,<d,t>> $0 blue:d) (desc:<e,<d,t>> $0 definite:d) (name:<e,<e,t>> $0 surface:e)))
+
+very blue surface
+(lambda $0:e (and:<t*,t> (desc:<e,<d,t>> $0 blue:d) (desc:<e,<d,t>> $0 definite:d) (name:<e,<e,t>> $0 surface:e)))
+
+
+**************
+will :- (S\NP)/VP : (lambda $0:<a,t> (lambda $1:e (lambda $2:a (and:<t*,t> (will:<a,t> $2) ($0 $2) (actor:<a,<e,t>> $2 $1)))))
+grab it
+(lambda $0:a (and:<t*,t> (theme:<a,<e,t>> $0 it:e) (grab:<a,t> $0)))
+
+I will grab it
+(lambda $0:a (and:<t*,t> (actor:<a,<e,t>> $0 me:e) (will:<a,t> $0) (theme:<a,<e,t>> $0 it:e) (grab:<a,t> $0)))
+
+I loathe opera
+(lambda $0:a (and:<t*,t> (loathe:<a,t> $0) (actor:<a,<e,t>> $0 me:e) (theme:<a,<e,t>> $0 opera:e)))
+
+I detest opera
+(lambda $0:a (and:<t*,t> (detest:<a,t> $0) (actor:<a,<e,t>> $0 me:e) (theme:<a,<e,t>> $0 opera:e)))
+
+I loathe and detest opera
+(lambda $0:a (and:<t*,t> (detest:<a,t> $0) (loathe:<a,t> $0) (actor:<a,<e,t>> $0 me:e) (theme:<a,<e,t>> $0 opera:e)))
+I loathe opera
+(lambda $0:a (and:<t*,t> (loathe:<a,t> $0) (actor:<a,<e,t>> $0 me:e) (theme:<a,<e,t>> $0 opera:e)))
+
+I detest opera
+(lambda $0:a (and:<t*,t> (detest:<a,t> $0) (actor:<a,<e,t>> $0 me:e) (theme:<a,<e,t>> $0 opera:e)))
+
+I loathe and detest opera
+(lambda $0:a (and:<t*,t> (detest:<a,t> $0) (loathe:<a,t> $0) (actor:<a,<e,t>> $0 me:e) (theme:<a,<e,t>> $0 opera:e)))
+
+I dislike and Mary likes musicals
+knife:<e,t>
+
+need conjunction for this
+beer that John said Mary ordered
+knife:<e,t>
+
+I dislike and Mary likes musicals
+(lambda $0:t (and:<t*,t> $0 (dislike:<e,<e,t>> musicals:e me:e) (like:<e,<e,t>> musicals:e Mary:e)))
+
+surface
+(lambda $0:e (name:<e,<e,t>> $0 surface:e))
+
+blue surface
+(lambda $0:e (and:<t*,t> (desc:<e,<d,t>> $0 blue:d) (name:<e,<e,t>> $0 surface:e)))
+
+the blue surface
+(lambda $0:e (and:<t*,t> (desc:<e,<d,t>> $0 blue:d) (desc:<e,<d,t>> $0 definite:d) (name:<e,<e,t>> $0 surface:e)))
+
+very blue surface
+(lambda $0:e (and:<t*,t> (desc:<e,<d,t>> $0 blue:d) (desc:<e,<d,t>> $0 definite:d) (name:<e,<e,t>> $0 surface:e)))
+
+

@@ -1,6 +1,6 @@
 # Paths are relative to the .exp file using the parameters file
-ont=../../../resources/geo.consts.ont:../../../resources/geo.preds.ont
-types=../../../resources/geo.types
+ont=../../../resources/diarc.consts.ont:../../../resources/diarc.preds.ont
+types=../../../resources/diarc.types
 seedlex=../../../resources/seed.lex
 nplist=../../../resources/np-list.lex
 gBeam=50

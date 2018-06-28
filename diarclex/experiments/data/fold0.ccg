@@ -1,50 +1,39 @@
-mod obj
-(lambda $0:e (and:<t*,t> (obj:<e,t> $0) (mod:<e,t> $0)))
+blue surface
+(lambda $0:e (and:<t*,t> (desc:<e,<d,t>> $0 blue:d) (name:<e,<e,t>> $0 surface:e)))
 
-blue mod obj
-(lambda $0:e (and:<t*,t> (obj:<e,t> $0) (mod:<e,t> $0) (blue:<e,t> $0)))
+the blue surface
+(lambda $0:e (and:<t*,t> (desc:<e,<d,t>> $0 blue:d) (desc:<e,<d,t>> $0 definite:d) (name:<e,<e,t>> $0 surface:e)))
 
-the blue mod obj
-(lambda $0:e (and:<t*,t> (obj:<e,t> $0) (def:<e,t> $0) (blue:<e,t> $0) (mod:<e,t> $0)))
+the surface
+(lambda $0:e (and:<t*,t> (name:<e,<e,t>> $0 surface:e) (desc:<e,<d,t>> $0 definite:d)))
 
-pickup the blue mod obj
-(lambda $0:a (and:<t*,t> (pickup:<a,t> $0) (actor:<a,<<e,t>,t>> $0 self:<e,t>) (obj:<a,<<e,t>,t>> $0 (lambda $1:e (and:<t*,t> (obj:<e,t> $1) (def:<e,t> $1) (blue:<e,t> $1) (mod:<e,t> $1))))))
+on the surface
+(on:<<e,t>,t> (lambda $0:e (and:<t*,t> (name:<e,<e,t>> $0 surface:e) (desc:<e,<d,t>> $0 definite:d))))
 
-brad pickup the blue mod obj
-(lambda $0:a (and:<t*,t> (pickup:<a,t> $0) (actor:<a,<<e,t>,t>> $0 brad:<e,t>) (obj:<a,<<e,t>,t>> $0 (lambda $1:e (and:<t*,t> (obj:<e,t> $1) (def:<e,t> $1) (blue:<e,t> $1) (mod:<e,t> $1))))))
+you place the tomato on the surface
+(lambda $0:a (and:<t*,t> (place:<a,t> $0) (obj:<a,<<e,t>,t>> $0 (lambda $1:e (and:<t*,t> (name:<e,<e,t>> $1 tomato:e) (desc:<e,<d,t>> $1 definite:d)))) (actor:<a,<<e,t>,t>> $0 (lambda $2:e (name:<e,<e,t>> self:e $2))) (loc:<a,<t,t>> $0 (on:<<e,t>,t> (lambda $3:e (and:<t*,t> (name:<e,<e,t>> $3 surface:e) (desc:<e,<d,t>> $3 definite:d)))))))
 
-pick up the blue mod obj
-(lambda $0:a (and:<t*,t> (pickup:<a,t> $0) (actor:<a,<<e,t>,t>> $0 self:<e,t>) (obj:<a,<<e,t>,t>> $0 (lambda $1:e (and:<t*,t> (obj:<e,t> $1) (def:<e,t> $1) (blue:<e,t> $1) (mod:<e,t> $1))))))
+surface in front of you
+(lambda $0:e (and:<t*,t> (name:<e,<e,t>> $0 surface:e) (desc:<e,<d,<<e,t>,t>>> $0 infrontof:d (lambda $1:e (name:<e,<e,t>> self:e $1)))))
 
-brad pick up the blue mod obj
-(lambda $0:a (and:<t*,t> (pickup:<a,t> $0) (actor:<a,<<e,t>,t>> $0 brad:<e,t>) (obj:<a,<<e,t>,t>> $0 (lambda $1:e (and:<t*,t> (obj:<e,t> $1) (def:<e,t> $1) (blue:<e,t> $1) (mod:<e,t> $1))))))
+you place the tomato on the surface in front of you
+(lambda $0:a (and:<t*,t> (place:<a,t> $0) (obj:<a,<<e,t>,t>> $0 (lambda $1:e (and:<t*,t> (name:<e,<e,t>> $1 tomato:e) (desc:<e,<d,t>> $1 definite:d)))) (actor:<a,<<e,t>,t>> $0 (lambda $2:e (name:<e,<e,t>> self:e $2))) (loc:<a,<t,t>> $0 (on:<<e,t>,t> (lambda $3:e (and:<t*,t> (name:<e,<e,t>> $3 surface:e) (desc:<e,<d,<<e,t>,t>>> $3 infrontof:d (lambda $4:e (name:<e,<e,t>> self:e $4))) (desc:<e,<d,t>> $3 definite:d)))))))
 
-brad pick up the blue mod obj quickly
-(lambda $0:a (and:<t*,t> (pickup:<a,t> $0) (manner:<a,<<a,t>,t>> $0 quickly:<a,t>) (actor:<a,<<e,t>,t>> $0 brad:<e,t>) (obj:<a,<<e,t>,t>> $0 (lambda $1:e (and:<t*,t> (obj:<e,t> $1) (def:<e,t> $1) (blue:<e,t> $1) (mod:<e,t> $1))))))
+place the tomato on the surface in front of you
+(lambda $0:a (and:<t*,t> (place:<a,t> $0) (obj:<a,<<e,t>,t>> $0 (lambda $1:e (and:<t*,t> (name:<e,<e,t>> $1 tomato:e) (desc:<e,<d,t>> $1 definite:d)))) (actor:<a,<<e,t>,t>> $0 (lambda $2:e (name:<e,<e,t>> self:e $2))) (loc:<a,<t,t>> $0 (on:<<e,t>,t> (lambda $3:e (and:<t*,t> (name:<e,<e,t>> $3 surface:e) (desc:<e,<d,<<e,t>,t>>> $3 infrontof:d (lambda $4:e (name:<e,<e,t>> self:e $4))) (desc:<e,<d,t>> $3 definite:d)))))))
 
-quickly pick up the mod obj
-(lambda $0:a (and:<t*,t> (pickup:<a,t> $0) (manner:<a,<<a,t>,t>> $0 quickly:<a,t>) (actor:<a,<<e,t>,t>> $0 self:<e,t>) (obj:<a,<<e,t>,t>> $0 (lambda $1:e (and:<t*,t> (obj:<e,t> $1) (def:<e,t> $1) (mod:<e,t> $1))))))
+place a cutting board down
+(lambda $0:a (and:<t*,t> (loc:<a,<t,t>> $0 down:t) (place:<a,t> $0) (obj:<a,<<e,t>,t>> $0 (lambda $1:e (and:<t*,t> (desc:<e,<d,t>> $1 indefinite:d) (name:<e,<e,t>> $1 cuttingboard:e)))) (actor:<a,<<e,t>,t>> $0 (lambda $2:e (name:<e,<e,t>> self:e $2)))))
 
-pick up the ball
-(lambda $0:a (and:<t*,t> (pickup:<a,t> $0) (actor:<a,<<e,t>,t>> $0 self:<e,t>) (obj:<a,<<e,t>,t>> $0 (lambda $1:e (and:<t*,t> (ball:<e,t> $1) (def:<e,t> $1))))))
+before you place the tomato on the surface in front of you, you need to place a cutting board down
+(and:<t*,t> (modifyaction:<<a,t>,t> (lambda $0:a (and:<t*,t> (place:<a,t> $0) (obj:<a,<<e,t>,t>> $0 (lambda $1:e (and:<t*,t> (desc:<e,<d,t>> $1 indefinite:d) (name:<e,<e,t>> $1 cuttingboard:e)))) (actor:<a,<<e,t>,t>> $0 (lambda $2:e (name:<e,<e,t>> self:e $2))) (loc:<a,<t,t>> $0 down:t)))) (precondition:<<a,t>,t> (lambda $3:a (and:<t*,t> (place:<a,t> $3) (obj:<a,<<e,t>,t>> $3 (lambda $4:e (and:<t*,t> (desc:<e,<d,t>> $4 definite:d) (name:<e,<e,t>> $4 tomato:e)))) (actor:<a,<<e,t>,t>> $3 (lambda $5:e (name:<e,<e,t>> self:e $5))) (loc:<a,<t,t>> $3 (on:<<e,t>,t> (lambda $6:e (and:<t*,t> (name:<e,<e,t>> $6 surface:e) (desc:<e,<d,<<e,t>,t>>> $6 infrontof:d (lambda $7:e (name:<e,<e,t>> self:e $7))) (desc:<e,<d,t>> $6 definite:d)))))))))
 
-you pick up the ball
-(lambda $0:a (and:<t*,t> (pickup:<a,t> $0) (actor:<a,<<e,t>,t>> $0 self:<e,t>) (obj:<a,<<e,t>,t>> $0 (lambda $1:e (and:<t*,t> (ball:<e,t> $1) (def:<e,t> $1))))))
+you ask for drinks
+(lambda $0:a (and:<t*,t> (askfor:<a,t> $0) (actor:<a,<e,t>> $0 self:e) (obj:<a,<e,t>> $0 drinks:e)))
 
-you throw it
-(lambda $0:a (and:<t*,t> (throw:<a,t> $0) (actor:<a,<<e,t>,t>> $0 self:<e,t>) (obj:<a,<<e,t>,t>> $0 (lambda $1:e (it:<e,t> $1)))))
+you ask for food
+(lambda $0:a (and:<t*,t> (askfor:<a,t> $0) (actor:<a,<e,t>> $0 self:e) (obj:<a,<e,t>> $0 food:e)))
 
-brad throw it
-(lambda $0:a (and:<t*,t> (throw:<a,t> $0) (actor:<a,<<e,t>,t>> $0 brad:<e,t>) (obj:<a,<<e,t>,t>> $0 (lambda $1:e (it:<e,t> $1)))))
+scribble on the notepad
+(lambda $0:a (and:<t*,t> (loc:<a,<e,t>> $0 on:e) (patient:<a,<<e,t>,t>> $0 (lambda $1:e (and:<t*,t> (name:<e,<e,t>> $1 notepad:e) (desc:<e,<d,t>> $1 definite:d)))) (draw:<a,t> $0)))
 
-pick up the ball before you throw it
-(lambda $0:a (and:<t*,t> (before:<a,t> $0) (conjobj:<a,<<a,t>,t>> $0 (lambda $1:a (and:<t*,t> (throw:<a,t> $1) (obj:<a,<<e,t>,t>> $1 (lambda $2:e (it:<e,t> $2))) (actor:<a,<<e,t>,t>> $1 (lambda $3:e (self:<e,t> $3)))))) (conjsubj:<a,<<a,t>,t>> $0 (lambda $4:a (and:<t*,t> (actor:<a,<<e,t>,t>> $4 (lambda $5:e (self:<e,t> $5))) (pickup:<a,t> $4) (obj:<a,<<e,t>,t>> $4 (lambda $6:e (and:<t*,t> (def:<e,t> $6) (ball:<e,t> $6)))))))))
-
-make sure to pick up the ball before you throw it
-(lambda $0:a (modifyaction:<<a,t>,<a,t>> (lambda $1:a (and:<t*,t> (before:<a,t> $1) (conjobj:<a,<<a,t>,t>> $1 (lambda $2:a (and:<t*,t> (throw:<a,t> $2) (obj:<a,<<e,t>,t>> $2 (lambda $3:e (it:<e,t> $3))) (actor:<a,<<e,t>,t>> $2 (lambda $4:e (self:<e,t> $4)))))) (conjsubj:<a,<<a,t>,t>> $1 (lambda $5:a (and:<t*,t> (actor:<a,<<e,t>,t>> $5 (lambda $6:e (self:<e,t> $6))) (pickup:<a,t> $5) (obj:<a,<<e,t>,t>> $5 (lambda $7:e (and:<t*,t> (def:<e,t> $7) (ball:<e,t> $7))))))))) $0))
-
-the handle
-(lambda $0:e (and:<t*,t> (handle:<e,t> $0) (def:<e,t> $0)))
-
-pickup the knife by the handle
-(lambda $0:a (and:<t*,t> (by:<a,t> $0) (prepobj:<a,<<e,t>,t>> $0 (lambda $1:e (and:<t*,t> (def:<e,t> $1) (handle:<e,t> $1)))) (prepsubj:<a,<<a,t>,t>> $0 (lambda $2:a (and:<t*,t> (actor:<a,<<e,t>,t>> $2 (lambda $3:e (self:<e,t> $3))) (obj:<a,<<e,t>,t>> $2 (lambda $4:e (and:<t*,t> (def:<e,t> $4) (knife:<e,t> $4)))) (pickup:<a,t> $2))))))
